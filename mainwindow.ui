@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DevAst</class>
+ <widget class="QMainWindow" name="DevAst">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>839</width>
+    <height>665</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Wi-Fi Assistant</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/Assistant.png</normaloff>images/Assistant.png</iconset>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="lblTitle">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>10</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Source Code Pro</family>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Wi-Fi Assistant</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="txtDevLog">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>280</y>
+      <width>381</width>
+      <height>351</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTabWidget" name="tabDevStatus">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>70</y>
+      <width>411</width>
+      <height>331</height>
+     </rect>
+    </property>
+    <property name="tabPosition">
+     <enum>QTabWidget::North</enum>
+    </property>
+    <property name="tabShape">
+     <enum>QTabWidget::Rounded</enum>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tabDev0Status">
+     <attribute name="title">
+      <string>Wifi0</string>
+     </attribute>
+     <widget class="QFrame" name="frm0_vap">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>391</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="img0_1up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>11</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img0_2up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>37</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img0_3up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>62</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img0_4up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>88</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img0_5up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>114</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img0_6up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>139</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img0_7up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>165</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img0_8up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>190</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_7Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>167</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_7</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_1Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>11</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_2Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>37</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_2</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_3Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>63</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_3</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_4Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>89</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_4</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_5Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>115</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_5</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_6Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>141</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_6</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_8Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>193</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_8</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_1Auth">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>11</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_2Auth">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>37</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_3Auth">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>63</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_4Auth">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>89</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_5Auth">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>115</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_6Auth">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>141</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_7Auth">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>167</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl0_8Auth">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>193</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frm0_radio">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>391</width>
+        <height>52</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="lblDev0Mode">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>11</y>
+         <width>32</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Access.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="imgDev0Freq">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>10</y>
+         <width>32</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Freq.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lblDev0Freq">
+       <property name="geometry">
+        <rect>
+         <x>127</x>
+         <y>11</y>
+         <width>91</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>N/A</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="imgDev0Power">
+       <property name="geometry">
+        <rect>
+         <x>236</x>
+         <y>11</y>
+         <width>32</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Rssi.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lblDev0Power">
+       <property name="geometry">
+        <rect>
+         <x>311</x>
+         <y>11</y>
+         <width>32</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>N/A</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tabDev1Status">
+     <attribute name="title">
+      <string>Wifi1</string>
+     </attribute>
+     <widget class="QFrame" name="frm1_radio">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>391</width>
+        <height>52</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="lblDev1Mode">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>32</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Access.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="imgDev1Freq">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>10</y>
+         <width>32</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Freq.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lblDev1Freq">
+       <property name="geometry">
+        <rect>
+         <x>130</x>
+         <y>10</y>
+         <width>91</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>N/A</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="imgDev1Power">
+       <property name="geometry">
+        <rect>
+         <x>236</x>
+         <y>10</y>
+         <width>32</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Rssi.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lblDev1Power">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>9</y>
+         <width>32</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>N/A</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QFrame" name="frm1_vap">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>391</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Box</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="img1_1up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>11</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img1_2up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>37</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img1_3up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>62</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img1_4up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>88</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img1_6up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>139</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img1_5up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>114</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img1_7up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>165</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="img1_8up">
+       <property name="geometry">
+        <rect>
+         <x>11</x>
+         <y>190</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>images/Down.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_1Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>11</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_1</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_2Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>37</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_2</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_3Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>63</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_3</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_4Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>89</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_4</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_6Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>141</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_6</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_5Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>115</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_5</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_7Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>167</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_7</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_8Ssid">
+       <property name="geometry">
+        <rect>
+         <x>41</x>
+         <y>193</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>SSID0_8</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_5Auth">
+       <property name="geometry">
+        <rect>
+         <x>241</x>
+         <y>115</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_3Auth">
+       <property name="geometry">
+        <rect>
+         <x>241</x>
+         <y>63</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_1Auth">
+       <property name="geometry">
+        <rect>
+         <x>241</x>
+         <y>11</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_2Auth">
+       <property name="geometry">
+        <rect>
+         <x>241</x>
+         <y>37</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_4Auth">
+       <property name="geometry">
+        <rect>
+         <x>241</x>
+         <y>89</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_6Auth">
+       <property name="geometry">
+        <rect>
+         <x>241</x>
+         <y>141</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_7Auth">
+       <property name="geometry">
+        <rect>
+         <x>241</x>
+         <y>167</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lbl1_8Auth">
+       <property name="geometry">
+        <rect>
+         <x>241</x>
+         <y>193</y>
+         <width>141</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Open</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QListWidget" name="lstConfig">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>440</y>
+      <width>301</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>6</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblConfig">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>410</y>
+      <width>141</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Configure Setup</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>440</y>
+      <width>101</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="layoutConfCtl">
+     <item>
+      <widget class="QPushButton" name="btnShowConfig">
+       <property name="text">
+        <string>Show</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnAddConfig">
+       <property name="text">
+        <string>Add...</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnDelConfig">
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="layoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>70</y>
+      <width>151</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="layoutDevLbl">
+     <item>
+      <widget class="QLabel" name="lblDevIp">
+       <property name="font">
+        <font>
+         <family>Source Code Pro</family>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+         <underline>false</underline>
+        </font>
+       </property>
+       <property name="text">
+        <string>Device IP</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lblDevUsr">
+       <property name="font">
+        <font>
+         <family>Source Code Pro</family>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Device User</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="lblDevPwd">
+       <property name="font">
+        <font>
+         <family>Source Code Pro</family>
+         <weight>50</weight>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Device Password</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="lblDevStatus">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>200</y>
+      <width>117</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Device Status</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="imgDevCon">
+    <property name="geometry">
+     <rect>
+      <x>144</x>
+      <y>191</y>
+      <width>32</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>images/Disconnect.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDevCon">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>190</y>
+      <width>91</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Connect</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnDevClose">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>190</y>
+      <width>100</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Disconnect</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lblDevLog">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>231</y>
+      <width>90</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Device Log</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoLogBuf">
+    <property name="geometry">
+     <rect>
+      <x>117</x>
+      <y>238</y>
+      <width>95</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>buffered</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="rdoLogFlash">
+    <property name="geometry">
+     <rect>
+      <x>218</x>
+      <y>238</y>
+      <width>68</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>flash</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnShowLog">
+    <property name="geometry">
+     <rect>
+      <x>306</x>
+      <y>235</y>
+      <width>91</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="">
+    <property name="geometry">
+     <rect>
+      <x>181</x>
+      <y>75</y>
+      <width>221</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="layoutDevLog">
+     <property name="sizeConstraint">
+      <enum>QLayout::SetDefaultConstraint</enum>
+     </property>
+     <item>
+      <widget class="QLineEdit" name="lnDevIp">
+       <property name="maxLength">
+        <number>32</number>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lnDevUsr">
+       <property name="maxLength">
+        <number>32</number>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>839</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,1895 @@
+2015-10-15T13:18:24.029+0000 I CONTROL  [initandlisten] MongoDB starting : pid=865 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-10-15T13:18:24.029+0000 I CONTROL  [initandlisten] 
+2015-10-15T13:18:24.029+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-10-15T13:18:24.029+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-10-15T13:18:24.029+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-10-15T13:18:24.029+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-10-15T13:18:24.030+0000 I CONTROL  [initandlisten] 
+2015-10-15T13:18:24.030+0000 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-15T13:18:24.030+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-10-15T13:18:24.030+0000 I CONTROL  [initandlisten] build info: Linux foutrelis 4.1.2-2-ARCH #1 SMP PREEMPT Wed Jul 15 08:30:32 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2015-10-15T13:18:24.030+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-15T13:18:24.030+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: false, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-10-15T13:18:24.756+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-15T15:07:17.443+0000 I COMMAND  [conn22] command test_film.$cmd command: insert { insert: "films", documents: [ { _id: ObjectId('561fc1255db133eb603bda50'), name: "world", rating: "normal", url: "http://localhost:test/world.avi", favo: true } ], ordered: true } keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } }, Database: { acquireCount: { w: 1 } }, Collection: { acquireCount: { W: 1 } } } 242ms
+2015-10-17T05:18:09.741+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] MongoDB starting : pid=285 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] 
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] 
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] db version v3.0.6
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] build info: Linux foutrelis 4.1.2-2-ARCH #1 SMP PREEMPT Wed Jul 15 08:30:32 UTC 2015 i686 BOOST_LIB_VERSION=1_58
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-17T05:18:10.458+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-10-17T05:18:12.287+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-22T12:41:50.958+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-22T12:41:51.537+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-22T12:41:51.555+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-22T12:41:51.768+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-22T12:41:51.768+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-22T12:47:12.605+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-22T12:47:12.634+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-22T12:47:12.640+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-22T12:47:12.640+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-22T12:47:12.640+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-22T12:48:14.068+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-22T12:48:14.110+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-22T12:48:14.115+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-22T12:48:14.115+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-22T12:48:14.115+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-22T12:49:18.987+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-22T12:49:19.295+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-22T12:49:19.302+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-22T12:49:19.302+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-22T12:49:19.302+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-22T12:50:15.079+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] MongoDB starting : pid=926 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] 
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] 
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] db version v3.0.7
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] build info: Linux flo 4.2.3-1-ARCH #1 SMP PREEMPT Sat Oct 3 18:52:50 CEST 2015 i686 BOOST_LIB_VERSION=1_59
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-10-22T12:50:15.380+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-10-22T12:50:16.016+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-10-22T14:43:28.291+0000 I QUERY    [conn23] query test_film.films planSummary: COLLSCAN ntoreturn:4 ntoskip:0 nscanned:0 nscannedObjects:1 keyUpdates:0 writeConflicts:0 numYields:1 nreturned:1 reslen:160 locks:{ Global: { acquireCount: { r: 4 } }, MMAPV1Journal: { acquireCount: { r: 2 } }, Database: { acquireCount: { r: 2 } }, Collection: { acquireCount: { R: 2 } } } 171ms
+2015-10-25T04:58:10.365+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T04:58:10.993+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T04:58:11.030+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T04:58:11.230+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T04:58:11.230+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T05:11:03.964+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T05:11:04.584+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T05:11:04.604+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T05:11:05.037+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T05:11:05.037+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T06:40:42.170+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T06:40:42.732+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T06:40:42.868+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T06:40:43.052+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T06:40:43.052+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T06:59:54.115+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T06:59:54.927+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T06:59:54.941+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T06:59:55.214+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T06:59:55.214+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T07:29:42.765+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T07:29:43.319+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T07:29:43.338+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T07:29:43.463+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T07:29:43.463+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T08:05:06.125+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T08:05:06.813+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T08:05:06.820+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T08:05:06.889+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T08:05:06.889+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T11:00:10.380+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T11:00:11.159+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T11:00:11.164+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T11:00:11.436+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T11:00:11.436+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T12:33:27.869+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T12:33:28.689+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T12:33:28.722+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T12:33:29.050+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T12:33:29.050+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T13:30:07.287+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T13:30:07.975+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T13:30:07.995+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T13:30:08.178+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T13:30:08.178+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T13:46:51.045+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T13:46:51.790+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T13:46:51.795+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T13:46:51.926+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T13:46:51.926+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T13:49:38.504+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T13:49:39.224+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T13:49:39.229+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T13:49:39.300+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T13:49:39.300+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T13:55:01.927+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T13:55:02.522+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T13:55:02.533+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T13:55:02.599+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T13:55:02.600+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T14:04:45.839+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T14:04:46.425+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T14:04:46.434+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T14:04:46.596+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T14:04:46.596+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T14:11:32.434+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T14:11:33.029+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T14:11:33.053+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T14:11:33.290+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T14:11:33.290+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T14:24:21.771+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T14:24:22.283+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T14:24:22.302+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T14:24:22.509+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T14:24:22.510+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T14:31:44.392+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T14:31:45.079+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T14:31:45.103+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T14:31:45.298+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T14:31:45.298+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-10-25T14:35:25.627+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-10-25T14:35:26.239+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-10-25T14:35:26.247+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-10-25T14:35:26.666+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-10-25T14:35:26.666+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-11-07T08:15:55.764+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-11-07T08:15:56.643+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-11-07T08:15:56.691+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-11-07T08:15:56.846+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-11-07T08:15:56.846+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-11-07T08:20:31.846+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] MongoDB starting : pid=9396 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] 
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] 
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] db version v3.0.7
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] build info: Linux flo 4.2.3-1-ARCH #1 SMP PREEMPT Sat Oct 3 18:52:50 CEST 2015 i686 BOOST_LIB_VERSION=1_59
+2015-11-07T08:20:32.121+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-11-07T08:20:32.122+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-11-07T08:20:32.821+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-11-07T08:41:55.196+0000 I WRITE    [conn18] update test_film.films query: { _id: ObjectId('561a1e330c18b2561f45c82d') } update: { _id: ObjectId('561a1e330c18b2561f45c82d'), name: "hello", rating: "great", url: "http://localhost:test/test.avi", local_path: "files/films/suits.mp4", year: "2015", favo: true } nscanned:1 nscannedObjects:1 nMatched:1 nModified:1 keyUpdates:0 writeConflicts:0 numYields:1 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, MMAPV1Journal: { acquireCount: { w: 4 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { W: 2 }, acquireWaitCount: { W: 1 }, timeAcquiringMicros: { W: 449 } } } 242ms
+2015-11-07T08:57:57.042+0000 I WRITE    [conn18] insert test_film.films keyUpdates:0 writeConflicts:0 exception: E11000 duplicate key error index: test_film.films.$_id_ dup key: { : ObjectId('563dbc1f3bcf8e6898ff2f93') } code:11000 numYields:0 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 2 } }, Database: { acquireCount: { w: 1 } }, Collection: { acquireCount: { W: 1 } } } 238ms
+2015-11-07T14:36:13.840+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-11-07T14:36:13.840+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-11-07T14:36:13.840+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-11-07T14:36:13.840+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-11-07T14:36:13.840+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-11-07T14:36:14.307+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-11-07T14:36:14.395+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-11-07T14:36:14.395+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-11-07T14:36:14.395+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-11-07T14:36:14.395+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-11-07T14:36:14.396+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-11-07T14:36:14.396+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-11-07T14:36:14.396+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-11-08T05:05:35.454+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] MongoDB starting : pid=209 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] 
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] 
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] db version v3.0.7
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] build info: Linux flo 4.2.3-1-ARCH #1 SMP PREEMPT Sat Oct 3 18:52:50 CEST 2015 i686 BOOST_LIB_VERSION=1_59
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-11-08T05:05:36.563+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-11-08T05:05:39.628+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-11-08T06:07:08.866+0000 I WRITE    [conn66] update test_film.films query: { _id: ObjectId('561a1e330c18b2561f45c82d') } update: { $set: { favo: true } } nscanned:1 nscannedObjects:1 nMatched:1 nModified:1 fastmod:1 keyUpdates:0 writeConflicts:0 numYields:1 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, MMAPV1Journal: { acquireCount: { w: 3 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { W: 2 } } } 117ms
+2015-11-08T06:07:08.913+0000 I COMMAND  [conn66] command test_film.$cmd command: update { update: "films", updates: [ { q: { _id: ObjectId('561a1e330c18b2561f45c82d') }, u: { $set: { favo: true } } } ], ordered: true, writeConcern: { w: 1 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:55 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, MMAPV1Journal: { acquireCount: { w: 3 } }, Database: { acquireCount: { w: 2 } }, Collection: { acquireCount: { W: 2 } } } 200ms
+2015-11-08T10:47:33.364+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-11-08T10:47:33.844+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-11-08T10:47:33.958+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-11-08T10:47:33.958+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-11-08T10:47:33.958+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-11-08T10:47:33.978+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-11-08T10:47:33.978+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-11-08T10:47:33.978+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-11-08T10:47:33.979+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-11-08T10:47:33.979+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-11-08T10:47:33.980+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-11-08T10:47:33.980+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-11-08T10:47:33.980+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-11-11T12:24:24.028+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-11-11T12:24:27.357+0000 I CONTROL  [initandlisten] MongoDB starting : pid=232 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-11-11T12:24:27.357+0000 I CONTROL  [initandlisten] 
+2015-11-11T12:24:27.357+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-11-11T12:24:27.357+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-11-11T12:24:27.357+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-11-11T12:24:27.357+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-11-11T12:24:27.357+0000 I CONTROL  [initandlisten] 
+2015-11-11T12:24:27.357+0000 I CONTROL  [initandlisten] db version v3.0.7
+2015-11-11T12:24:27.358+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-11-11T12:24:27.358+0000 I CONTROL  [initandlisten] build info: Linux flo 4.2.3-1-ARCH #1 SMP PREEMPT Sat Oct 3 18:52:50 CEST 2015 i686 BOOST_LIB_VERSION=1_59
+2015-11-11T12:24:27.358+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-11-11T12:24:27.358+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-11-11T12:24:50.459+0000 I QUERY    [initandlisten] query admin.system.roles planSummary: EOF ntoreturn:0 ntoskip:0 nscanned:0 nscannedObjects:0 keyUpdates:0 writeConflicts:0 numYields:0 nreturned:0 reslen:20 locks:{ Global: { acquireCount: { r: 2 } }, MMAPV1Journal: { acquireCount: { r: 1 } }, Database: { acquireCount: { r: 1 } }, Collection: { acquireCount: { R: 1 } } } 131ms
+2015-11-11T12:24:50.551+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-11-11T12:30:28.996+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-11-11T12:30:28.996+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-11-11T12:30:28.996+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-11-11T12:30:28.996+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-11-11T12:30:28.996+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-11-11T12:30:29.203+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-11-11T12:30:29.203+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-11-11T12:30:29.203+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-11-11T12:30:29.203+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-11-11T12:30:29.203+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-11-11T12:30:29.204+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-11-11T12:30:29.204+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-11-11T12:30:29.204+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-11-18T13:54:12.604+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-11-18T13:54:13.388+0000 I CONTROL  [initandlisten] MongoDB starting : pid=221 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-11-18T13:54:13.388+0000 I CONTROL  [initandlisten] 
+2015-11-18T13:54:13.388+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-11-18T13:54:13.388+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-11-18T13:54:13.388+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-11-18T13:54:13.388+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-11-18T13:54:13.389+0000 I CONTROL  [initandlisten] 
+2015-11-18T13:54:13.389+0000 I CONTROL  [initandlisten] db version v3.0.7
+2015-11-18T13:54:13.389+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-11-18T13:54:13.389+0000 I CONTROL  [initandlisten] build info: Linux flo 4.2.3-1-ARCH #1 SMP PREEMPT Sat Oct 3 18:52:50 CEST 2015 i686 BOOST_LIB_VERSION=1_59
+2015-11-18T13:54:13.389+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-11-18T13:54:13.389+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-11-18T13:54:16.185+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-11-18T14:50:16.767+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-11-18T14:50:16.767+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-11-18T14:50:16.767+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-11-18T14:50:16.767+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-11-18T14:50:16.767+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-11-18T14:50:17.020+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-11-18T14:50:17.020+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-11-18T14:50:17.020+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-11-18T14:50:17.020+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-11-18T14:50:17.020+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-11-18T14:50:17.020+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-11-18T14:50:17.020+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-11-18T14:50:17.020+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-11-19T16:54:00.259+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] MongoDB starting : pid=229 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] 
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] 
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] db version v3.0.7
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] build info: Linux flo 4.2.3-1-ARCH #1 SMP PREEMPT Sat Oct 3 18:52:50 CEST 2015 i686 BOOST_LIB_VERSION=1_59
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-11-19T16:54:01.030+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-11-19T16:54:03.931+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-11-19T17:04:41.902+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-11-19T17:04:42.320+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-11-19T17:04:42.320+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-11-19T17:04:42.415+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-11-19T17:04:42.415+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-11-19T17:04:42.460+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-11-19T17:04:42.460+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-11-19T17:04:42.460+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-11-19T17:04:42.510+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-11-19T17:04:42.510+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-11-19T17:04:42.511+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-11-19T17:04:42.511+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-11-19T17:04:42.520+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-11-22T10:19:57.483+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] MongoDB starting : pid=229 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] 
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] 
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] db version v3.0.7
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] build info: Linux flo 4.2.3-1-ARCH #1 SMP PREEMPT Sat Oct 3 18:52:50 CEST 2015 i686 BOOST_LIB_VERSION=1_59
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-11-22T10:19:59.566+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-11-22T10:20:04.048+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-11-22T10:21:42.405+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-11-22T10:21:42.405+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-11-22T10:21:42.405+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-11-22T10:21:42.405+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-11-22T10:21:42.405+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-11-22T10:21:42.475+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-11-22T10:21:42.534+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-11-22T10:21:42.535+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-11-22T10:21:42.535+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-11-22T10:21:42.535+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-11-22T10:21:42.535+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-11-22T10:21:42.535+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-11-22T10:21:42.535+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-12-19T05:49:08.262+0000 I CONTROL  ***** SERVER RESTARTED *****
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] MongoDB starting : pid=224 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] 
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] 
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] db version v3.0.7
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] git version: nogitversion
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] build info: Linux flo 4.2.3-1-ARCH #1 SMP PREEMPT Sat Oct 3 18:52:50 CEST 2015 i686 BOOST_LIB_VERSION=1_59
+2015-12-19T05:49:09.047+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-12-19T05:49:09.048+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-12-19T05:49:10.258+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-12-19T06:02:24.960+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2015-12-19T06:02:25.531+0000 I CONTROL  [initandlisten] MongoDB starting : pid=219 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-12-19T06:02:25.531+0000 I CONTROL  [initandlisten] db version v3.2.0
+2015-12-19T06:02:25.531+0000 I CONTROL  [initandlisten] git version: 45d947729a0315accb6d4f15a6b06be6d9c19fe7
+2015-12-19T06:02:25.531+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2e 3 Dec 2015
+2015-12-19T06:02:25.531+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-12-19T06:02:25.531+0000 I CONTROL  [initandlisten] modules: none
+2015-12-19T06:02:25.531+0000 I CONTROL  [initandlisten] build environment:
+2015-12-19T06:02:25.531+0000 I CONTROL  [initandlisten]     distarch: i386
+2015-12-19T06:02:25.531+0000 I CONTROL  [initandlisten]     target_arch: i386
+2015-12-19T06:02:25.532+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-12-19T06:02:25.687+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2015-12-19T06:02:25.687+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2015-12-19T06:02:25.695+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2015-12-19T06:02:25.902+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2015-12-19T06:02:25.903+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2015-12-19T06:06:45.703+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten] MongoDB starting : pid=340 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten] db version v3.2.0
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten] git version: 45d947729a0315accb6d4f15a6b06be6d9c19fe7
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2e 3 Dec 2015
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten] modules: none
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten] build environment:
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten]     distarch: i386
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten]     target_arch: i386
+2015-12-19T06:06:45.708+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-12-19T06:06:45.732+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2015-12-19T06:06:45.806+0000 I CONTROL  [initandlisten] 
+2015-12-19T06:06:45.807+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2015-12-19T06:06:45.807+0000 I CONTROL  [initandlisten] 
+2015-12-19T06:06:45.807+0000 I CONTROL  [initandlisten] 
+2015-12-19T06:06:45.807+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-12-19T06:06:45.807+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-12-19T06:06:45.807+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-12-19T06:06:45.807+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-12-19T06:06:45.807+0000 I CONTROL  [initandlisten] 
+2015-12-19T06:06:46.215+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2015-12-19T06:06:46.216+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-12-19T06:06:46.216+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2015-12-19T16:54:34.302+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-12-19T16:54:34.302+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2015-12-19T16:54:34.481+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-12-19T16:54:34.481+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-12-19T16:54:34.481+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-12-19T16:54:34.481+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-12-19T16:54:34.481+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-12-19T16:54:34.481+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-12-19T16:54:34.481+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-12-19T16:54:34.481+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-12-19T16:54:34.481+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-12-19T16:54:34.482+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-12-19T16:54:34.482+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-12-19T16:54:34.482+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2015-12-26T15:32:14.197+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten] MongoDB starting : pid=211 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten] db version v3.2.0
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten] git version: 45d947729a0315accb6d4f15a6b06be6d9c19fe7
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2e 3 Dec 2015
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten] modules: none
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten] build environment:
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten]     distarch: i386
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten]     target_arch: i386
+2015-12-26T15:32:14.490+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2015-12-26T15:32:14.543+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2015-12-26T15:32:14.724+0000 I CONTROL  [initandlisten] 
+2015-12-26T15:32:14.724+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2015-12-26T15:32:14.724+0000 I CONTROL  [initandlisten] 
+2015-12-26T15:32:14.724+0000 I CONTROL  [initandlisten] 
+2015-12-26T15:32:14.724+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2015-12-26T15:32:14.724+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2015-12-26T15:32:14.724+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2015-12-26T15:32:14.724+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2015-12-26T15:32:14.724+0000 I CONTROL  [initandlisten] 
+2015-12-26T15:32:15.746+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2015-12-26T15:32:15.746+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2015-12-26T15:32:15.746+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2015-12-26T17:34:23.348+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2015-12-26T17:34:23.381+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2015-12-26T17:34:23.631+0000 I CONTROL  [signalProcessingThread] now exiting
+2015-12-26T17:34:23.631+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2015-12-26T17:34:23.631+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2015-12-26T17:34:23.631+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2015-12-26T17:34:23.631+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2015-12-26T17:34:23.631+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2015-12-26T17:34:23.631+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2015-12-26T17:34:23.632+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2015-12-26T17:34:23.632+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2015-12-26T17:34:23.633+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2015-12-26T17:34:23.633+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2015-12-26T17:34:23.634+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-01-31T09:11:57.591+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-01-31T09:11:57.962+0000 I CONTROL  [initandlisten] MongoDB starting : pid=210 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-01-31T09:11:57.962+0000 I CONTROL  [initandlisten] db version v3.2.0
+2016-01-31T09:11:57.962+0000 I CONTROL  [initandlisten] git version: 45d947729a0315accb6d4f15a6b06be6d9c19fe7
+2016-01-31T09:11:57.962+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2e 3 Dec 2015
+2016-01-31T09:11:57.962+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-01-31T09:11:57.962+0000 I CONTROL  [initandlisten] modules: none
+2016-01-31T09:11:57.962+0000 I CONTROL  [initandlisten] build environment:
+2016-01-31T09:11:57.962+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-01-31T09:11:57.963+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-01-31T09:11:57.963+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-01-31T09:11:58.085+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-01-31T09:11:58.197+0000 I CONTROL  [initandlisten] 
+2016-01-31T09:11:58.197+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-01-31T09:11:58.197+0000 I CONTROL  [initandlisten] 
+2016-01-31T09:11:58.197+0000 I CONTROL  [initandlisten] 
+2016-01-31T09:11:58.197+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-01-31T09:11:58.197+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-01-31T09:11:58.197+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-01-31T09:11:58.197+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-01-31T09:11:58.197+0000 I CONTROL  [initandlisten] 
+2016-01-31T09:11:59.033+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-01-31T09:11:59.033+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-01-31T09:11:59.033+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-01-31T16:09:00.361+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-01-31T16:09:00.363+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-01-31T16:09:00.448+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-01-31T16:09:00.448+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-01-31T16:09:00.468+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-01-31T16:09:00.468+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-01-31T16:09:00.468+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-01-31T16:09:00.468+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-01-31T16:09:00.468+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-01-31T16:09:00.468+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-01-31T16:09:00.468+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-01-31T16:09:00.469+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-01-31T16:09:00.469+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-01-31T16:09:00.469+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-02-05T13:18:33.677+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten] MongoDB starting : pid=232 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten] db version v3.2.0
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten] git version: 45d947729a0315accb6d4f15a6b06be6d9c19fe7
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2f  28 Jan 2016
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten] modules: none
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten] build environment:
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-02-05T13:18:34.213+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-02-05T13:18:34.331+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-02-05T13:18:34.483+0000 I CONTROL  [initandlisten] 
+2016-02-05T13:18:34.483+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-02-05T13:18:34.483+0000 I CONTROL  [initandlisten] 
+2016-02-05T13:18:34.483+0000 I CONTROL  [initandlisten] 
+2016-02-05T13:18:34.483+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-02-05T13:18:34.483+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-02-05T13:18:34.483+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-02-05T13:18:34.483+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-02-05T13:18:34.483+0000 I CONTROL  [initandlisten] 
+2016-02-05T13:18:35.325+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-02-05T13:18:35.325+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-02-05T13:18:35.325+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-02-05T16:03:23.890+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-02-05T16:03:23.923+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-02-05T16:03:24.350+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-02-05T16:03:24.350+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-02-05T16:03:24.350+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-02-05T16:03:24.350+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-02-05T16:03:24.351+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-02-05T16:03:24.351+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-02-05T16:03:24.351+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-02-05T16:03:24.353+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-02-05T16:03:24.353+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-02-05T16:03:24.354+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-02-05T16:03:24.361+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-02-05T16:03:24.361+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-02-21T03:55:46.410+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten] MongoDB starting : pid=276 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten] db version v3.2.1
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2f  28 Jan 2016
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten] modules: none
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten] build environment:
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-02-21T03:55:47.273+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-02-21T03:55:47.356+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-02-21T03:55:47.452+0000 I CONTROL  [initandlisten] 
+2016-02-21T03:55:47.452+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-02-21T03:55:47.452+0000 I CONTROL  [initandlisten] 
+2016-02-21T03:55:47.452+0000 I CONTROL  [initandlisten] 
+2016-02-21T03:55:47.452+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-02-21T03:55:47.452+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-02-21T03:55:47.452+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-02-21T03:55:47.452+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-02-21T03:55:47.452+0000 I CONTROL  [initandlisten] 
+2016-02-21T03:55:48.265+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-02-21T03:55:48.265+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-02-21T03:55:48.265+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-02-21T03:58:55.466+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-02-21T03:58:55.467+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-02-21T03:58:55.469+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-02-21T03:58:55.469+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-02-21T03:58:55.469+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-02-21T03:58:55.469+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-02-21T03:58:55.469+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-02-21T03:58:55.469+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-02-21T03:58:55.469+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-02-21T03:58:55.469+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-02-21T03:58:55.469+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-02-21T03:58:55.471+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-02-21T03:58:55.471+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-02-21T03:58:55.471+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-02-21T06:05:37.107+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten] MongoDB starting : pid=253 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten] db version v3.2.1
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2f  28 Jan 2016
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten] modules: none
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten] build environment:
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-02-21T06:05:37.129+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-02-21T06:05:37.161+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-02-21T06:05:37.219+0000 I CONTROL  [initandlisten] 
+2016-02-21T06:05:37.219+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-02-21T06:05:37.219+0000 I CONTROL  [initandlisten] 
+2016-02-21T06:05:37.219+0000 I CONTROL  [initandlisten] 
+2016-02-21T06:05:37.219+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-02-21T06:05:37.219+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-02-21T06:05:37.219+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-02-21T06:05:37.219+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-02-21T06:05:37.219+0000 I CONTROL  [initandlisten] 
+2016-02-21T06:05:37.307+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-02-21T06:05:37.307+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-02-21T06:05:37.307+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-02-21T08:40:06.100+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-02-21T08:40:06.100+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-02-21T08:40:06.288+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-02-21T08:40:06.288+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-02-21T08:40:06.288+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-02-21T08:40:06.288+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-02-21T08:40:06.288+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-02-21T08:40:06.288+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-02-21T08:40:06.288+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-02-21T08:40:06.288+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-02-21T08:40:06.288+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-02-21T08:40:06.289+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-02-21T08:40:06.289+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-02-21T08:40:06.289+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-02-21T11:06:43.495+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten] MongoDB starting : pid=267 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten] db version v3.2.1
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2f  28 Jan 2016
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten] modules: none
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten] build environment:
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-02-21T11:06:43.610+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-02-21T11:06:43.665+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-02-21T11:06:43.787+0000 I CONTROL  [initandlisten] 
+2016-02-21T11:06:43.787+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-02-21T11:06:43.787+0000 I CONTROL  [initandlisten] 
+2016-02-21T11:06:43.787+0000 I CONTROL  [initandlisten] 
+2016-02-21T11:06:43.787+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-02-21T11:06:43.787+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-02-21T11:06:43.787+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-02-21T11:06:43.787+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-02-21T11:06:43.787+0000 I CONTROL  [initandlisten] 
+2016-02-21T11:06:44.561+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-02-21T11:06:44.562+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-02-21T11:06:44.562+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-02-21T11:09:40.827+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-02-21T11:09:40.827+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-02-21T11:09:40.837+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-02-21T11:09:40.837+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-02-21T11:09:40.837+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-02-21T11:09:40.837+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-02-21T11:09:40.837+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-02-21T11:09:40.838+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-02-21T11:09:40.843+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-02-21T11:09:40.843+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-02-21T11:09:40.843+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-02-21T11:09:40.844+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-02-21T11:09:40.844+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-02-21T11:09:40.844+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-02-21T11:10:19.035+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten] MongoDB starting : pid=264 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten] db version v3.2.1
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2f  28 Jan 2016
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten] modules: none
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten] build environment:
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-02-21T11:10:19.047+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-02-21T11:10:19.076+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-02-21T11:10:19.118+0000 I CONTROL  [initandlisten] 
+2016-02-21T11:10:19.118+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-02-21T11:10:19.118+0000 I CONTROL  [initandlisten] 
+2016-02-21T11:10:19.118+0000 I CONTROL  [initandlisten] 
+2016-02-21T11:10:19.118+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-02-21T11:10:19.118+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-02-21T11:10:19.118+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-02-21T11:10:19.118+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-02-21T11:10:19.118+0000 I CONTROL  [initandlisten] 
+2016-02-21T11:10:19.338+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-02-21T11:10:19.338+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-02-21T11:10:19.338+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-02-26T14:39:28.009+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten] MongoDB starting : pid=271 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten] db version v3.2.1
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten] git version: a14d55980c2cdc565d4704a7e3ad37e4e535c1b2
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2f  28 Jan 2016
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten] modules: none
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten] build environment:
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-02-26T14:39:28.726+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-02-26T14:39:28.780+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-02-26T14:39:28.780+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-02-26T14:39:28.884+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-02-26T14:39:28.987+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-02-26T14:39:28.987+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-03-06T06:52:49.181+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-03-06T06:52:49.581+0000 I CONTROL  [initandlisten] MongoDB starting : pid=270 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-03-06T06:52:49.582+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-03-06T06:52:49.582+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-03-06T06:52:49.582+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2f  28 Jan 2016
+2016-03-06T06:52:49.582+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-03-06T06:52:49.582+0000 I CONTROL  [initandlisten] modules: none
+2016-03-06T06:52:49.582+0000 I CONTROL  [initandlisten] build environment:
+2016-03-06T06:52:49.582+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-03-06T06:52:49.582+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-03-06T06:52:49.582+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-03-06T06:52:49.706+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-03-06T06:52:49.706+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-03-06T06:52:49.725+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-03-06T06:52:49.863+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-03-06T06:52:49.864+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-03-07T11:59:04.761+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-03-07T11:59:04.976+0000 I CONTROL  [initandlisten] MongoDB starting : pid=265 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-03-07T11:59:04.976+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-03-07T11:59:04.976+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-03-07T11:59:04.976+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2f  28 Jan 2016
+2016-03-07T11:59:04.976+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-03-07T11:59:04.976+0000 I CONTROL  [initandlisten] modules: none
+2016-03-07T11:59:04.976+0000 I CONTROL  [initandlisten] build environment:
+2016-03-07T11:59:04.976+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-03-07T11:59:04.976+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-03-07T11:59:04.977+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-03-07T11:59:05.024+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-03-07T11:59:05.024+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-03-07T11:59:05.042+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-03-07T11:59:05.123+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-03-07T11:59:05.123+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-03-07T12:16:22.897+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten] MongoDB starting : pid=255 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten] modules: none
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten] build environment:
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-03-07T12:16:22.908+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-03-07T12:16:22.938+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-03-07T12:16:22.938+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-03-07T12:16:22.947+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-03-07T12:16:22.950+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-03-07T12:16:22.950+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-03-07T12:29:19.775+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-03-07T12:29:19.784+0000 I CONTROL  [initandlisten] MongoDB starting : pid=264 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-03-07T12:29:19.784+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-03-07T12:29:19.784+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-03-07T12:29:19.784+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-03-07T12:29:19.784+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-03-07T12:29:19.784+0000 I CONTROL  [initandlisten] modules: none
+2016-03-07T12:29:19.784+0000 I CONTROL  [initandlisten] build environment:
+2016-03-07T12:29:19.785+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-03-07T12:29:19.785+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-03-07T12:29:19.785+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-03-07T12:29:19.817+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-03-07T12:29:19.817+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-03-07T12:29:19.827+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-03-07T12:29:19.829+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-03-07T12:29:19.829+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-03-08T15:44:00.944+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-03-08T15:44:01.461+0000 I CONTROL  [initandlisten] MongoDB starting : pid=270 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-03-08T15:44:01.461+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-03-08T15:44:01.461+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-03-08T15:44:01.462+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-03-08T15:44:01.462+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-03-08T15:44:01.462+0000 I CONTROL  [initandlisten] modules: none
+2016-03-08T15:44:01.462+0000 I CONTROL  [initandlisten] build environment:
+2016-03-08T15:44:01.462+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-03-08T15:44:01.462+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-03-08T15:44:01.462+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-03-08T15:44:01.565+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-03-08T15:44:01.565+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-03-08T15:44:01.579+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-03-08T15:44:01.835+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-03-08T15:44:01.836+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-03-09T15:44:12.532+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-03-09T15:44:12.899+0000 I CONTROL  [initandlisten] MongoDB starting : pid=266 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-03-09T15:44:12.899+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-03-09T15:44:12.899+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-03-09T15:44:12.899+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-03-09T15:44:12.899+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-03-09T15:44:12.899+0000 I CONTROL  [initandlisten] modules: none
+2016-03-09T15:44:12.899+0000 I CONTROL  [initandlisten] build environment:
+2016-03-09T15:44:12.899+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-03-09T15:44:12.899+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-03-09T15:44:12.900+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-03-09T15:44:13.034+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-03-09T15:44:13.034+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-03-09T15:44:13.060+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-03-09T15:44:13.303+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-03-09T15:44:13.303+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-03-09T15:53:22.994+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten] MongoDB starting : pid=259 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten] modules: none
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten] build environment:
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-03-09T15:53:23.005+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-03-09T15:53:23.060+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-03-09T15:53:23.060+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-03-09T15:53:23.071+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-03-09T15:53:23.081+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-03-09T15:53:23.081+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-03-20T05:34:10.461+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-03-20T05:34:10.972+0000 I CONTROL  [initandlisten] MongoDB starting : pid=260 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-03-20T05:34:10.972+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-03-20T05:34:10.972+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-03-20T05:34:10.972+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-03-20T05:34:10.972+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-03-20T05:34:10.972+0000 I CONTROL  [initandlisten] modules: none
+2016-03-20T05:34:10.972+0000 I CONTROL  [initandlisten] build environment:
+2016-03-20T05:34:10.973+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-03-20T05:34:10.973+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-03-20T05:34:10.973+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-03-20T05:34:11.025+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-03-20T05:34:11.025+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-03-20T05:34:11.038+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-03-20T05:34:11.119+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-03-20T05:34:11.119+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-04-16T06:54:11.884+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten] MongoDB starting : pid=269 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten] modules: none
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten] build environment:
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-16T06:54:12.062+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-16T06:54:12.135+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-16T06:54:12.135+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-04-16T06:54:12.150+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-04-16T06:54:12.265+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-04-16T06:54:12.265+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-04-17T11:36:02.556+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-17T11:36:02.756+0000 I CONTROL  [initandlisten] MongoDB starting : pid=285 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-17T11:36:02.757+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-17T11:36:02.757+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-17T11:36:02.757+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-17T11:36:02.757+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-17T11:36:02.757+0000 I CONTROL  [initandlisten] modules: none
+2016-04-17T11:36:02.757+0000 I CONTROL  [initandlisten] build environment:
+2016-04-17T11:36:02.757+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-17T11:36:02.757+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-17T11:36:02.757+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-17T11:36:02.825+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-17T11:36:02.825+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-04-17T11:36:02.870+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-04-17T11:36:03.160+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-04-17T11:36:03.160+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-04-17T11:50:26.754+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten] MongoDB starting : pid=253 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten] modules: none
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten] build environment:
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-17T11:50:26.764+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-17T11:50:26.793+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-17T11:50:26.793+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-04-17T11:50:26.803+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-04-17T11:50:26.805+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-04-17T11:50:26.806+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-04-17T11:51:46.932+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten] MongoDB starting : pid=266 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten] modules: none
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten] build environment:
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-17T11:51:46.942+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-17T11:51:46.975+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-17T11:51:47.095+0000 I CONTROL  [initandlisten] 
+2016-04-17T11:51:47.095+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-04-17T11:51:47.095+0000 I CONTROL  [initandlisten] 
+2016-04-17T11:51:47.095+0000 I CONTROL  [initandlisten] 
+2016-04-17T11:51:47.095+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-04-17T11:51:47.095+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-04-17T11:51:47.095+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-04-17T11:51:47.095+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-04-17T11:51:47.096+0000 I CONTROL  [initandlisten] 
+2016-04-17T11:51:47.365+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-04-17T11:51:47.365+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-04-17T11:51:47.365+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-04-17T11:51:48.042+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2016-04-17T12:58:22.047+0000 I INDEX    [conn1] allocating new ns file /var/lib/mongodb/test.ns, filling with zeroes...
+2016-04-17T12:58:22.211+0000 I STORAGE  [FileAllocator] allocating new datafile /var/lib/mongodb/test.0, filling with zeroes...
+2016-04-17T12:58:22.211+0000 I STORAGE  [FileAllocator] creating directory /var/lib/mongodb/_tmp
+2016-04-17T12:58:22.230+0000 I STORAGE  [FileAllocator] done allocating datafile /var/lib/mongodb/test.0, size: 64MB,  took 0.008 secs
+2016-04-17T12:58:22.231+0000 I INDEX    [conn1] build index on: test.characters properties: { v: 1, unique: true, key: { characterId: 1 }, name: "characterId_1", ns: "test.characters", background: true }
+2016-04-17T12:58:22.231+0000 I INDEX    [conn1] build index done.  scanned 0 total records. 0 secs
+2016-04-17T12:58:22.231+0000 I COMMAND  [conn1] command test.$cmd command: createIndexes { createIndexes: "characters", indexes: [ { name: "characterId_1", key: { characterId: 1 }, unique: true, background: true } ], writeConcern: { w: 1 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:113 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, MMAPV1Journal: { acquireCount: { w: 6 } }, Database: { acquireCount: { w: 1, W: 2 } }, Collection: { acquireCount: { W: 1 } }, Metadata: { acquireCount: { W: 5 } } } protocol:op_query 184ms
+2016-04-17T12:58:22.234+0000 I INDEX    [conn1] build index on: test.characters properties: { v: 1, key: { random: "2d" }, name: "random_2d", ns: "test.characters", background: true }
+2016-04-17T12:58:22.234+0000 I INDEX    [conn1] build index done.  scanned 0 total records. 0 secs
+2016-04-17T13:19:57.891+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-04-17T13:19:57.891+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-04-17T13:19:57.892+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-04-17T13:19:57.892+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-04-17T13:19:57.892+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-04-17T13:19:57.892+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-04-17T13:19:57.892+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-04-17T13:19:57.892+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-04-17T13:19:57.892+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-04-17T13:19:57.892+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-04-17T13:19:57.892+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-04-17T13:19:57.896+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-04-17T13:19:57.896+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-04-17T13:19:57.896+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-04-17T13:26:14.860+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten] MongoDB starting : pid=260 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten] modules: none
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten] build environment:
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-17T13:26:14.872+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-17T13:26:14.899+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-17T13:26:15.022+0000 I CONTROL  [initandlisten] 
+2016-04-17T13:26:15.022+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-04-17T13:26:15.022+0000 I CONTROL  [initandlisten] 
+2016-04-17T13:26:15.022+0000 I CONTROL  [initandlisten] 
+2016-04-17T13:26:15.022+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-04-17T13:26:15.022+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-04-17T13:26:15.022+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-04-17T13:26:15.022+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-04-17T13:26:15.022+0000 I CONTROL  [initandlisten] 
+2016-04-17T13:26:15.172+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-04-17T13:26:15.172+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-04-17T13:26:15.172+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-04-17T15:28:43.517+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-04-17T15:28:43.517+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-04-17T15:28:43.525+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-04-17T15:28:43.525+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-04-17T15:28:43.525+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-04-17T15:28:43.525+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-04-17T15:28:43.525+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-04-17T15:28:43.525+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-04-17T15:28:43.525+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-04-17T15:28:43.525+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-04-17T15:28:43.525+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-04-17T15:28:43.543+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-04-17T15:28:43.544+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-04-17T15:28:43.544+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-04-23T16:37:31.202+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten] MongoDB starting : pid=258 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten] modules: none
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten] build environment:
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-23T16:37:31.650+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-23T16:37:31.708+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-23T16:37:31.892+0000 I CONTROL  [initandlisten] 
+2016-04-23T16:37:31.892+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-04-23T16:37:31.893+0000 I CONTROL  [initandlisten] 
+2016-04-23T16:37:31.893+0000 I CONTROL  [initandlisten] 
+2016-04-23T16:37:31.893+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-04-23T16:37:31.893+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-04-23T16:37:31.893+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-04-23T16:37:31.893+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-04-23T16:37:31.893+0000 I CONTROL  [initandlisten] 
+2016-04-23T16:37:32.878+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-04-23T16:37:32.878+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-04-23T16:37:32.878+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-04-23T17:42:30.673+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-04-23T17:42:30.825+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-04-23T17:42:31.393+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-04-23T17:42:31.393+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-04-23T17:42:31.393+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-04-23T17:42:31.393+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-04-23T17:42:31.394+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-04-23T17:42:31.394+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-04-23T17:42:31.394+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-04-23T17:42:31.406+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-04-23T17:42:31.406+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-04-23T17:42:31.408+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-04-23T17:42:31.410+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-04-23T17:42:31.410+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-04-23T18:03:27.662+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten] MongoDB starting : pid=268 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten] modules: none
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten] build environment:
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-23T18:03:28.148+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-23T18:03:28.208+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-23T18:03:28.543+0000 I CONTROL  [initandlisten] 
+2016-04-23T18:03:28.543+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-04-23T18:03:28.543+0000 I CONTROL  [initandlisten] 
+2016-04-23T18:03:28.543+0000 I CONTROL  [initandlisten] 
+2016-04-23T18:03:28.543+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-04-23T18:03:28.543+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-04-23T18:03:28.543+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-04-23T18:03:28.543+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-04-23T18:03:28.543+0000 I CONTROL  [initandlisten] 
+2016-04-23T18:03:31.144+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-04-23T18:03:31.144+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-04-23T18:03:31.144+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-04-23T18:21:11.458+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-04-23T18:21:11.458+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-04-23T18:21:11.557+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-04-23T18:21:11.557+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-04-23T18:21:11.557+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-04-23T18:21:11.557+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-04-23T18:21:11.557+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-04-23T18:21:11.557+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-04-23T18:21:11.557+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-04-23T18:21:11.557+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-04-23T18:21:11.557+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-04-23T18:21:11.558+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-04-23T18:21:11.558+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-04-23T18:21:11.558+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-04-27T13:03:56.118+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten] MongoDB starting : pid=270 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten] modules: none
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten] build environment:
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-27T13:03:56.519+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-27T13:03:56.648+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-27T13:03:56.933+0000 I CONTROL  [initandlisten] 
+2016-04-27T13:03:56.933+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-04-27T13:03:56.934+0000 I CONTROL  [initandlisten] 
+2016-04-27T13:03:56.934+0000 I CONTROL  [initandlisten] 
+2016-04-27T13:03:56.934+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-04-27T13:03:56.934+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-04-27T13:03:56.934+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-04-27T13:03:56.934+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-04-27T13:03:56.934+0000 I CONTROL  [initandlisten] 
+2016-04-27T13:03:58.725+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-04-27T13:03:58.725+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-04-27T13:03:58.725+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-04-27T15:34:08.543+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-04-27T15:34:08.543+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-04-27T15:34:08.544+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-04-27T15:34:08.544+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-04-27T15:34:08.544+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-04-27T15:34:08.544+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-04-27T15:34:08.544+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-04-27T15:34:08.544+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-04-27T15:34:08.544+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-04-27T15:34:08.544+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-04-27T15:34:08.544+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-04-27T15:34:08.545+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-04-27T15:34:08.545+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-04-27T15:34:08.545+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-04-27T15:34:22.038+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten] MongoDB starting : pid=255 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten] modules: none
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten] build environment:
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-27T15:34:22.054+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-27T15:34:22.100+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-27T15:34:22.173+0000 I CONTROL  [initandlisten] 
+2016-04-27T15:34:22.173+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-04-27T15:34:22.173+0000 I CONTROL  [initandlisten] 
+2016-04-27T15:34:22.173+0000 I CONTROL  [initandlisten] 
+2016-04-27T15:34:22.173+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-04-27T15:34:22.173+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-04-27T15:34:22.173+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-04-27T15:34:22.173+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-04-27T15:34:22.173+0000 I CONTROL  [initandlisten] 
+2016-04-27T15:34:22.275+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-04-27T15:34:22.275+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-04-27T15:34:22.275+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-04-27T15:35:33.638+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-04-27T15:35:33.638+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-04-27T15:35:33.639+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-04-27T15:35:33.639+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-04-27T15:35:33.639+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-04-27T15:35:33.639+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-04-27T15:35:33.639+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-04-27T15:35:33.639+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-04-27T15:35:33.639+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-04-27T15:35:33.639+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-04-27T15:35:33.639+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-04-27T15:35:33.640+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-04-27T15:35:33.640+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-04-27T15:35:33.640+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-04-28T13:46:26.797+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten] MongoDB starting : pid=260 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten] modules: none
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten] build environment:
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-04-28T13:46:27.184+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-04-28T13:46:27.302+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-04-28T13:46:27.887+0000 I CONTROL  [initandlisten] 
+2016-04-28T13:46:27.887+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-04-28T13:46:27.887+0000 I CONTROL  [initandlisten] 
+2016-04-28T13:46:27.887+0000 I CONTROL  [initandlisten] 
+2016-04-28T13:46:27.887+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-04-28T13:46:27.887+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-04-28T13:46:27.887+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-04-28T13:46:27.887+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-04-28T13:46:27.887+0000 I CONTROL  [initandlisten] 
+2016-04-28T13:46:29.971+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-04-28T13:46:29.971+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-04-28T13:46:29.971+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-04-28T14:49:12.153+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-04-28T14:49:12.153+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-04-28T14:49:12.155+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-04-28T14:49:12.155+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-04-28T14:49:12.155+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-04-28T14:49:12.155+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-04-28T14:49:12.155+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-04-28T14:49:12.155+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-04-28T14:49:12.155+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-04-28T14:49:12.155+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-04-28T14:49:12.155+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-04-28T14:49:12.156+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-04-28T14:49:12.156+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-04-28T14:49:12.156+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-05-02T01:31:46.907+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten] MongoDB starting : pid=259 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten] db version v3.2.3
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten] git version: b326ba837cf6f49d65c2f85e1b70f6f31ece7937
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten] modules: none
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten] build environment:
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-05-02T01:31:47.069+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-05-02T01:31:47.129+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-05-02T01:31:47.206+0000 I CONTROL  [initandlisten] 
+2016-05-02T01:31:47.206+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-05-02T01:31:47.206+0000 I CONTROL  [initandlisten] 
+2016-05-02T01:31:47.206+0000 I CONTROL  [initandlisten] 
+2016-05-02T01:31:47.206+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-05-02T01:31:47.206+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-05-02T01:31:47.206+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-05-02T01:31:47.206+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-05-02T01:31:47.206+0000 I CONTROL  [initandlisten] 
+2016-05-02T01:31:48.039+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-05-02T01:31:48.040+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-05-02T01:31:48.040+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-05-02T13:17:39.296+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-05-02T13:17:39.613+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-05-02T13:17:39.949+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-05-02T13:17:39.949+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-05-02T13:17:39.949+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-05-02T13:17:39.949+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-05-02T13:17:39.950+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-05-02T13:17:39.950+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-05-02T13:17:39.950+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-05-02T13:17:39.986+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-05-02T13:17:39.987+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-05-02T13:17:39.995+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-05-02T13:17:39.997+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-05-02T13:17:39.997+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-05-09T15:21:01.714+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten] MongoDB starting : pid=273 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten] db version v3.2.6
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten] git version: 05552b562c7a0b3143a729aaa0838e558dc49b25
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten] modules: none
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten] build environment:
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-05-09T15:21:02.228+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-05-09T15:21:02.273+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-05-09T15:21:02.348+0000 I CONTROL  [initandlisten] 
+2016-05-09T15:21:02.348+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-05-09T15:21:02.348+0000 I CONTROL  [initandlisten] 
+2016-05-09T15:21:02.348+0000 I CONTROL  [initandlisten] 
+2016-05-09T15:21:02.348+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-05-09T15:21:02.348+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-05-09T15:21:02.348+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-05-09T15:21:02.348+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-05-09T15:21:02.348+0000 I CONTROL  [initandlisten] 
+2016-05-09T15:21:03.009+0000 I STORAGE  [initandlisten] Scanning test db for SERVER-23299 eligibility
+2016-05-09T15:21:03.009+0000 I STORAGE  [initandlisten] Done scanning test for SERVER-23299 eligibility
+2016-05-09T15:21:03.502+0000 I STORAGE  [initandlisten] Scanning test_film db for SERVER-23299 eligibility
+2016-05-09T15:21:03.502+0000 I STORAGE  [initandlisten] Done scanning test_film for SERVER-23299 eligibility
+2016-05-09T15:21:03.503+0000 I STORAGE  [initandlisten] Scanning local db for SERVER-23299 eligibility
+2016-05-09T15:21:03.503+0000 I STORAGE  [initandlisten] Done scanning local for SERVER-23299 eligibility
+2016-05-09T15:21:03.504+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-05-09T15:21:03.504+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-05-09T15:21:03.504+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-05-09T19:00:01.643+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-05-09T19:00:01.927+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-05-09T19:00:01.929+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-05-09T19:00:01.929+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-05-09T19:00:01.929+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-05-09T19:00:01.929+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-05-09T19:00:01.929+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-05-09T19:00:01.929+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-05-09T19:00:01.929+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-05-09T19:00:01.930+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-05-09T19:00:01.930+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-05-09T19:00:01.931+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-05-09T19:00:01.931+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-05-09T19:00:01.952+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-05-29T08:07:04.097+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten] MongoDB starting : pid=261 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten] db version v3.2.6
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten] git version: 05552b562c7a0b3143a729aaa0838e558dc49b25
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten] modules: none
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten] build environment:
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-05-29T08:07:04.591+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-05-29T08:07:04.637+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-05-29T08:07:04.770+0000 I CONTROL  [initandlisten] 
+2016-05-29T08:07:04.770+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-05-29T08:07:04.770+0000 I CONTROL  [initandlisten] 
+2016-05-29T08:07:04.770+0000 I CONTROL  [initandlisten] 
+2016-05-29T08:07:04.770+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-05-29T08:07:04.770+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-05-29T08:07:04.770+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-05-29T08:07:04.770+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-05-29T08:07:04.771+0000 I CONTROL  [initandlisten] 
+2016-05-29T08:07:05.804+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-05-29T08:07:05.804+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-05-29T08:07:05.804+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-05-29T08:22:30.024+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-05-29T08:22:30.053+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-05-29T08:22:30.120+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-05-29T08:22:30.120+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-05-29T08:22:30.120+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-05-29T08:22:30.120+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-05-29T08:22:30.120+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-05-29T08:22:30.120+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-05-29T08:22:30.120+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-05-29T08:22:30.121+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-05-29T08:22:30.121+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-05-29T08:22:30.123+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-05-29T08:22:30.123+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-05-29T08:22:30.123+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-06-02T13:33:55.977+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-06-02T13:33:56.836+0000 I CONTROL  [initandlisten] MongoDB starting : pid=264 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-06-02T13:33:56.836+0000 I CONTROL  [initandlisten] db version v3.2.6
+2016-06-02T13:33:56.836+0000 I CONTROL  [initandlisten] git version: 05552b562c7a0b3143a729aaa0838e558dc49b25
+2016-06-02T13:33:56.836+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-06-02T13:33:56.836+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-06-02T13:33:56.837+0000 I CONTROL  [initandlisten] modules: none
+2016-06-02T13:33:56.837+0000 I CONTROL  [initandlisten] build environment:
+2016-06-02T13:33:56.837+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-06-02T13:33:56.837+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-06-02T13:33:56.837+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-06-02T13:33:56.926+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-06-02T13:33:57.039+0000 I CONTROL  [initandlisten] 
+2016-06-02T13:33:57.039+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-06-02T13:33:57.039+0000 I CONTROL  [initandlisten] 
+2016-06-02T13:33:57.039+0000 I CONTROL  [initandlisten] 
+2016-06-02T13:33:57.039+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-06-02T13:33:57.039+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-06-02T13:33:57.039+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-06-02T13:33:57.039+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-06-02T13:33:57.040+0000 I CONTROL  [initandlisten] 
+2016-06-02T13:33:58.003+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-06-02T13:33:58.003+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-06-02T13:33:58.003+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-06-02T15:07:27.782+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-06-02T15:07:27.957+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-06-02T15:07:28.121+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-06-02T15:07:28.121+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-06-02T15:07:28.121+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-06-02T15:07:28.121+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-06-02T15:07:28.122+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-06-02T15:07:28.122+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-06-02T15:07:28.122+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-06-02T15:07:28.123+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-06-02T15:07:28.123+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-06-02T15:07:28.124+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-06-02T15:07:28.124+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-06-02T15:07:28.126+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-06-05T05:13:01.812+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten] MongoDB starting : pid=272 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten] db version v3.2.6
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten] git version: 05552b562c7a0b3143a729aaa0838e558dc49b25
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten] modules: none
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten] build environment:
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-06-05T05:13:02.561+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-06-05T05:13:02.620+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-06-05T05:13:02.912+0000 I CONTROL  [initandlisten] 
+2016-06-05T05:13:02.912+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-06-05T05:13:02.912+0000 I CONTROL  [initandlisten] 
+2016-06-05T05:13:02.912+0000 I CONTROL  [initandlisten] 
+2016-06-05T05:13:02.912+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-06-05T05:13:02.912+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-06-05T05:13:02.912+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-06-05T05:13:02.912+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-06-05T05:13:02.912+0000 I CONTROL  [initandlisten] 
+2016-06-05T05:13:03.691+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-06-05T05:13:03.691+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-06-05T05:13:03.691+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-06-05T06:16:22.250+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-06-05T06:16:22.250+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-06-05T06:16:22.251+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-06-05T06:16:22.251+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-06-05T06:16:22.251+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-06-05T06:16:22.251+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-06-05T06:16:22.251+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-06-05T06:16:22.251+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-06-05T06:16:22.251+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-06-05T06:16:22.251+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-06-05T06:16:22.251+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-06-05T06:16:22.252+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-06-05T06:16:22.252+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-06-05T06:16:22.252+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-07-09T13:20:07.986+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten] MongoDB starting : pid=264 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten] db version v3.2.6
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten] git version: 05552b562c7a0b3143a729aaa0838e558dc49b25
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten] modules: none
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten] build environment:
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-07-09T13:20:08.514+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-07-09T13:20:08.582+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-07-09T13:20:08.909+0000 I CONTROL  [initandlisten] 
+2016-07-09T13:20:08.909+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-07-09T13:20:08.909+0000 I CONTROL  [initandlisten] 
+2016-07-09T13:20:08.909+0000 I CONTROL  [initandlisten] 
+2016-07-09T13:20:08.909+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-07-09T13:20:08.909+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-07-09T13:20:08.909+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-07-09T13:20:08.909+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-07-09T13:20:08.909+0000 I CONTROL  [initandlisten] 
+2016-07-09T13:20:09.711+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-07-09T13:20:09.711+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-07-09T13:20:09.711+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-07-09T13:52:55.700+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-07-09T13:52:55.713+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-07-09T13:52:55.771+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-07-09T13:52:55.771+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-07-09T13:52:55.771+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-07-09T13:52:55.771+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-07-09T13:52:55.772+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-07-09T13:52:55.772+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-07-09T13:52:55.772+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-07-09T13:52:55.773+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-07-09T13:52:55.773+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-07-09T13:52:55.774+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-07-09T13:52:55.775+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-07-09T13:52:55.775+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-08-14T05:39:21.116+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-14T05:39:21.430+0000 I CONTROL  [initandlisten] MongoDB starting : pid=239 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-14T05:39:21.431+0000 I CONTROL  [initandlisten] db version v3.2.7
+2016-08-14T05:39:21.431+0000 I CONTROL  [initandlisten] git version: 4249c1d2b5999ebbf1fdf3bc0e0e3b3ff5c0aaf2
+2016-08-14T05:39:21.431+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-14T05:39:21.431+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-14T05:39:21.431+0000 I CONTROL  [initandlisten] modules: none
+2016-08-14T05:39:21.431+0000 I CONTROL  [initandlisten] build environment:
+2016-08-14T05:39:21.431+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-14T05:39:21.431+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-14T05:39:21.431+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-14T05:39:21.472+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-14T05:39:21.534+0000 I CONTROL  [initandlisten] 
+2016-08-14T05:39:21.534+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-08-14T05:39:21.534+0000 I CONTROL  [initandlisten] 
+2016-08-14T05:39:21.534+0000 I CONTROL  [initandlisten] 
+2016-08-14T05:39:21.534+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-08-14T05:39:21.534+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-08-14T05:39:21.534+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-08-14T05:39:21.534+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-08-14T05:39:21.534+0000 I CONTROL  [initandlisten] 
+2016-08-14T05:39:21.967+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-08-14T05:39:21.967+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-08-14T05:39:21.976+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-08-14T06:13:38.242+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-08-14T06:13:38.553+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-08-14T06:13:39.171+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-08-14T06:13:39.171+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-08-14T06:13:39.171+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-08-14T06:13:39.171+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-08-14T06:13:39.171+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-08-14T06:13:39.171+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-08-14T06:13:39.171+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-08-14T06:13:39.191+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-08-14T06:13:39.191+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-08-14T06:13:39.192+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-08-14T06:13:39.233+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-08-14T06:13:39.233+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-08-14T06:20:33.471+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten] MongoDB starting : pid=312 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten] modules: none
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten] build environment:
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-14T06:20:33.684+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-14T06:20:33.755+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-14T06:20:33.794+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:20:33.794+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-08-14T06:20:33.794+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:20:33.794+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:20:33.794+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-08-14T06:20:33.794+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-08-14T06:20:33.794+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-08-14T06:20:33.794+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-08-14T06:20:33.794+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:20:34.050+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-08-14T06:20:34.050+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-08-14T06:20:34.052+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-08-14T06:25:03.451+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-08-14T06:25:03.451+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-08-14T06:25:03.452+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-08-14T06:25:03.452+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-08-14T06:25:03.452+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-08-14T06:25:03.452+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-08-14T06:25:03.452+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-08-14T06:25:03.452+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-08-14T06:25:03.452+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-08-14T06:25:03.452+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-08-14T06:25:03.452+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-08-14T06:25:03.453+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-08-14T06:25:03.453+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-08-14T06:25:03.453+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-08-14T06:35:32.758+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten] MongoDB starting : pid=300 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten] modules: none
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten] build environment:
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-14T06:35:32.772+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-14T06:35:32.816+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-14T06:35:32.844+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:35:32.844+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-08-14T06:35:32.844+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:35:32.844+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:35:32.844+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-08-14T06:35:32.844+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-08-14T06:35:32.844+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-08-14T06:35:32.845+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-08-14T06:35:32.845+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:35:32.966+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-08-14T06:35:32.966+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-08-14T06:35:32.967+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-08-14T06:36:08.039+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-08-14T06:36:08.039+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-08-14T06:36:08.040+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-08-14T06:36:08.040+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-08-14T06:36:08.040+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-08-14T06:36:08.040+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-08-14T06:36:08.040+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-08-14T06:36:08.040+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-08-14T06:36:08.040+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-08-14T06:36:08.040+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-08-14T06:36:08.040+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-08-14T06:36:08.041+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-08-14T06:36:08.041+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-08-14T06:36:08.041+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-08-14T06:56:20.699+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten] MongoDB starting : pid=314 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten] modules: none
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten] build environment:
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-14T06:56:20.712+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-14T06:56:20.757+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-14T06:56:20.833+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:56:20.833+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-08-14T06:56:20.833+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:56:20.833+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:56:20.833+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-08-14T06:56:20.833+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-08-14T06:56:20.833+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-08-14T06:56:20.833+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-08-14T06:56:20.834+0000 I CONTROL  [initandlisten] 
+2016-08-14T06:56:20.937+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-08-14T06:56:20.937+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-08-14T06:56:20.937+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-08-14T06:57:17.620+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-08-14T06:57:17.620+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-08-14T06:57:17.621+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-08-14T06:57:17.621+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-08-14T06:57:17.621+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-08-14T06:57:17.621+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-08-14T06:57:17.621+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-08-14T06:57:17.621+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-08-14T06:57:17.621+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-08-14T06:57:17.621+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-08-14T06:57:17.621+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-08-14T06:57:17.622+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-08-14T06:57:17.622+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-08-14T06:57:17.622+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-08-14T07:11:02.708+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten] MongoDB starting : pid=308 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten] modules: none
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten] build environment:
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-14T07:11:03.113+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-14T07:11:03.174+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-14T07:11:03.228+0000 I CONTROL  [initandlisten] 
+2016-08-14T07:11:03.228+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-08-14T07:11:03.228+0000 I CONTROL  [initandlisten] 
+2016-08-14T07:11:03.228+0000 I CONTROL  [initandlisten] 
+2016-08-14T07:11:03.229+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-08-14T07:11:03.229+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-08-14T07:11:03.229+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-08-14T07:11:03.229+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-08-14T07:11:03.229+0000 I CONTROL  [initandlisten] 
+2016-08-14T07:11:03.374+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-08-14T07:11:03.374+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-08-14T07:11:03.374+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-08-14T07:32:09.139+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-08-14T07:32:09.139+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-08-14T07:32:09.186+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-08-14T07:32:09.202+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-08-14T07:32:09.202+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-08-14T07:32:09.202+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-08-14T07:32:09.202+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-08-14T07:32:09.202+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-08-14T07:32:09.202+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-08-14T07:32:09.202+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-08-14T07:32:09.202+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-08-14T07:32:09.203+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-08-14T07:32:09.203+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-08-14T07:32:09.204+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-08-14T07:37:04.734+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten] MongoDB starting : pid=306 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten] modules: none
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten] build environment:
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-14T07:37:04.749+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-14T07:37:04.818+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-14T07:37:04.910+0000 I CONTROL  [initandlisten] 
+2016-08-14T07:37:04.911+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-08-14T07:37:04.911+0000 I CONTROL  [initandlisten] 
+2016-08-14T07:37:04.911+0000 I CONTROL  [initandlisten] 
+2016-08-14T07:37:04.911+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-08-14T07:37:04.911+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-08-14T07:37:04.911+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-08-14T07:37:04.911+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-08-14T07:37:04.911+0000 I CONTROL  [initandlisten] 
+2016-08-14T07:37:05.055+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-08-14T07:37:05.055+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-08-14T07:37:05.055+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-08-14T07:50:00.021+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten] MongoDB starting : pid=242 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten] modules: none
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten] build environment:
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-14T07:50:00.033+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-14T07:50:00.068+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-14T07:50:00.069+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-08-14T07:50:00.087+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-08-14T07:50:00.276+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-08-14T07:50:00.276+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-08-14T08:05:29.825+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten] MongoDB starting : pid=304 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten] modules: none
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten] build environment:
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-14T08:05:29.838+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-14T08:05:29.883+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-14T08:05:29.885+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-08-14T08:05:29.892+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-08-14T08:05:29.894+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-08-14T08:05:29.894+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-08-14T09:33:42.925+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten] MongoDB starting : pid=228 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten] modules: none
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten] build environment:
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-14T09:33:42.939+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-14T09:33:43.013+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-14T09:33:43.015+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-08-14T09:33:43.031+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-08-14T09:33:43.049+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-08-14T09:33:43.049+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-08-20T13:43:36.011+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten] MongoDB starting : pid=243 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten] modules: none
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten] build environment:
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-20T13:43:36.334+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-20T13:43:36.414+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-20T13:43:36.427+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-08-20T13:43:36.458+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-08-20T13:43:36.669+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-08-20T13:43:36.669+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-08-21T05:12:05.542+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten] MongoDB starting : pid=250 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten] db version v3.2.8
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten] git version: ed70e33130c977bda0024c125b56d159573dbaf0
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten] modules: none
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten] build environment:
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-21T05:12:05.607+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-21T05:12:05.724+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-21T05:12:05.727+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-08-21T05:12:05.780+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-08-21T05:12:05.899+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-08-21T05:12:05.899+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-08-23T15:07:24.365+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten] MongoDB starting : pid=241 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten] db version v3.2.9
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten] modules: none
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten] build environment:
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-23T15:07:25.290+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-23T15:07:25.352+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-23T15:07:25.372+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-08-23T15:07:25.391+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-08-23T15:07:25.708+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-08-23T15:07:25.708+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-08-24T13:59:57.348+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten] MongoDB starting : pid=259 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten] db version v3.2.9
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten] modules: none
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten] build environment:
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-24T13:59:58.029+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-24T13:59:58.116+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-24T13:59:58.129+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-08-24T13:59:58.147+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-08-24T13:59:58.389+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-08-24T13:59:58.389+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-08-25T13:32:46.689+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-08-25T13:32:47.501+0000 I CONTROL  [initandlisten] MongoDB starting : pid=245 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-08-25T13:32:47.501+0000 I CONTROL  [initandlisten] db version v3.2.9
+2016-08-25T13:32:47.501+0000 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2016-08-25T13:32:47.501+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-08-25T13:32:47.502+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-08-25T13:32:47.502+0000 I CONTROL  [initandlisten] modules: none
+2016-08-25T13:32:47.502+0000 I CONTROL  [initandlisten] build environment:
+2016-08-25T13:32:47.502+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-08-25T13:32:47.502+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-08-25T13:32:47.502+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-08-25T13:32:47.571+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-08-25T13:32:47.583+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-08-25T13:32:47.596+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-08-25T13:32:47.987+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-08-25T13:32:47.987+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-10-07T05:55:05.711+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-10-07T05:55:06.078+0000 I CONTROL  [initandlisten] MongoDB starting : pid=254 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-10-07T05:55:06.079+0000 I CONTROL  [initandlisten] db version v3.2.9
+2016-10-07T05:55:06.079+0000 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2016-10-07T05:55:06.079+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2h  3 May 2016
+2016-10-07T05:55:06.079+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-10-07T05:55:06.079+0000 I CONTROL  [initandlisten] modules: none
+2016-10-07T05:55:06.079+0000 I CONTROL  [initandlisten] build environment:
+2016-10-07T05:55:06.079+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-10-07T05:55:06.079+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-10-07T05:55:06.079+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-10-07T05:55:06.225+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-10-07T05:55:06.249+0000 W -        [initandlisten] Detected unclean shutdown - /var/lib/mongodb/mongod.lock is not empty.
+2016-10-07T05:55:06.330+0000 I STORAGE  [initandlisten] ************** 
+Unclean shutdown detected.
+Please visit http://dochub.mongodb.org/core/repair for recovery instructions.
+*************
+2016-10-07T05:55:06.487+0000 I STORAGE  [initandlisten] exception in initAndListen: 12596 old lock file, terminating
+2016-10-07T05:55:06.487+0000 I CONTROL  [initandlisten] dbexit:  rc: 100
+2016-10-07T06:06:48.726+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten] MongoDB starting : pid=253 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten] db version v3.2.9
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2j  26 Sep 2016
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten] modules: none
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten] build environment:
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-10-07T06:06:49.554+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-10-07T06:06:49.603+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-10-07T06:06:49.645+0000 I CONTROL  [initandlisten] 
+2016-10-07T06:06:49.645+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-10-07T06:06:49.645+0000 I CONTROL  [initandlisten] 
+2016-10-07T06:06:49.645+0000 I CONTROL  [initandlisten] 
+2016-10-07T06:06:49.645+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-10-07T06:06:49.645+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-10-07T06:06:49.645+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-10-07T06:06:49.645+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-10-07T06:06:49.645+0000 I CONTROL  [initandlisten] 
+2016-10-07T06:06:50.021+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-10-07T06:06:50.021+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-10-07T06:06:50.022+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2016-10-07T06:06:51.032+0000 I FTDC     [ftdc] Unclean full-time diagnostic data capture shutdown detected, found interim file, some metrics may have been lost. OK
+2016-10-07T06:06:58.601+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2016-10-07T06:06:58.601+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2016-10-07T06:06:58.601+0000 I CONTROL  [signalProcessingThread] now exiting
+2016-10-07T06:06:58.601+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2016-10-07T06:06:58.601+0000 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2016-10-07T06:06:58.601+0000 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2016-10-07T06:06:58.601+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2016-10-07T06:06:58.601+0000 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2016-10-07T06:06:58.601+0000 I NETWORK  [signalProcessingThread] shutdown: going to close sockets...
+2016-10-07T06:06:58.601+0000 I STORAGE  [signalProcessingThread] shutdown: waiting for fs preallocator...
+2016-10-07T06:06:58.601+0000 I STORAGE  [signalProcessingThread] shutdown: closing all files...
+2016-10-07T06:06:58.602+0000 I STORAGE  [signalProcessingThread] closeAllFiles() finished
+2016-10-07T06:06:58.602+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2016-10-07T06:06:58.602+0000 I CONTROL  [signalProcessingThread] dbexit:  rc: 0
+2016-10-07T06:07:09.551+0000 I CONTROL  [main] ***** SERVER RESTARTED *****
+2016-10-07T06:07:09.561+0000 I CONTROL  [initandlisten] MongoDB starting : pid=237 port=27017 dbpath=/var/lib/mongodb 32-bit host=alex_srv
+2016-10-07T06:07:09.561+0000 I CONTROL  [initandlisten] db version v3.2.9
+2016-10-07T06:07:09.561+0000 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2016-10-07T06:07:09.561+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2j  26 Sep 2016
+2016-10-07T06:07:09.561+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2016-10-07T06:07:09.562+0000 I CONTROL  [initandlisten] modules: none
+2016-10-07T06:07:09.562+0000 I CONTROL  [initandlisten] build environment:
+2016-10-07T06:07:09.562+0000 I CONTROL  [initandlisten]     distarch: i386
+2016-10-07T06:07:09.562+0000 I CONTROL  [initandlisten]     target_arch: i386
+2016-10-07T06:07:09.562+0000 I CONTROL  [initandlisten] options: { config: "/etc/mongodb.conf", net: { bindIp: "0.0.0.0" }, storage: { dbPath: "/var/lib/mongodb" }, systemLog: { destination: "file", logAppend: true, path: "/var/log/mongodb/mongod.log", quiet: true } }
+2016-10-07T06:07:09.596+0000 I -        [initandlisten] Detected data files in /var/lib/mongodb created by the 'mmapv1' storage engine, so setting the active storage engine to 'mmapv1'.
+2016-10-07T06:07:09.679+0000 I CONTROL  [initandlisten] 
+2016-10-07T06:07:09.679+0000 I CONTROL  [initandlisten] ** WARNING: This 32-bit MongoDB binary is deprecated
+2016-10-07T06:07:09.679+0000 I CONTROL  [initandlisten] 
+2016-10-07T06:07:09.685+0000 I CONTROL  [initandlisten] 
+2016-10-07T06:07:09.685+0000 I CONTROL  [initandlisten] ** NOTE: This is a 32 bit MongoDB binary.
+2016-10-07T06:07:09.685+0000 I CONTROL  [initandlisten] **       32 bit builds are limited to less than 2GB of data (or less with --journal).
+2016-10-07T06:07:09.685+0000 I CONTROL  [initandlisten] **       Note that journaling defaults to off for 32 bit and is currently off.
+2016-10-07T06:07:09.685+0000 I CONTROL  [initandlisten] **       See http://dochub.mongodb.org/core/32bit
+2016-10-07T06:07:09.685+0000 I CONTROL  [initandlisten] 
+2016-10-07T06:07:09.822+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/var/lib/mongodb/diagnostic.data'
+2016-10-07T06:07:09.822+0000 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2016-10-07T06:07:09.822+0000 I NETWORK  [initandlisten] waiting for connections on port 27017

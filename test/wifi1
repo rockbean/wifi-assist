@@ -1,0 +1,26 @@
+{
+    "name":"wifi1",
+    "mode":"dual",
+    "phy":"11ac",
+    "channel":149,
+    "channel-width":"80MHz",
+    "txpower":20,
+    "vap":[
+        {
+            "name":"wifi1.1",
+            "MAC addr":"0019:7700:2215",
+            "state":"Up",
+            "Hive":"aerohive",
+            "SSID":"AP123_test",
+            "auth":"open"
+        },
+        {
+            "name":"wifi1.2",
+            "MAC addr":"0019:7700:2216",
+            "state":"Up",
+            "Hive":"aerohive",
+            "SSID":"AP123_test_2",
+            "auth":"WPA2-PSK"
+        }
+    ]
+}

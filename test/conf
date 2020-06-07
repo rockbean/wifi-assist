@@ -1,0 +1,7 @@
+radio profile radio-dfs
+radio profile radio-dfs phymode 11ac
+radio profile radio-dfs channel-width 80
+radio profile radio-dfs _dfs-cert-enable
+radio profile radio-dfs dfs
+radio profile radio-dfs dfs radar-detect-only
+interface wifi1 radio profile radio-dfs

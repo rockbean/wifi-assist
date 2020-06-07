@@ -1,0 +1,2446 @@
+[2015-10-11 07:09] [PACMAN] Running 'pacman -r /mnt -Sy --cachedir=/mnt/var/cache/pacman/pkg --noconfirm base base-devel'
+[2015-10-11 07:09] [PACMAN] synchronizing package lists
+[2015-10-11 07:11] [ALPM] transaction started
+[2015-10-11 07:11] [ALPM] installed linux-api-headers (4.1.4-1)
+[2015-10-11 07:11] [ALPM] installed tzdata (2015g-1)
+[2015-10-11 07:11] [ALPM] installed iana-etc (2.30-5)
+[2015-10-11 07:11] [ALPM] installed filesystem (2015.09-1)
+[2015-10-11 07:11] [ALPM] installed glibc (2.22-3)
+[2015-10-11 07:11] [ALPM] installed gcc-libs (5.2.0-2)
+[2015-10-11 07:11] [ALPM] installed ncurses (6.0-3)
+[2015-10-11 07:11] [ALPM] installed readline (6.3.008-3)
+[2015-10-11 07:11] [ALPM] installed bash (4.3.042-3)
+[2015-10-11 07:11] [ALPM] installed bzip2 (1.0.6-5)
+[2015-10-11 07:11] [ALPM] installed attr (2.4.47-1)
+[2015-10-11 07:11] [ALPM] installed acl (2.2.52-2)
+[2015-10-11 07:11] [ALPM] installed gmp (6.0.0-2)
+[2015-10-11 07:11] [ALPM] installed libcap (2.24-2)
+[2015-10-11 07:11] [ALPM] installed zlib (1.2.8-4)
+[2015-10-11 07:11] [ALPM] installed gdbm (1.11-1)
+[2015-10-11 07:11] [ALPM] installed db (5.3.28-2)
+[2015-10-11 07:11] [ALPM] installed perl (5.22.0-1)
+[2015-10-11 07:11] [ALPM] installed openssl (1.0.2.d-1)
+[2015-10-11 07:11] [ALPM] installed coreutils (8.24-1)
+[2015-10-11 07:11] [ALPM] installed libgpg-error (1.20-1)
+[2015-10-11 07:11] [ALPM] installed libgcrypt (1.6.4-1)
+[2015-10-11 07:11] [ALPM] installed lz4 (131-1)
+[2015-10-11 07:11] [ALPM] installed xz (5.2.1-1)
+[2015-10-11 07:11] [ALPM] installed libsystemd (226-3)
+[2015-10-11 07:11] [ALPM] installed libdbus (1.10.0-3)
+[2015-10-11 07:11] [ALPM] installed expat (2.1.0-4)
+[2015-10-11 07:11] [ALPM] installed dbus (1.10.0-3)
+[2015-10-11 07:11] [ALPM] installed iptables (1.4.21-3)
+[2015-10-11 07:11] [ALPM] installed cracklib (2.9.4-1)
+[2015-10-11 07:11] [ALPM] installed libutil-linux (2.27-5)
+[2015-10-11 07:11] [ALPM] installed e2fsprogs (1.42.13-1)
+[2015-10-11 07:11] [ALPM] installed libsasl (2.1.26-7)
+[2015-10-11 07:11] [ALPM] installed libldap (2.4.42-2)
+[2015-10-11 07:11] [ALPM] installed keyutils (1.5.9-1)
+[2015-10-11 07:11] [ALPM] installed krb5 (1.13.2-1)
+[2015-10-11 07:11] [ALPM] installed libtirpc (0.3.2-2)
+[2015-10-11 07:11] [ALPM] installed pambase (20130928-1)
+[2015-10-11 07:11] [ALPM] installed pam (1.2.1-1)
+[2015-10-11 07:11] [ALPM] installed kbd (2.0.3-1)
+[2015-10-11 07:11] [ALPM] installed kmod (21-2)
+[2015-10-11 07:11] [ALPM] installed hwids (20150717-1)
+[2015-10-11 07:11] [ALPM] installed findutils (4.4.2-6)
+[2015-10-11 07:11] [ALPM] installed pcre (8.37-4)
+[2015-10-11 07:11] [ALPM] installed less (481-2)
+[2015-10-11 07:11] [ALPM] installed gzip (1.6-1)
+[2015-10-11 07:11] [ALPM] installed texinfo (5.2-4)
+[2015-10-11 07:11] [ALPM] installed libidn (1.32-1)
+[2015-10-11 07:11] [ALPM] installed libseccomp (2.2.3-1)
+[2015-10-11 07:11] [ALPM] installed shadow (4.2.1-3)
+[2015-10-11 07:11] [ALPM] installed util-linux (2.27-5)
+[2015-10-11 07:11] [ALPM] installed systemd (226-3)
+[2015-10-11 07:11] [ALPM-SCRIPTLET] Initializing machine ID from random generator.
+[2015-10-11 07:11] [ALPM-SCRIPTLET] Created symlink from /etc/systemd/system/getty.target.wants/getty@tty1.service to /usr/lib/systemd/system/getty@.service.
+[2015-10-11 07:11] [ALPM-SCRIPTLET] Created symlink from /etc/systemd/system/multi-user.target.wants/remote-fs.target to /usr/lib/systemd/system/remote-fs.target.
+[2015-10-11 07:11] [ALPM-SCRIPTLET] :: Append 'init=/usr/lib/systemd/systemd' to your kernel command line in your
+[2015-10-11 07:11] [ALPM-SCRIPTLET]    bootloader to replace sysvinit with systemd, or install systemd-sysvcompat
+[2015-10-11 07:11] [ALPM] installed device-mapper (2.02.125-1)
+[2015-10-11 07:11] [ALPM] installed popt (1.16-7)
+[2015-10-11 07:11] [ALPM] installed cryptsetup (1.6.7-1)
+[2015-10-11 07:11] [ALPM] installed dhcpcd (6.9.3-1)
+[2015-10-11 07:11] [ALPM] installed diffutils (3.3-2)
+[2015-10-11 07:11] [ALPM] installed file (5.25-1)
+[2015-10-11 07:11] [ALPM] installed mpfr (3.1.3.p4-1)
+[2015-10-11 07:11] [ALPM] installed gawk (4.1.3-1)
+[2015-10-11 07:11] [ALPM] installed libffi (3.2.1-1)
+[2015-10-11 07:11] [ALPM] installed glib2 (2.46.0-2)
+[2015-10-11 07:11] [ALPM] installed libunistring (0.9.6-1)
+[2015-10-11 07:11] [ALPM] installed gettext (0.19.6-1)
+[2015-10-11 07:11] [ALPM] installed grep (2.21-2)
+[2015-10-11 07:11] [ALPM] installed inetutils (1.9.4-2)
+[2015-10-11 07:11] [ALPM] installed iproute2 (4.1.1-1)
+[2015-10-11 07:11] [ALPM] installed sysfsutils (2.1.0-9)
+[2015-10-11 07:11] [ALPM] installed iputils (20140519.fad11dc-1)
+[2015-10-11 07:11] [ALPM] installed jfsutils (1.1.15-4)
+[2015-10-11 07:11] [ALPM] installed licenses (20140629-1)
+[2015-10-11 07:11] [ALPM] installed linux-firmware (20150904.6ebf5d5-1)
+[2015-10-11 07:11] [ALPM] installed mkinitcpio-busybox (1.21.1-2)
+[2015-10-11 07:11] [ALPM] installed lzo (2.09-1)
+[2015-10-11 07:11] [ALPM] installed libarchive (3.1.2-8)
+[2015-10-11 07:11] [ALPM] installed mkinitcpio (18-2)
+[2015-10-11 07:12] [ALPM] installed linux (4.2.2-1)
+[2015-10-11 07:12] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2015-10-11 07:12] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Starting build: 4.2.2-1-ARCH
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Image generation successful
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Starting build: 4.2.2-1-ARCH
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2015-10-11 07:12] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2015-10-11 07:12] [ALPM-SCRIPTLET] ==> Image generation successful
+[2015-10-11 07:12] [ALPM] installed logrotate (3.9.1-1)
+[2015-10-11 07:12] [ALPM] installed libaio (0.3.110-1)
+[2015-10-11 07:12] [ALPM] installed thin-provisioning-tools (0.4.1-1)
+[2015-10-11 07:12] [ALPM] installed lvm2 (2.02.125-1)
+[2015-10-11 07:12] [ALPM] installed groff (1.22.3-4)
+[2015-10-11 07:12] [ALPM] installed libpipeline (1.4.1-1)
+[2015-10-11 07:12] [ALPM] installed man-db (2.7.3-1)
+[2015-10-11 07:12] [ALPM-SCRIPTLET] it's recommended to create an initial
+[2015-10-11 07:12] [ALPM-SCRIPTLET] database running as root:
+[2015-10-11 07:12] [ALPM-SCRIPTLET] "/usr/bin/mandb --quiet"
+[2015-10-11 07:12] [ALPM] installed man-pages (4.02-1)
+[2015-10-11 07:12] [ALPM] installed mdadm (3.3.4-1)
+[2015-10-11 07:12] [ALPM] installed nano (2.4.2-2)
+[2015-10-11 07:12] [ALPM] installed openresolv (3.7.1-1)
+[2015-10-11 07:12] [ALPM] installed netctl (1.11-1)
+[2015-10-11 07:12] [ALPM] installed libtasn1 (4.7-1)
+[2015-10-11 07:12] [ALPM] installed p11-kit (0.23.1-3)
+[2015-10-11 07:12] [ALPM] installed ca-certificates-utils (20150402-1)
+[2015-10-11 07:12] [ALPM] installed ca-certificates-mozilla (3.20-1)
+[2015-10-11 07:12] [ALPM] installed ca-certificates-cacert (20140824-2)
+[2015-10-11 07:12] [ALPM] installed ca-certificates (20150402-1)
+[2015-10-11 07:12] [ALPM] installed libssh2 (1.6.0-1)
+[2015-10-11 07:12] [ALPM] installed curl (7.44.0-1)
+[2015-10-11 07:12] [ALPM] installed pth (2.0.7-5)
+[2015-10-11 07:12] [ALPM] installed npth (1.2-1)
+[2015-10-11 07:12] [ALPM] installed libksba (1.3.3-1)
+[2015-10-11 07:12] [ALPM] installed libassuan (2.3.0-1)
+[2015-10-11 07:12] [ALPM] installed pinentry (0.9.5-2)
+[2015-10-11 07:12] [ALPM] installed nettle (3.1.1-1)
+[2015-10-11 07:12] [ALPM] installed gnutls (3.4.5-1)
+[2015-10-11 07:12] [ALPM] installed gnupg (2.1.8-4)
+[2015-10-11 07:12] [ALPM] installed gpgme (1.6.0-1)
+[2015-10-11 07:12] [ALPM] installed pacman-mirrorlist (20151002-1)
+[2015-10-11 07:12] [ALPM] installed archlinux-keyring (20150605-1)
+[2015-10-11 07:12] [ALPM] installed pacman (4.2.1-4)
+[2015-10-11 07:12] [ALPM] installed pciutils (3.3.1-1)
+[2015-10-11 07:12] [ALPM] installed pcmciautils (018-7)
+[2015-10-11 07:12] [ALPM] installed procps-ng (3.3.11-2)
+[2015-10-11 07:12] [ALPM] installed psmisc (22.21-3)
+[2015-10-11 07:12] [ALPM] installed reiserfsprogs (3.6.24-1)
+[2015-10-11 07:12] [ALPM] installed s-nail (14.8.5-1)
+[2015-10-11 07:12] [ALPM] installed sed (4.2.2-3)
+[2015-10-11 07:12] [ALPM] installed systemd-sysvcompat (226-3)
+[2015-10-11 07:12] [ALPM] installed tar (1.28-1)
+[2015-10-11 07:12] [ALPM] installed libusb (1.0.19-1)
+[2015-10-11 07:12] [ALPM] installed usbutils (008-1)
+[2015-10-11 07:12] [ALPM] installed vi (1:070224-2)
+[2015-10-11 07:12] [ALPM] installed which (2.21-1)
+[2015-10-11 07:12] [ALPM] installed xfsprogs (4.2.0-1)
+[2015-10-11 07:12] [ALPM] installed m4 (1.4.17-1)
+[2015-10-11 07:12] [ALPM] installed autoconf (2.69-2)
+[2015-10-11 07:12] [ALPM] installed automake (1.15-1)
+[2015-10-11 07:12] [ALPM] installed binutils (2.25.1-3)
+[2015-10-11 07:12] [ALPM] installed bison (3.0.4-1)
+[2015-10-11 07:12] [ALPM] installed fakeroot (1.20.2-1)
+[2015-10-11 07:12] [ALPM] installed flex (2.5.39-1)
+[2015-10-11 07:12] [ALPM] installed libmpc (1.0.3-1)
+[2015-10-11 07:12] [ALPM] installed gcc (5.2.0-2)
+[2015-10-11 07:12] [ALPM] installed libtool (2.4.6-3)
+[2015-10-11 07:12] [ALPM] installed libatomic_ops (7.4.2-1)
+[2015-10-11 07:12] [ALPM] installed gc (7.4.2-3)
+[2015-10-11 07:12] [ALPM] installed guile (2.0.11-3)
+[2015-10-11 07:12] [ALPM] installed make (4.1-1)
+[2015-10-11 07:12] [ALPM] installed patch (2.7.5-1)
+[2015-10-11 07:12] [ALPM] installed pkg-config (0.29-1)
+[2015-10-11 07:12] [ALPM] installed sudo (1.8.14.p3-2)
+[2015-10-11 07:12] [ALPM] transaction completed
+[2015-10-11 07:14] [PACMAN] Running 'pacman -S openssh net-tools grub'
+[2015-10-11 07:14] [ALPM] transaction started
+[2015-10-11 07:14] [ALPM] installed libedit (20150325_3.1-2)
+[2015-10-11 07:14] [ALPM] installed dnssec-anchors (20150403-1)
+[2015-10-11 07:14] [ALPM] installed ldns (1.6.17-3)
+[2015-10-11 07:14] [ALPM] installed openssh (7.1p1-1)
+[2015-10-11 07:14] [ALPM] installed net-tools (1.60.20130531git-1)
+[2015-10-11 07:14] [ALPM] installed grub (1:2.02.beta2-5)
+[2015-10-11 07:14] [ALPM-SCRIPTLET] Generating grub.cfg.example config file...
+[2015-10-11 07:14] [ALPM-SCRIPTLET] This may fail on some machines running a custom kernel.
+[2015-10-11 07:14] [ALPM-SCRIPTLET] done.
+[2015-10-11 07:14] [ALPM] transaction completed
+[2015-10-11 07:22] [PACMAN] Running 'pacman -S bash-completion'
+[2015-10-11 07:27] [PACMAN] Running 'pacman -S samba'
+[2015-10-11 07:27] [PACMAN] Running 'pacman -S samba'
+[2015-10-11 07:27] [ALPM] transaction started
+[2015-10-11 07:27] [ALPM] installed libjpeg-turbo (1.4.2-1)
+[2015-10-11 07:27] [ALPM] installed libtiff (4.0.4-1)
+[2015-10-11 07:27] [ALPM] installed libpng (1.6.18-1)
+[2015-10-11 07:27] [ALPM] installed libdaemon (0.14-3)
+[2015-10-11 07:27] [ALPM] installed avahi (0.6.31-17)
+[2015-10-11 07:27] [ALPM] installed libcups (2.1.0-1)
+[2015-10-11 07:27] [ALPM] installed gamin (0.1.10-8)
+[2015-10-11 07:27] [ALPM] installed talloc (2.1.3-1)
+[2015-10-11 07:27] [ALPM] installed tevent (0.9.25-1)
+[2015-10-11 07:27] [ALPM] installed tdb (1.3.7-1)
+[2015-10-11 07:27] [ALPM] installed ldb (1.1.21-1)
+[2015-10-11 07:27] [ALPM] installed libbsd (0.7.0-1)
+[2015-10-11 07:27] [ALPM] installed sqlite (3.8.11.1-3)
+[2015-10-11 07:27] [ALPM] installed python2 (2.7.10-2)
+[2015-10-11 07:27] [ALPM] installed iniparser (4.0-2)
+[2015-10-11 07:27] [ALPM] installed libcap-ng (0.7.7-1)
+[2015-10-11 07:27] [ALPM] installed libwbclient (4.3.0-2)
+[2015-10-11 07:27] [ALPM] installed cifs-utils (6.4-1)
+[2015-10-11 07:27] [ALPM] installed smbclient (4.3.0-2)
+[2015-10-11 07:27] [ALPM] installed samba (4.3.0-2)
+[2015-10-11 07:27] [ALPM] transaction completed
+[2015-10-11 07:35] [PACMAN] Running 'pacman -S nodejs'
+[2015-10-11 07:35] [ALPM] transaction started
+[2015-10-11 07:35] [ALPM] installed icu (55.1-1)
+[2015-10-11 07:35] [ALPM] installed nodejs (4.1.2-1)
+[2015-10-11 07:35] [ALPM] transaction completed
+[2015-10-11 07:35] [PACMAN] Running 'pacman -S npm'
+[2015-10-11 07:35] [ALPM] transaction started
+[2015-10-11 07:35] [ALPM] installed npm (3.3.6-1)
+[2015-10-11 07:35] [ALPM] transaction completed
+[2015-10-11 07:37] [PACMAN] Running 'pacman -S mongodb'
+[2015-10-11 07:37] [ALPM] transaction started
+[2015-10-11 07:37] [ALPM] installed snappy (1.1.3-1)
+[2015-10-11 07:37] [ALPM] installed boost-libs (1.58.0-3)
+[2015-10-11 07:37] [ALPM] installed mongodb (3.0.6-2)
+[2015-10-11 07:37] [ALPM-SCRIPTLET] ==> Warning: the 32 bit version of MongoDB is limited to about 2GB of data.
+[2015-10-11 07:37] [ALPM-SCRIPTLET] ==> See http://blog.mongodb.org/post/137788967/32-bit-limitations
+[2015-10-11 07:37] [ALPM] transaction completed
+[2015-10-11 07:39] [PACMAN] Running 'pacman -S bash-completion'
+[2015-10-11 07:39] [ALPM] transaction started
+[2015-10-11 07:39] [ALPM] installed bash-completion (2.1-5)
+[2015-10-11 07:39] [ALPM] transaction completed
+[2015-10-11 07:40] [PACMAN] Running 'pacman -Syu'
+[2015-10-11 07:40] [PACMAN] synchronizing package lists
+[2015-10-11 07:40] [PACMAN] starting full system upgrade
+[2015-10-12 11:58] [PACMAN] Running 'pacman -Syu'
+[2015-10-12 11:58] [PACMAN] synchronizing package lists
+[2015-10-12 11:58] [PACMAN] starting full system upgrade
+[2015-10-12 11:58] [ALPM] transaction started
+[2015-10-12 11:58] [ALPM] upgraded xz (5.2.1-1 -> 5.2.2-1)
+[2015-10-12 11:58] [ALPM] transaction completed
+[2015-10-13 12:52] [PACMAN] Running 'pacman -Syu'
+[2015-10-13 12:52] [PACMAN] synchronizing package lists
+[2015-10-13 12:52] [PACMAN] starting full system upgrade
+[2015-10-13 12:53] [ALPM] transaction started
+[2015-10-13 12:53] [ALPM] upgraded linux (4.2.2-1 -> 4.2.3-1)
+[2015-10-13 12:53] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2015-10-13 12:53] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Starting build: 4.2.3-1-ARCH
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Image generation successful
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Starting build: 4.2.3-1-ARCH
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2015-10-13 12:53] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2015-10-13 12:53] [ALPM-SCRIPTLET] ==> Image generation successful
+[2015-10-13 12:53] [ALPM] installed libuv (1.7.5-1)
+[2015-10-13 12:53] [ALPM] installed http-parser (2.5.0-1)
+[2015-10-13 12:53] [ALPM] upgraded nodejs (4.1.2-1 -> 4.2.0-2)
+[2015-10-13 12:53] [ALPM] transaction completed
+[2015-10-22 12:42] [PACMAN] Running 'pacman -Syu'
+[2015-10-22 12:42] [PACMAN] synchronizing package lists
+[2015-10-22 12:42] [PACMAN] starting full system upgrade
+[2015-10-22 12:42] [ALPM] transaction started
+[2015-10-22 12:42] [ALPM] upgraded iana-etc (2.30-5 -> 20151016-1)
+[2015-10-22 12:42] [ALPM] upgraded glib2 (2.46.0-2 -> 2.46.1-1)
+[2015-10-22 12:42] [ALPM] upgraded libsystemd (226-3 -> 227-1)
+[2015-10-22 12:42] [ALPM] upgraded libdbus (1.10.0-3 -> 1.10.0-4)
+[2015-10-22 12:42] [ALPM] upgraded dbus (1.10.0-3 -> 1.10.0-4)
+[2015-10-22 12:42] [ALPM] upgraded avahi (0.6.31-17 -> 0.6.32rc-1)
+[2015-10-22 12:42] [ALPM-SCRIPTLET] >>> Avahi now needs to be enabled in order to launch.
+[2015-10-22 12:42] [ALPM-SCRIPTLET]     Run `systemctl enable avahi-daemon` if you wish
+[2015-10-22 12:42] [ALPM-SCRIPTLET]     to make use of Avahi.
+[2015-10-22 12:42] [ALPM] upgraded boost-libs (1.58.0-3 -> 1.59.0-2)
+[2015-10-22 12:42] [ALPM] upgraded libutil-linux (2.27-5 -> 2.27-6)
+[2015-10-22 12:42] [ALPM] upgraded curl (7.44.0-1 -> 7.45.0-1)
+[2015-10-22 12:42] [ALPM] upgraded util-linux (2.27-5 -> 2.27-6)
+[2015-10-22 12:42] [ALPM] upgraded systemd (226-3 -> 227-1)
+[2015-10-22 12:42] [ALPM] upgraded device-mapper (2.02.125-1 -> 2.02.132-1)
+[2015-10-22 12:42] [ALPM] upgraded gnupg (2.1.8-4 -> 2.1.9-1)
+[2015-10-22 12:42] [ALPM] upgraded gpgme (1.6.0-1 -> 1.6.0-2)
+[2015-10-22 12:42] [ALPM] upgraded libtiff (4.0.4-1 -> 4.0.6-1)
+[2015-10-22 12:42] [ALPM] upgraded libusb (1.0.19-1 -> 1.0.20-1)
+[2015-10-22 12:42] [ALPM] upgraded libwbclient (4.3.0-2 -> 4.3.1-1)
+[2015-10-22 12:42] [ALPM] upgraded thin-provisioning-tools (0.4.1-1 -> 0.5.3-1)
+[2015-10-22 12:42] [ALPM] upgraded lvm2 (2.02.125-1 -> 2.02.132-1)
+[2015-10-22 12:42] [ALPM] upgraded man-db (2.7.3-1 -> 2.7.4-1)
+[2015-10-22 12:42] [ALPM] upgraded mongodb (3.0.6-2 -> 3.0.7-2)
+[2015-10-22 12:42] [ALPM] upgraded nodejs (4.2.0-2 -> 4.2.1-1)
+[2015-10-22 12:42] [ALPM] upgraded npm (3.3.6-1 -> 3.3.8-2)
+[2015-10-22 12:42] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2015-10-22 12:42] [ALPM] upgraded pacman-mirrorlist (20151002-1 -> 20151017-1)
+[2015-10-22 12:42] [ALPM] upgraded talloc (2.1.3-1 -> 2.1.4-1)
+[2015-10-22 12:42] [ALPM] upgraded sqlite (3.8.11.1-3 -> 3.9.1-1)
+[2015-10-22 12:42] [ALPM] upgraded smbclient (4.3.0-2 -> 4.3.1-1)
+[2015-10-22 12:42] [ALPM] upgraded samba (4.3.0-2 -> 4.3.1-1)
+[2015-10-22 12:42] [ALPM] upgraded systemd-sysvcompat (226-3 -> 227-1)
+[2015-10-22 12:42] [ALPM] transaction completed
+[2015-10-22 13:32] [PACMAN] Running 'pacman -S ffmpeg'
+[2015-10-22 13:33] [ALPM] transaction started
+[2015-10-22 13:33] [ALPM] installed alsa-lib (1.0.29-1)
+[2015-10-22 13:33] [ALPM] installed graphite (1:1.3.3-1)
+[2015-10-22 13:33] [ALPM] installed harfbuzz (1.0.6-1)
+[2015-10-22 13:33] [ALPM] installed freetype2 (2.6.1-1)
+[2015-10-22 13:33] [ALPM] installed fontconfig (2.11.1-2)
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   Fontconfig configuration is done via /etc/fonts/conf.avail and conf.d.
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   Read /etc/fonts/conf.d/README for more information.
+[2015-10-22 13:33] [ALPM-SCRIPTLET] 
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   Configuration via /etc/fonts/local.conf is still possible,
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   but is no longer recommended for options available in conf.avail.
+[2015-10-22 13:33] [ALPM-SCRIPTLET] 
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   Main systemwide configuration should be done by symlinks
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   (especially for autohinting, sub-pixel and lcdfilter):
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   cd /etc/fonts/conf.d
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   ln -s ../conf.avail/XX-foo.conf
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   Check also https://wiki.archlinux.org/index.php/Font_Configuration
+[2015-10-22 13:33] [ALPM-SCRIPTLET]   and https://wiki.archlinux.org/index.php/Fonts.
+[2015-10-22 13:33] [ALPM-SCRIPTLET] 
+[2015-10-22 13:33] [ALPM-SCRIPTLET] updating font cache... done.
+[2015-10-22 13:33] [ALPM] installed fribidi (0.19.7-1)
+[2015-10-22 13:33] [ALPM] installed gsm (1.0.13-8)
+[2015-10-22 13:33] [ALPM] installed lame (3.99.5-3)
+[2015-10-22 13:33] [ALPM] installed libass (0.13.0-1)
+[2015-10-22 13:33] [ALPM] installed libxml2 (2.9.2-2)
+[2015-10-22 13:33] [ALPM] installed libbluray (0.9.0-1)
+[2015-10-22 13:33] [ALPM] installed libmodplug (0.8.8.5-1)
+[2015-10-22 13:33] [ALPM] installed libasyncns (0.8-5)
+[2015-10-22 13:33] [ALPM] installed xcb-proto (1.11-2)
+[2015-10-22 13:33] [ALPM] installed xproto (7.0.28-1)
+[2015-10-22 13:33] [ALPM] installed libxdmcp (1.1.2-1)
+[2015-10-22 13:33] [ALPM] installed libxau (1.0.8-2)
+[2015-10-22 13:33] [ALPM] installed libxcb (1.11.1-1)
+[2015-10-22 13:33] [ALPM] installed kbproto (1.0.7-1)
+[2015-10-22 13:33] [ALPM] installed libx11 (1.6.3-1)
+[2015-10-22 13:33] [ALPM] installed xextproto (7.3.0-1)
+[2015-10-22 13:33] [ALPM] installed libxext (1.3.3-1)
+[2015-10-22 13:33] [ALPM] installed inputproto (2.3.1-1)
+[2015-10-22 13:33] [ALPM] installed libxi (1.7.5-1)
+[2015-10-22 13:33] [ALPM] installed recordproto (1.14.2-2)
+[2015-10-22 13:33] [ALPM] installed fixesproto (5.0-3)
+[2015-10-22 13:33] [ALPM] installed libxfixes (5.0.1-1)
+[2015-10-22 13:33] [ALPM] installed libxtst (1.2.2-1)
+[2015-10-22 13:33] [ALPM] installed libice (1.0.9-1)
+[2015-10-22 13:33] [ALPM] installed libsm (1.2.2-2)
+[2015-10-22 13:33] [ALPM] installed libogg (1.3.2-1)
+[2015-10-22 13:33] [ALPM] installed flac (1.3.1-1)
+[2015-10-22 13:33] [ALPM] installed libvorbis (1.3.5-1)
+[2015-10-22 13:33] [ALPM] installed libsndfile (1.0.25-3)
+[2015-10-22 13:33] [ALPM] installed json-c (0.12-2)
+[2015-10-22 13:33] [ALPM] installed libpulse (7.0-2)
+[2015-10-22 13:33] [ALPM] installed libsoxr (0.1.2-1)
+[2015-10-22 13:33] [ALPM] installed libssh (0.7.1-2)
+[2015-10-22 13:33] [ALPM] installed libtheora (1.1.1-3)
+[2015-10-22 13:33] [ALPM] installed libpciaccess (0.13.4-1)
+[2015-10-22 13:33] [ALPM] installed libdrm (2.4.65-1)
+[2015-10-22 13:33] [ALPM] installed wayland (1.9.0-1)
+[2015-10-22 13:33] [ALPM] installed xf86vidmodeproto (2.3.1-3)
+[2015-10-22 13:33] [ALPM] installed libxxf86vm (1.1.4-1)
+[2015-10-22 13:33] [ALPM] installed damageproto (1.2.1-3)
+[2015-10-22 13:33] [ALPM] installed libxdamage (1.1.4-2)
+[2015-10-22 13:33] [ALPM] installed libxshmfence (1.2-1)
+[2015-10-22 13:33] [ALPM] installed libelf (0.163-2)
+[2015-10-22 13:33] [ALPM] installed elfutils (0.163-2)
+[2015-10-22 13:33] [ALPM] installed libomxil-bellagio (0.9.3-1)
+[2015-10-22 13:33] [ALPM] installed libtxc_dxtn (1.0.1-6)
+[2015-10-22 13:34] [ALPM] installed llvm-libs (3.7.0-4)
+[2015-10-22 13:34] [ALPM] installed mesa (11.0.3-1)
+[2015-10-22 13:34] [ALPM] installed mesa-libgl (11.0.3-1)
+[2015-10-22 13:34] [ALPM] installed libva (1.6.1-1)
+[2015-10-22 13:34] [ALPM] installed libvdpau (1.1.1-1)
+[2015-10-22 13:34] [ALPM] installed giflib (5.1.1-1)
+[2015-10-22 13:34] [ALPM] installed libwebp (0.4.3-1)
+[2015-10-22 13:34] [ALPM] installed opencore-amr (0.1.3-2)
+[2015-10-22 13:34] [ALPM] installed openjpeg (1.5.2-1)
+[2015-10-22 13:34] [ALPM] installed opus (1.1-1)
+[2015-10-22 13:34] [ALPM] installed orc (0.4.24-1)
+[2015-10-22 13:34] [ALPM] installed schroedinger (1.0.11-2)
+[2015-10-22 13:34] [ALPM] installed renderproto (0.11.1-3)
+[2015-10-22 13:34] [ALPM] installed libxrender (0.9.9-1)
+[2015-10-22 13:34] [ALPM] installed sdl (1.2.15-7)
+[2015-10-22 13:34] [ALPM] installed speexdsp (1.2rc3-2)
+[2015-10-22 13:34] [ALPM] installed speex (1.2rc2-1)
+[2015-10-22 13:34] [ALPM] installed v4l-utils (1.6.3-1)
+[2015-10-22 13:34] [ALPM] installed xvidcore (1.3.4-1)
+[2015-10-22 13:34] [ALPM] installed libvpx (1.4.0-2)
+[2015-10-22 13:34] [ALPM] installed libx264 (2:148.20150725-1)
+[2015-10-22 13:34] [ALPM] installed x265 (1.8-1)
+[2015-10-22 13:34] [ALPM] installed ffmpeg (1:2.8.1-2)
+[2015-10-22 13:34] [ALPM] transaction completed
+[2015-10-25 04:59] [PACMAN] Running 'pacman -Syu'
+[2015-10-25 04:59] [PACMAN] synchronizing package lists
+[2015-10-25 04:59] [PACMAN] starting full system upgrade
+[2015-10-25 04:59] [ALPM] transaction started
+[2015-10-25 04:59] [ALPM] upgraded libelf (0.163-2 -> 0.164-1)
+[2015-10-25 04:59] [ALPM] upgraded elfutils (0.163-2 -> 0.164-1)
+[2015-10-25 04:59] [ALPM] upgraded gnutls (3.4.5-1 -> 3.4.6-1)
+[2015-10-25 04:59] [ALPM] upgraded npm (3.3.8-2 -> 3.3.9-1)
+[2015-10-25 04:59] [ALPM] transaction completed
+[2015-10-25 05:50] [PACMAN] Running 'pacman -S mkfs.vfat'
+[2015-10-25 05:51] [PACMAN] Running 'pacman -S dosfstools'
+[2015-10-25 05:52] [ALPM] transaction started
+[2015-10-25 05:52] [ALPM] installed dosfstools (3.0.28-1)
+[2015-10-25 05:52] [ALPM] transaction completed
+[2015-10-25 07:38] [PACMAN] Running 'pacman -S wget'
+[2015-10-25 07:38] [ALPM] transaction started
+[2015-10-25 07:38] [ALPM] installed wget (1.16.3-1)
+[2015-10-25 07:38] [ALPM] transaction completed
+[2015-10-25 13:28] [PACMAN] Running 'pacman -S git'
+[2015-10-25 13:29] [PACMAN] Running 'pacman -Syu'
+[2015-10-25 13:29] [PACMAN] synchronizing package lists
+[2015-10-25 13:43] [PACMAN] Running 'pacman -Syu'
+[2015-10-25 13:43] [PACMAN] synchronizing package lists
+[2015-10-25 13:43] [PACMAN] starting full system upgrade
+[2015-10-25 13:43] [PACMAN] Running 'pacman -S git'
+[2015-10-25 13:43] [ALPM] transaction started
+[2015-10-25 13:43] [ALPM] installed perl-error (0.17024-1)
+[2015-10-25 13:43] [ALPM] installed git (2.6.2-1)
+[2015-10-25 13:43] [ALPM] transaction completed
+[2015-11-07 08:16] [PACMAN] Running 'pacman -Syu'
+[2015-11-07 08:16] [PACMAN] synchronizing package lists
+[2015-11-07 08:16] [PACMAN] starting full system upgrade
+[2015-11-07 08:17] [ALPM] transaction started
+[2015-11-07 08:17] [ALPM] upgraded icu (55.1-1 -> 56.1-1)
+[2015-11-07 08:17] [ALPM] upgraded boost-libs (1.59.0-2 -> 1.59.0-3)
+[2015-11-07 08:17] [ALPM] upgraded ca-certificates-mozilla (3.20-1 -> 3.20.1-1)
+[2015-11-07 08:17] [ALPM] upgraded libdbus (1.10.0-4 -> 1.10.2-1)
+[2015-11-07 08:17] [ALPM] upgraded dbus (1.10.0-4 -> 1.10.2-1)
+[2015-11-07 08:17] [ALPM] upgraded cryptsetup (1.6.7-1 -> 1.6.8-1)
+[2015-11-07 08:17] [ALPM] upgraded harfbuzz (1.0.6-1 -> 1.0.6-2)
+[2015-11-07 08:17] [ALPM] upgraded libbluray (0.9.0-1 -> 0.9.1-1)
+[2015-11-07 08:17] [ALPM] upgraded libpulse (7.0-2 -> 7.1-1)
+[2015-11-07 08:17] [ALPM] upgraded libssh (0.7.1-2 -> 0.7.2-1)
+[2015-11-07 08:17] [ALPM] upgraded libwebp (0.4.3-1 -> 0.4.4-1)
+[2015-11-07 08:17] [ALPM] installed vid.stab (1.1-1)
+[2015-11-07 08:17] [ALPM] upgraded llvm-libs (3.7.0-4 -> 3.7.0-5)
+[2015-11-07 08:17] [ALPM] upgraded mesa (11.0.3-1 -> 11.0.4-1)
+[2015-11-07 08:17] [ALPM] upgraded mesa-libgl (11.0.3-1 -> 11.0.4-1)
+[2015-11-07 08:17] [ALPM] upgraded ffmpeg (1:2.8.1-2 -> 1:2.8.1-3)
+[2015-11-07 08:17] [ALPM] upgraded grep (2.21-2 -> 2.22-1)
+[2015-11-07 08:17] [ALPM] upgraded http-parser (2.5.0-1 -> 2.6.0-1)
+[2015-11-07 08:17] [ALPM] upgraded linux (4.2.3-1 -> 4.2.5-1)
+[2015-11-07 08:17] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2015-11-07 08:17] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> Starting build: 4.2.5-1-ARCH
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> Image generation successful
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> Starting build: 4.2.5-1-ARCH
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2015-11-07 08:17] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2015-11-07 08:17] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2015-11-07 08:18] [ALPM-SCRIPTLET] ==> Image generation successful
+[2015-11-07 08:18] [ALPM] upgraded nodejs (4.2.1-1 -> 5.0.0-2)
+[2015-11-07 08:18] [ALPM] upgraded npm (3.3.9-1 -> 3.3.12-1)
+[2015-11-07 08:18] [ALPM] upgraded sqlite (3.9.1-1 -> 3.9.2-1)
+[2015-11-07 08:18] [ALPM] transaction completed
+[2015-11-07 11:23] [PACMAN] Running 'pacman -S aria2'
+[2015-11-07 11:24] [ALPM] transaction started
+[2015-11-07 11:24] [ALPM] installed c-ares (1.10.0-2)
+[2015-11-07 11:24] [ALPM] installed aria2 (1.19.2-1)
+[2015-11-07 11:24] [ALPM] transaction completed
+[2015-11-08 05:05] [PACMAN] Running 'pacman -Syu'
+[2015-11-08 05:05] [PACMAN] synchronizing package lists
+[2015-11-08 05:06] [PACMAN] starting full system upgrade
+[2015-11-11 12:25] [PACMAN] Running 'pacman -Syu'
+[2015-11-11 12:25] [PACMAN] synchronizing package lists
+[2015-11-11 12:25] [PACMAN] starting full system upgrade
+[2015-11-11 12:26] [ALPM] transaction started
+[2015-11-11 12:26] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2015-11-11 12:26] [ALPM] upgraded pacman-mirrorlist (20151017-1 -> 20151109-1)
+[2015-11-11 12:26] [ALPM] upgraded sudo (1.8.14.p3-2 -> 1.8.15-1)
+[2015-11-11 12:26] [ALPM] upgraded talloc (2.1.4-1 -> 2.1.5-1)
+[2015-11-11 12:26] [ALPM] upgraded texinfo (5.2-4 -> 6.0-1)
+[2015-11-11 12:26] [ALPM] upgraded thin-provisioning-tools (0.5.3-1 -> 0.5.6-1)
+[2015-11-11 12:26] [ALPM] transaction completed
+[2015-11-18 13:57] [PACMAN] Running 'pacman -Syu'
+[2015-11-18 13:57] [PACMAN] synchronizing package lists
+[2015-11-18 13:57] [PACMAN] starting full system upgrade
+[2015-11-18 13:57] [ALPM] transaction started
+[2015-11-18 13:57] [ALPM] upgraded alsa-lib (1.0.29-1 -> 1.1.0-1)
+[2015-11-18 13:57] [ALPM] upgraded libtirpc (0.3.2-2 -> 1.0.1-2)
+[2015-11-18 13:57] [ALPM] upgraded pam (1.2.1-1 -> 1.2.1-2)
+[2015-11-18 13:57] [ALPM] upgraded device-mapper (2.02.132-1 -> 2.02.133-1)
+[2015-11-18 13:57] [ALPM] upgraded cryptsetup (1.6.8-1 -> 1.7.0-1)
+[2015-11-18 13:57] [ALPM] upgraded libvpx (1.4.0-2 -> 1.5.0-2)
+[2015-11-18 13:57] [ALPM] upgraded mesa (11.0.4-1 -> 11.0.5-1)
+[2015-11-18 13:57] [ALPM] upgraded mesa-libgl (11.0.4-1 -> 11.0.5-1)
+[2015-11-18 13:57] [ALPM] upgraded ffmpeg (1:2.8.1-3 -> 1:2.8.2-1)
+[2015-11-18 13:57] [ALPM] upgraded lvm2 (2.02.132-1 -> 2.02.133-1)
+[2015-11-18 13:57] [ALPM] upgraded man-db (2.7.4-1 -> 2.7.5-1)
+[2015-11-18 13:57] [ALPM] upgraded npm (3.3.12-1 -> 3.4.0-1)
+[2015-11-18 13:57] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2015-11-18 13:57] [ALPM] upgraded pacman-mirrorlist (20151109-1 -> 20151115-1)
+[2015-11-18 13:57] [ALPM] transaction completed
+[2015-11-22 10:20] [PACMAN] Running 'pacman -Syu'
+[2015-11-22 10:20] [PACMAN] synchronizing package lists
+[2015-12-19 05:50] [PACMAN] Running 'pacman -Syu'
+[2015-12-19 05:50] [PACMAN] synchronizing package lists
+[2015-12-19 05:50] [PACMAN] starting full system upgrade
+[2015-12-19 05:54] [ALPM] transaction started
+[2015-12-19 05:54] [ALPM] upgraded archlinux-keyring (20150605-1 -> 20151206-1)
+[2015-12-19 05:54] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2015-12-19 05:54] [ALPM-SCRIPTLET] gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
+[2015-12-19 05:54] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2015-12-19 05:54] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   5  signed:  65  trust: 0-, 0q, 0n, 5m, 0f, 0u
+[2015-12-19 05:54] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  65  signed:   6  trust: 65-, 0q, 0n, 0m, 0f, 0u
+[2015-12-19 05:54] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-01-22
+[2015-12-19 05:54] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Locally signing key 44D4A033AC140143927397D47EFD567D4C7EA887...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Locally signing key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+[2015-12-19 05:54] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2015-12-19 05:54] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+[2015-12-19 05:54] [ALPM-SCRIPTLET]   -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+[2015-12-19 05:54] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2015-12-19 05:54] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-01-22
+[2015-12-19 05:54] [ALPM] upgraded gcc-libs (5.2.0-2 -> 5.3.0-2)
+[2015-12-19 05:54] [ALPM] upgraded ncurses (6.0-3 -> 6.0-4)
+[2015-12-19 05:54] [ALPM] upgraded bash (4.3.042-3 -> 4.3.042-4)
+[2015-12-19 05:54] [ALPM] upgraded db (5.3.28-2 -> 5.3.28-3)
+[2015-12-19 05:54] [ALPM] upgraded pcre (8.37-4 -> 8.38-2)
+[2015-12-19 05:54] [ALPM] upgraded gmp (6.0.0-2 -> 6.1.0-2)
+[2015-12-19 05:55] [ALPM] upgraded gnutls (3.4.6-1 -> 3.4.7-2)
+[2015-12-19 05:55] [ALPM] upgraded libxml2 (2.9.2-2 -> 2.9.3-1)
+[2015-12-19 05:55] [ALPM] upgraded openssl (1.0.2.d-1 -> 1.0.2.e-1)
+[2015-12-19 05:55] [ALPM] upgraded aria2 (1.19.2-1 -> 1.19.3-1)
+[2015-12-19 05:55] [ALPM] upgraded glib2 (2.46.1-1 -> 2.46.2-2)
+[2015-12-19 05:55] [ALPM] upgraded libgpg-error (1.20-1 -> 1.21-1)
+[2015-12-19 05:55] [ALPM] upgraded libsystemd (227-1 -> 228-3)
+[2015-12-19 05:55] [ALPM] upgraded libdbus (1.10.2-1 -> 1.10.4-1)
+[2015-12-19 05:55] [ALPM] upgraded dbus (1.10.2-1 -> 1.10.4-1)
+[2015-12-19 05:55] [ALPM] upgraded avahi (0.6.32rc-1 -> 0.6.32rc-3)
+[2015-12-19 05:55] [ALPM] upgraded icu (56.1-1 -> 56.1-2)
+[2015-12-19 05:55] [ALPM] upgraded boost-libs (1.59.0-3 -> 1.59.0-5)
+[2015-12-19 05:55] [ALPM] upgraded libutil-linux (2.27-6 -> 2.27.1-1)
+[2015-12-19 05:55] [ALPM] upgraded curl (7.45.0-1 -> 7.46.0-1)
+[2015-12-19 05:55] [ALPM] upgraded kmod (21-2 -> 22-1)
+[2015-12-19 05:55] [ALPM] upgraded pam (1.2.1-2 -> 1.2.1-3)
+[2015-12-19 05:55] [ALPM] upgraded libelf (0.164-1 -> 0.164-2)
+[2015-12-19 05:55] [ALPM] upgraded util-linux (2.27-6 -> 2.27.1-1)
+[2015-12-19 05:55] [ALPM] upgraded systemd (227-1 -> 228-3)
+[2015-12-19 05:55] [ALPM] upgraded device-mapper (2.02.133-1 -> 2.02.137-1)
+[2015-12-19 05:55] [ALPM] upgraded dhcpcd (6.9.3-1 -> 6.9.4-1)
+[2015-12-19 05:55] [ALPM] upgraded elfutils (0.164-1 -> 0.164-2)
+[2015-12-19 05:55] [ALPM] upgraded libpng (1.6.18-1 -> 1.6.19-1)
+[2015-12-19 05:55] [ALPM] upgraded graphite (1:1.3.3-1 -> 1:1.3.3-3)
+[2015-12-19 05:55] [ALPM] upgraded harfbuzz (1.0.6-2 -> 1.1.2-3)
+[2015-12-19 05:55] [ALPM] upgraded freetype2 (2.6.1-1 -> 2.6.2-1)
+[2015-12-19 05:55] [ALPM] upgraded libbluray (0.9.1-1 -> 0.9.2-1)
+[2015-12-19 05:55] [ALPM] upgraded libmodplug (0.8.8.5-1 -> 0.8.8.5-2)
+[2015-12-19 05:55] [ALPM] upgraded flac (1.3.1-1 -> 1.3.1-3)
+[2015-12-19 05:55] [ALPM] upgraded libpulse (7.1-1 -> 7.1-3)
+[2015-12-19 05:55] [ALPM] upgraded libvdpau (1.1.1-1 -> 1.1.1-2)
+[2015-12-19 05:55] [ALPM] upgraded opus (1.1-1 -> 1.1.1-1)
+[2015-12-19 05:55] [ALPM] upgraded schroedinger (1.0.11-2 -> 1.0.11-3)
+[2015-12-19 05:55] [ALPM] upgraded libjpeg-turbo (1.4.2-1 -> 1.4.2-2)
+[2015-12-19 05:55] [ALPM] upgraded v4l-utils (1.6.3-1 -> 1.6.3-3)
+[2015-12-19 05:55] [ALPM] installed dcadec (0.1.0-3)
+[2015-12-19 05:55] [ALPM] upgraded libvpx (1.5.0-2 -> 1.5.0-3)
+[2015-12-19 05:55] [ALPM] upgraded x265 (1.8-1 -> 1.8-3)
+[2015-12-19 05:55] [ALPM] upgraded llvm-libs (3.7.0-5 -> 3.7.0-6)
+[2015-12-19 05:55] [ALPM] upgraded mesa (11.0.5-1 -> 11.0.7-1)
+[2015-12-19 05:55] [ALPM] upgraded mesa-libgl (11.0.5-1 -> 11.0.7-1)
+[2015-12-19 05:55] [ALPM] upgraded libtiff (4.0.6-1 -> 4.0.6-2)
+[2015-12-19 05:55] [ALPM] upgraded ffmpeg (1:2.8.2-1 -> 1:2.8.3-1)
+[2015-12-19 05:55] [ALPM] upgraded flex (2.5.39-1 -> 2.6.0-1)
+[2015-12-19 05:55] [ALPM] upgraded gc (7.4.2-3 -> 7.4.2-4)
+[2015-12-19 05:55] [ALPM] upgraded gcc (5.2.0-2 -> 5.3.0-2)
+[2015-12-19 05:56] [ALPM] upgraded gettext (0.19.6-1 -> 0.19.6-2)
+[2015-12-19 05:56] [ALPM] upgraded git (2.6.2-1 -> 2.6.4-1)
+[2015-12-19 05:56] [ALPM] upgraded libassuan (2.3.0-1 -> 2.4.2-1)
+[2015-12-19 05:56] [ALPM] upgraded pinentry (0.9.5-2 -> 0.9.7-1)
+[2015-12-19 05:56] [ALPM] upgraded gnupg (2.1.9-1 -> 2.1.10-1)
+[2015-12-19 05:56] [ALPM] upgraded groff (1.22.3-4 -> 1.22.3-5)
+[2015-12-19 05:56] [ALPM] upgraded grub (1:2.02.beta2-5 -> 1:2.02.beta2-6)
+[2015-12-19 05:56] [ALPM] upgraded tevent (0.9.25-1 -> 0.9.26-1)
+[2015-12-19 05:56] [ALPM] upgraded tdb (1.3.7-1 -> 1.3.8-1)
+[2015-12-19 05:56] [ALPM] upgraded ldb (1.1.21-1 -> 1.1.24-1)
+[2015-12-19 05:56] [ALPM] upgraded libbsd (0.7.0-1 -> 0.8.0-1)
+[2015-12-19 05:56] [ALPM] upgraded libcups (2.1.0-1 -> 2.1.2-3)
+[2015-12-19 05:56] [ALPM] upgraded libtool (2.4.6-3 -> 2.4.6-4)
+[2015-12-19 05:56] [ALPM] upgraded libuv (1.7.5-1 -> 1.8.0-1)
+[2015-12-19 05:56] [ALPM] upgraded libwbclient (4.3.1-1 -> 4.3.3-1)
+[2015-12-19 05:56] [ALPM] upgraded thin-provisioning-tools (0.5.6-1 -> 0.5.6-2)
+[2015-12-19 05:56] [ALPM] upgraded lvm2 (2.02.133-1 -> 2.02.137-1)
+[2015-12-19 05:56] [ALPM] upgraded man-pages (4.02-1 -> 4.03-1)
+[2015-12-19 05:56] [ALPM] upgraded snappy (1.1.3-1 -> 1.1.3-2)
+[2015-12-19 05:56] [ALPM] installed yaml-cpp (0.5.2-5)
+[2015-12-19 05:56] [ALPM] upgraded mongodb (3.0.7-2 -> 3.2.0-1)
+[2015-12-19 05:56] [ALPM] upgraded nano (2.4.2-2 -> 2.5.0-1)
+[2015-12-19 05:56] [ALPM] upgraded nodejs (5.0.0-2 -> 5.3.0-1)
+[2015-12-19 05:56] [ALPM] upgraded npm (3.4.0-1 -> 3.5.2-1)
+[2015-12-19 05:56] [ALPM] upgraded openresolv (3.7.1-1 -> 3.7.2-1)
+[2015-12-19 05:56] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2015-12-19 05:56] [ALPM] upgraded pacman-mirrorlist (20151115-1 -> 20151215-1)
+[2015-12-19 05:56] [ALPM] upgraded python2 (2.7.10-2 -> 2.7.11-1)
+[2015-12-19 05:56] [ALPM] upgraded smbclient (4.3.1-1 -> 4.3.3-1)
+[2015-12-19 05:56] [ALPM] upgraded samba (4.3.1-1 -> 4.3.3-1)
+[2015-12-19 05:56] [ALPM] upgraded systemd-sysvcompat (227-1 -> 228-3)
+[2015-12-19 05:56] [ALPM] transaction completed
+[2015-12-19 06:04] [PACMAN] Running 'pacman -Syu'
+[2015-12-19 06:04] [PACMAN] synchronizing package lists
+[2015-12-19 06:04] [PACMAN] starting full system upgrade
+[2015-12-26 15:32] [PACMAN] Running 'pacman -Syu'
+[2015-12-26 15:32] [PACMAN] synchronizing package lists
+[2015-12-26 15:32] [PACMAN] starting full system upgrade
+[2015-12-26 15:34] [ALPM] transaction started
+[2015-12-26 15:34] [ALPM] upgraded archlinux-keyring (20151206-1 -> 20151220-1)
+[2015-12-26 15:34] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2015-12-26 15:34] [ALPM-SCRIPTLET] gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
+[2015-12-26 15:34] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2015-12-26 15:34] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   5  signed:  66  trust: 0-, 0q, 0n, 5m, 0f, 0u
+[2015-12-26 15:34] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  66  signed:   6  trust: 66-, 0q, 0n, 0m, 0f, 0u
+[2015-12-26 15:34] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-01-22
+[2015-12-26 15:34] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Locally signing key 44D4A033AC140143927397D47EFD567D4C7EA887...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Locally signing key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+[2015-12-26 15:34] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2015-12-26 15:34] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+[2015-12-26 15:34] [ALPM-SCRIPTLET]   -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+[2015-12-26 15:34] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2015-12-26 15:34] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-01-22
+[2015-12-26 15:34] [ALPM] upgraded gcc-libs (5.3.0-2 -> 5.3.0-3)
+[2015-12-26 15:34] [ALPM] upgraded boost-libs (1.59.0-5 -> 1.60.0-1)
+[2015-12-26 15:34] [ALPM] upgraded libdbus (1.10.4-1 -> 1.10.6-1)
+[2015-12-26 15:34] [ALPM] upgraded dbus (1.10.4-1 -> 1.10.6-1)
+[2015-12-26 15:34] [ALPM] upgraded perl (5.22.0-1 -> 5.22.1-1)
+[2015-12-26 15:34] [ALPM] upgraded libxi (1.7.5-1 -> 1.7.6-1)
+[2015-12-26 15:34] [ALPM] upgraded mesa (11.0.7-1 -> 11.1.0-1)
+[2015-12-26 15:34] [ALPM] upgraded mesa-libgl (11.0.7-1 -> 11.1.0-1)
+[2015-12-26 15:34] [ALPM] upgraded ffmpeg (1:2.8.3-1 -> 1:2.8.4-1)
+[2015-12-26 15:34] [ALPM] upgraded gcc (5.3.0-2 -> 5.3.0-3)
+[2015-12-26 15:34] [ALPM] upgraded gnupg (2.1.10-1 -> 2.1.10-3)
+[2015-12-26 15:34] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2015-12-26 15:34] [ALPM] upgraded mongodb (3.2.0-1 -> 3.2.0-3)
+[2015-12-26 15:34] [ALPM] transaction completed
+[2015-12-26 17:06] [PACMAN] Running 'pacman -S docker'
+[2015-12-26 17:25] [PACMAN] Running 'pacman -S docker'
+[2015-12-26 17:25] [PACMAN] Running 'pacman -U docker'
+[2015-12-26 17:25] [PACMAN] Running 'pacman -S docker'
+[2016-01-31 09:12] [PACMAN] Running 'pacman -Syu'
+[2016-01-31 09:12] [PACMAN] synchronizing package lists
+[2016-01-31 09:13] [PACMAN] starting full system upgrade
+[2016-01-31 09:16] [ALPM] transaction started
+[2016-01-31 09:16] [ALPM] upgraded archlinux-keyring (20151220-1 -> 20160123-1)
+[2016-01-31 09:16] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2016-01-31 09:16] [ALPM-SCRIPTLET] gpg: 3 marginal(s) needed, 1 complete(s) needed, PGP trust model
+[2016-01-31 09:16] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2016-01-31 09:16] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   5  signed:  66  trust: 0-, 0q, 0n, 5m, 0f, 0u
+[2016-01-31 09:16] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  66  signed:   6  trust: 66-, 0q, 0n, 0m, 0f, 0u
+[2016-01-31 09:16] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-06-03
+[2016-01-31 09:16] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Locally signing key 44D4A033AC140143927397D47EFD567D4C7EA887...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Locally signing key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+[2016-01-31 09:16] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2016-01-31 09:16] [ALPM-SCRIPTLET] gpg: setting ownertrust to 4
+[2016-01-31 09:16] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+[2016-01-31 09:16] [ALPM-SCRIPTLET]   -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+[2016-01-31 09:16] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2016-01-31 09:16] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-06-03
+[2016-01-31 09:16] [ALPM] upgraded avahi (0.6.32rc-3 -> 0.6.32rc-4)
+[2016-01-31 09:16] [ALPM] upgraded boost-libs (1.60.0-1 -> 1.60.0-2)
+[2016-01-31 09:16] [ALPM] upgraded p11-kit (0.23.1-3 -> 0.23.2-1)
+[2016-01-31 09:16] [ALPM] upgraded openssl (1.0.2.e-1 -> 1.0.2.f-1)
+[2016-01-31 09:16] [ALPM] upgraded gmp (6.1.0-2 -> 6.1.0-3)
+[2016-01-31 09:16] [ALPM] upgraded ca-certificates-mozilla (3.20.1-1 -> 3.21-1)
+[2016-01-31 09:16] [ALPM] upgraded dcadec (0.1.0-3 -> 0.2.0-1)
+[2016-01-31 09:16] [ALPM] upgraded libelf (0.164-2 -> 0.165-1)
+[2016-01-31 09:16] [ALPM] upgraded libldap (2.4.42-2 -> 2.4.43-1)
+[2016-01-31 09:16] [ALPM] upgraded device-mapper (2.02.137-1 -> 2.02.141-1)
+[2016-01-31 09:16] [ALPM] upgraded dhcpcd (6.9.4-1 -> 6.10.1-1)
+[2016-01-31 09:16] [ALPM] upgraded elfutils (0.164-2 -> 0.165-1)
+[2016-01-31 09:16] [ALPM] upgraded gnutls (3.4.7-2 -> 3.4.8-1)
+[2016-01-31 09:16] [ALPM] upgraded gsm (1.0.13-8 -> 1.0.14-1)
+[2016-01-31 09:16] [ALPM] upgraded libpng (1.6.19-1 -> 1.6.21-1)
+[2016-01-31 09:16] [ALPM] upgraded graphite (1:1.3.3-3 -> 1:1.3.5-1)
+[2016-01-31 09:16] [ALPM] upgraded harfbuzz (1.1.2-3 -> 1.1.3-1)
+[2016-01-31 09:16] [ALPM] upgraded libass (0.13.0-1 -> 0.13.1-1)
+[2016-01-31 09:16] [ALPM] upgraded libpulse (7.1-3 -> 8.0-1)
+[2016-01-31 09:16] [ALPM] upgraded libdrm (2.4.65-1 -> 2.4.66-1)
+[2016-01-31 09:16] [ALPM] upgraded llvm-libs (3.7.0-6 -> 3.7.1-1)
+[2016-01-31 09:16] [ALPM] upgraded mesa (11.1.0-1 -> 11.1.1-1)
+[2016-01-31 09:16] [ALPM] upgraded mesa-libgl (11.1.0-1 -> 11.1.1-1)
+[2016-01-31 09:16] [ALPM] upgraded libva (1.6.1-1 -> 1.6.2-1)
+[2016-01-31 09:16] [ALPM] upgraded libwebp (0.4.4-1 -> 0.5.0-1)
+[2016-01-31 09:16] [ALPM] upgraded opus (1.1.1-1 -> 1.1.2-1)
+[2016-01-31 09:16] [ALPM] upgraded libvpx (1.5.0-3 -> 1.5.0-4)
+[2016-01-31 09:16] [ALPM] upgraded ffmpeg (1:2.8.4-1 -> 1:2.8.5-2)
+[2016-01-31 09:16] [ALPM] upgraded git (2.6.4-1 -> 2.7.0-1)
+[2016-01-31 09:16] [ALPM] upgraded libbsd (0.8.0-1 -> 0.8.1-1)
+[2016-01-31 09:16] [ALPM] upgraded libwbclient (4.3.3-1 -> 4.3.4-1)
+[2016-01-31 09:16] [ALPM] upgraded linux-firmware (20150904.6ebf5d5-1 -> 20151207.bbe4917-1)
+[2016-01-31 09:16] [ALPM] upgraded mpfr (3.1.3.p4-1 -> 3.1.3.p5-1)
+[2016-01-31 09:16] [ALPM] upgraded mkinitcpio (18-2 -> 19-1)
+[2016-01-31 09:17] [ALPM] upgraded linux (4.2.5-1 -> 4.3.3-3)
+[2016-01-31 09:17] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-01-31 09:17] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Starting build: 4.3.3-3-ARCH
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Starting build: 4.3.3-3-ARCH
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-01-31 09:17] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-01-31 09:17] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-01-31 09:17] [ALPM] upgraded thin-provisioning-tools (0.5.6-2 -> 0.6.0-2)
+[2016-01-31 09:17] [ALPM] upgraded lvm2 (2.02.137-1 -> 2.02.141-1)
+[2016-01-31 09:17] [ALPM] upgraded man-pages (4.03-1 -> 4.04-1)
+[2016-01-31 09:17] [ALPM] upgraded yaml-cpp (0.5.2-5 -> 0.5.3-1)
+[2016-01-31 09:17] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-01-31 09:17] [ALPM] upgraded mongodb (3.2.0-3 -> 3.2.0-4)
+[2016-01-31 09:17] [ALPM] upgraded nano (2.5.0-1 -> 2.5.1-1)
+[2016-01-31 09:17] [ALPM] upgraded nodejs (5.3.0-1 -> 5.5.0-1)
+[2016-01-31 09:17] [ALPM] upgraded npm (3.5.2-1 -> 3.6.0-1)
+[2016-01-31 09:17] [ALPM] upgraded openssh (7.1p1-1 -> 7.1p2-1)
+[2016-01-31 09:17] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-01-31 09:17] [ALPM] upgraded pacman-mirrorlist (20151215-1 -> 20160124-1)
+[2016-01-31 09:17] [ALPM] upgraded pciutils (3.3.1-1 -> 3.4.0-1)
+[2016-01-31 09:17] [ALPM] upgraded s-nail (14.8.5-1 -> 14.8.6-1)
+[2016-01-31 09:17] [ALPM] upgraded sqlite (3.9.2-1 -> 3.10.2-1)
+[2016-01-31 09:17] [ALPM] upgraded smbclient (4.3.3-1 -> 4.3.4-1)
+[2016-01-31 09:17] [ALPM] upgraded samba (4.3.3-1 -> 4.3.4-1)
+[2016-01-31 09:17] [ALPM] upgraded xfsprogs (4.2.0-1 -> 4.3.0-1)
+[2016-01-31 09:17] [ALPM] transaction completed
+[2016-02-05 15:14] [PACMAN] Running 'pacman -Syu'
+[2016-02-05 15:14] [PACMAN] synchronizing package lists
+[2016-02-05 15:15] [PACMAN] starting full system upgrade
+[2016-02-05 15:56] [ALPM] transaction started
+[2016-02-05 15:56] [ALPM] upgraded tzdata (2015g-1 -> 2016a-1)
+[2016-02-05 15:56] [ALPM] upgraded libcap (2.24-2 -> 2.25-1)
+[2016-02-05 15:56] [ALPM] upgraded curl (7.46.0-1 -> 7.47.0-1)
+[2016-02-05 15:56] [ALPM] upgraded v4l-utils (1.6.3-3 -> 1.10.0-1)
+[2016-02-05 15:56] [ALPM] upgraded x265 (1.8-3 -> 1.9-1)
+[2016-02-05 15:56] [ALPM] upgraded nettle (3.1.1-1 -> 3.2-1)
+[2016-02-05 15:56] [ALPM] upgraded giflib (5.1.1-1 -> 5.1.2-1)
+[2016-02-05 15:56] [ALPM] upgraded ffmpeg (1:2.8.5-2 -> 1:2.8.6-2)
+[2016-02-05 15:56] [ALPM] upgraded gnupg (2.1.10-3 -> 2.1.11-1)
+[2016-02-05 15:56] [ALPM] upgraded libbsd (0.8.1-1 -> 0.8.2-1)
+[2016-02-05 15:57] [ALPM] upgraded linux-firmware (20151207.bbe4917-1 -> 20160113.40e9ae8-1)
+[2016-02-05 15:57] [ALPM] upgraded linux (4.3.3-3 -> 4.4.1-2)
+[2016-02-05 15:57] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-02-05 15:57] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Starting build: 4.4.1-2-ARCH
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Starting build: 4.4.1-2-ARCH
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-02-05 15:57] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-02-05 15:57] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-02-05 15:57] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-02-05 15:57] [ALPM] upgraded mongodb (3.2.0-4 -> 3.2.1-1)
+[2016-02-05 15:58] [ALPM] upgraded npm (3.6.0-1 -> 3.7.1-1)
+[2016-02-05 15:58] [ALPM] upgraded pacman (4.2.1-4 -> 5.0.0-1)
+[2016-02-05 15:58] [ALPM] transaction completed
+[2016-02-21 06:07] [PACMAN] Running 'pacman -Syu'
+[2016-02-21 06:07] [PACMAN] synchronizing package lists
+[2016-02-21 06:07] [PACMAN] starting full system upgrade
+[2016-02-21 06:09] [ALPM] transaction started
+[2016-02-21 06:09] [ALPM] upgraded glibc (2.22-3 -> 2.22-4)
+[2016-02-21 06:09] [ALPM-SCRIPTLET] Generating locales...
+[2016-02-21 06:09] [ALPM-SCRIPTLET] Generation complete.
+[2016-02-21 06:09] [ALPM] upgraded gcc-libs (5.3.0-3 -> 5.3.0-4)
+[2016-02-21 06:09] [ALPM] upgraded gnutls (3.4.8-1 -> 3.4.9-1)
+[2016-02-21 06:09] [ALPM] upgraded coreutils (8.24-1 -> 8.25-1)
+[2016-02-21 06:09] [ALPM] upgraded ca-certificates-mozilla (3.21-1 -> 3.22-1)
+[2016-02-21 06:09] [ALPM] upgraded aria2 (1.19.3-1 -> 1.20.0-1)
+[2016-02-21 06:09] [ALPM] upgraded libgcrypt (1.6.4-1 -> 1.6.5-1)
+[2016-02-21 06:09] [ALPM] upgraded libsystemd (228-3 -> 229-2)
+[2016-02-21 06:09] [ALPM] upgraded avahi (0.6.32rc-4 -> 0.6.32-1)
+[2016-02-21 06:09] [ALPM] upgraded curl (7.47.0-1 -> 7.47.1-1)
+[2016-02-21 06:09] [ALPM] upgraded harfbuzz (1.1.3-1 -> 1.2.0-1)
+[2016-02-21 06:09] [ALPM] upgraded freetype2 (2.6.2-1 -> 2.6.3-1)
+[2016-02-21 06:09] [ALPM] upgraded gcc (5.3.0-3 -> 5.3.0-4)
+[2016-02-21 06:09] [ALPM] upgraded git (2.7.0-1 -> 2.7.1-1)
+[2016-02-21 06:09] [ALPM] upgraded grep (2.22-1 -> 2.23-1)
+[2016-02-21 06:09] [ALPM] upgraded http-parser (2.6.0-1 -> 2.6.1-1)
+[2016-02-21 06:09] [ALPM] upgraded libbsd (0.8.2-1 -> 0.8.2-2)
+[2016-02-21 06:09] [ALPM] upgraded systemd (228-3 -> 229-2)
+[2016-02-21 06:09] [ALPM] upgraded libcups (2.1.2-3 -> 2.1.3-1)
+[2016-02-21 06:09] [ALPM] upgraded libdrm (2.4.66-1 -> 2.4.67-1)
+[2016-02-21 06:09] [ALPM] upgraded libsndfile (1.0.25-3 -> 1.0.26-1)
+[2016-02-21 06:09] [ALPM] upgraded libwbclient (4.3.4-1 -> 4.3.4-2)
+[2016-02-21 06:09] [ALPM] upgraded wayland (1.9.0-1 -> 1.10.0-1)
+[2016-02-21 06:09] [ALPM] upgraded mesa (11.1.1-1 -> 11.1.2-1)
+[2016-02-21 06:09] [ALPM] upgraded mesa-libgl (11.1.1-1 -> 11.1.2-1)
+[2016-02-21 06:10] [ALPM] upgraded nano (2.5.1-1 -> 2.5.2-1)
+[2016-02-21 06:10] [ALPM] upgraded nodejs (5.5.0-1 -> 5.6.0-1)
+[2016-02-21 06:10] [ALPM] installed semver (5.1.0-1)
+[2016-02-21 06:10] [ALPM] upgraded npm (3.7.1-1 -> 3.7.3-1)
+[2016-02-21 06:10] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-02-21 06:10] [ALPM] upgraded pacman-mirrorlist (20160124-1 -> 20160208-2)
+[2016-02-21 06:10] [ALPM] upgraded smbclient (4.3.4-1 -> 4.3.4-2)
+[2016-02-21 06:10] [ALPM] upgraded samba (4.3.4-1 -> 4.3.4-2)
+[2016-02-21 06:10] [ALPM] upgraded systemd-sysvcompat (228-3 -> 229-2)
+[2016-02-21 06:10] [ALPM] transaction completed
+[2016-02-26 14:44] [PACMAN] Running 'pacman -Syu'
+[2016-02-26 14:44] [PACMAN] synchronizing package lists
+[2016-02-26 14:44] [PACMAN] starting full system upgrade
+[2016-02-26 14:49] [ALPM] transaction started
+[2016-02-26 14:49] [ALPM] upgraded archlinux-keyring (20160123-1 -> 20160215-1)
+[2016-02-26 14:49] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2016-02-26 14:49] [ALPM-SCRIPTLET] gpg: WARNING: standard input reopened
+[2016-02-26 14:49] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: PGP
+[2016-02-26 14:49] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   6  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2016-02-26 14:49] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   6  signed:  66  trust: 0-, 0q, 0n, 6m, 0f, 0u
+[2016-02-26 14:49] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  66  signed:   6  trust: 66-, 0q, 0n, 0m, 0f, 0u
+[2016-02-26 14:49] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-06-03
+[2016-02-26 14:49] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Locally signing key 44D4A033AC140143927397D47EFD567D4C7EA887...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Locally signing key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+[2016-02-26 14:49] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2016-02-26 14:49] [ALPM-SCRIPTLET] gpg: WARNING: standard input reopened
+[2016-02-26 14:49] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+[2016-02-26 14:49] [ALPM-SCRIPTLET]   -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+[2016-02-26 14:49] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2016-02-26 14:49] [ALPM-SCRIPTLET] gpg: WARNING: standard input reopened
+[2016-02-26 14:49] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-06-03
+[2016-02-26 14:49] [ALPM] upgraded linux-api-headers (4.1.4-1 -> 4.4.1-1)
+[2016-02-26 14:49] [ALPM] upgraded glibc (2.22-4 -> 2.23-1)
+[2016-02-26 14:49] [ALPM-SCRIPTLET] Generating locales...
+[2016-02-26 14:49] [ALPM-SCRIPTLET] Generation complete.
+[2016-02-26 14:49] [ALPM] upgraded binutils (2.25.1-3 -> 2.26-2)
+[2016-02-26 14:49] [ALPM] upgraded gcc-libs (5.3.0-4 -> 5.3.0-5)
+[2016-02-26 14:49] [ALPM] upgraded findutils (4.4.2-6 -> 4.6.0-1)
+[2016-02-26 14:49] [ALPM] upgraded ca-certificates-mozilla (3.22-1 -> 3.22.1-1)
+[2016-02-26 14:49] [ALPM] upgraded libsystemd (229-2 -> 229-3)
+[2016-02-26 14:49] [ALPM] upgraded systemd (229-2 -> 229-3)
+[2016-02-26 14:49] [ALPM] upgraded cryptsetup (1.7.0-1 -> 1.7.0-2)
+[2016-02-26 14:49] [ALPM] upgraded glib2 (2.46.2-2 -> 2.46.2-4)
+[2016-02-26 14:49] [ALPM] upgraded harfbuzz (1.2.0-1 -> 1.2.3-1)
+[2016-02-26 14:49] [ALPM] upgraded libass (0.13.1-1 -> 0.13.2-1)
+[2016-02-26 14:49] [ALPM] upgraded libpulse (8.0-1 -> 8.0-3)
+[2016-02-26 14:49] [ALPM] upgraded libssh (0.7.2-1 -> 0.7.3-1)
+[2016-02-26 14:49] [ALPM] upgraded libx264 (2:148.20150725-1 -> 2:148.20160103-1)
+[2016-02-26 14:49] [ALPM] upgraded ffmpeg (1:2.8.6-2 -> 1:3.0-1)
+[2016-02-26 14:49] [ALPM] upgraded flex (2.6.0-1 -> 2.6.0-2)
+[2016-02-26 14:49] [ALPM] upgraded gcc (5.3.0-4 -> 5.3.0-5)
+[2016-02-26 14:49] [ALPM] upgraded gettext (0.19.6-2 -> 0.19.7-1)
+[2016-02-26 14:49] [ALPM] upgraded libssh2 (1.6.0-1 -> 1.7.0-1)
+[2016-02-26 14:49] [ALPM] upgraded git (2.7.1-1 -> 2.7.2-1)
+[2016-02-26 14:49] [ALPM] upgraded iputils (20140519.fad11dc-1 -> 20150815.1c59920-3)
+[2016-02-26 14:49] [ALPM] upgraded libwbclient (4.3.4-2 -> 4.3.5-1)
+[2016-02-26 14:49] [ALPM] upgraded make (4.1-1 -> 4.1-3)
+[2016-02-26 14:49] [ALPM] upgraded mdadm (3.3.4-1 -> 3.4-1)
+[2016-02-26 14:49] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-02-26 14:49] [ALPM] upgraded mongodb (3.2.1-1 -> 3.2.3-1)
+[2016-02-26 14:50] [ALPM] upgraded nodejs (5.6.0-1 -> 5.7.0-1)
+[2016-02-26 14:50] [ALPM] upgraded npm (3.7.3-1 -> 3.7.5-1)
+[2016-02-26 14:50] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-02-26 14:50] [ALPM] upgraded pacman-mirrorlist (20160208-2 -> 20160227-1)
+[2016-02-26 14:50] [ALPM] upgraded sqlite (3.10.2-1 -> 3.11.0-2)
+[2016-02-26 14:50] [ALPM] upgraded pacman (5.0.0-1 -> 5.0.1-2)
+[2016-02-26 14:50] [ALPM] upgraded smbclient (4.3.4-2 -> 4.3.5-1)
+[2016-02-26 14:50] [ALPM] upgraded samba (4.3.4-2 -> 4.3.5-1)
+[2016-02-26 14:50] [ALPM] upgraded systemd-sysvcompat (229-2 -> 229-3)
+[2016-02-26 14:50] [ALPM] transaction completed
+[2016-02-26 15:00] [PACMAN] Running 'pacman -S x11'
+[2016-02-26 15:00] [PACMAN] Running 'pacman -S xterm'
+[2016-02-26 15:00] [ALPM] transaction started
+[2016-02-26 15:00] [ALPM] installed libxft (2.3.2-1)
+[2016-02-26 15:00] [ALPM] installed libxt (1.1.5-1)
+[2016-02-26 15:00] [ALPM] installed libxmu (1.1.2-1)
+[2016-02-26 15:00] [ALPM] installed libxpm (3.5.11-1)
+[2016-02-26 15:00] [ALPM] installed libxaw (1.0.13-1)
+[2016-02-26 15:00] [ALPM] installed libfontenc (1.1.3-1)
+[2016-02-26 15:00] [ALPM] installed xorg-luit (1.1.1-2)
+[2016-02-26 15:00] [ALPM] installed xbitmaps (1.1.1-3)
+[2016-02-26 15:00] [ALPM] installed libutempter (1.1.6-2)
+[2016-02-26 15:00] [ALPM] installed libxkbfile (1.0.9-1)
+[2016-02-26 15:00] [ALPM] installed xterm (322-1)
+[2016-02-26 15:00] [ALPM] transaction completed
+[2016-02-26 15:08] [PACMAN] Running 'pacman -S octave'
+[2016-02-26 15:09] [ALPM] transaction started
+[2016-02-26 15:09] [ALPM] installed fftw (3.3.4-1)
+[2016-02-26 15:09] [ALPM] installed lcms2 (2.7-1)
+[2016-02-26 15:09] [ALPM] installed graphicsmagick (1.3.23-2)
+[2016-02-26 15:09] [ALPM] installed glpk (4.57-2)
+[2016-02-26 15:09] [ALPM] installed hdf5 (1.8.15_patch1-1)
+[2016-02-26 15:09] [ALPM] installed qhull (2012.1-3)
+[2016-02-26 15:09] [ALPM] installed xineramaproto (1.2.1-3)
+[2016-02-26 15:09] [ALPM] installed libxinerama (1.1.3-2)
+[2016-02-26 15:09] [ALPM] installed hicolor-icon-theme (0.15-1)
+[2016-02-26 15:09] [ALPM] installed desktop-file-utils (0.22-1)
+[2016-02-26 15:09] [ALPM] installed xorg-xset (1.2.3-1)
+[2016-02-26 15:09] [ALPM] installed xdg-utils (1.1.1-1)
+[2016-02-26 15:09] [ALPM] installed libxcursor (1.1.14-2)
+[2016-02-26 15:09] [ALPM] installed glu (9.0.0-4)
+[2016-02-26 15:09] [ALPM] installed fltk (1.3.3-5)
+[2016-02-26 15:09] [ALPM] installed blas (3.6.0-4)
+[2016-02-26 15:09] [ALPM] installed lapack (3.6.0-4)
+[2016-02-26 15:09] [ALPM] installed pixman (0.34.0-1)
+[2016-02-26 15:09] [ALPM] installed cairo (1.14.6-1)
+[2016-02-26 15:09] [ALPM] installed hwloc (1.11.2-2)
+[2016-02-26 15:09] [ALPM] installed openmpi (1.10.2-1)
+[2016-02-26 15:09] [ALPM] installed arpack (3.2.0-2)
+[2016-02-26 15:09] [ALPM] installed jasper (1.900.1-14)
+[2016-02-26 15:09] [ALPM] installed run-parts (4.7-1)
+[2016-02-26 15:09] [ALPM] installed libpaper (1.1.24-9)
+[2016-02-26 15:09] [ALPM] installed ghostscript (9.18-6)
+[2016-02-26 15:09] [ALPM] installed intel-tbb (4.4_20151115-2)
+[2016-02-26 15:09] [ALPM] installed suitesparse (4.4.5-1)
+[2016-02-26 15:09] [ALPM] installed gl2ps (1.3.9-1)
+[2016-02-26 15:09] [ALPM] installed randrproto (1.5.0-1)
+[2016-02-26 15:09] [ALPM] installed libxrandr (1.5.0-1)
+[2016-02-26 15:09] [ALPM] installed videoproto (2.3.2-1)
+[2016-02-26 15:09] [ALPM] installed libxv (1.0.10-1)
+[2016-02-26 15:09] [ALPM] installed libmng (2.0.3-1)
+[2016-02-26 15:09] [ALPM] installed qt4 (4.8.7-6)
+[2016-02-26 15:09] [ALPM] installed qscintilla-qt4 (2.9.1-3)
+[2016-02-26 15:09] [ALPM] installed octave (4.0.0-7)
+[2016-02-26 15:09] [ALPM] transaction completed
+[2016-03-06 06:53] [PACMAN] Running 'pacman -Syu'
+[2016-03-06 06:53] [PACMAN] synchronizing package lists
+[2016-03-06 06:53] [PACMAN] starting full system upgrade
+[2016-03-06 06:55] [ALPM] transaction started
+[2016-03-06 06:55] [ALPM] upgraded graphite (1:1.3.5-1 -> 1:1.3.6-1)
+[2016-03-06 06:55] [ALPM] upgraded intel-tbb (4.4_20151115-2 -> 4.4_20160128-1)
+[2016-03-06 06:55] [ALPM] upgraded linux (4.4.1-2 -> 4.4.3-1)
+[2016-03-06 06:55] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-03-06 06:55] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Starting build: 4.4.3-1-ARCH
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Starting build: 4.4.3-1-ARCH
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-03-06 06:55] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-03-06 06:55] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-03-06 06:55] [ALPM] upgraded nano (2.5.2-1 -> 2.5.3-1)
+[2016-03-06 06:55] [ALPM] upgraded nodejs (5.7.0-1 -> 5.7.1-1)
+[2016-03-06 06:55] [ALPM] upgraded npm (3.7.5-1 -> 3.8.0-1)
+[2016-03-06 06:55] [ALPM] warning: /etc/ssh/sshd_config installed as /etc/ssh/sshd_config.pacnew
+[2016-03-06 06:55] [ALPM] warning: /etc/ssh/ssh_config installed as /etc/ssh/ssh_config.pacnew
+[2016-03-06 06:55] [ALPM] upgraded openssh (7.1p2-1 -> 7.2p1-1)
+[2016-03-06 06:55] [ALPM] upgraded pciutils (3.4.0-1 -> 3.4.1-1)
+[2016-03-06 06:55] [ALPM] transaction completed
+[2016-03-06 07:07] [PACMAN] Running 'pacman -S xhost'
+[2016-03-06 07:08] [PACMAN] Running 'pacman -S xorg-xhost'
+[2016-03-06 07:08] [ALPM] transaction started
+[2016-03-06 07:08] [ALPM] installed xorg-xhost (1.0.7-1)
+[2016-03-06 07:08] [ALPM] transaction completed
+[2016-03-07 12:01] [PACMAN] Running 'pacman -Syu'
+[2016-03-07 12:01] [PACMAN] synchronizing package lists
+[2016-03-07 12:02] [PACMAN] starting full system upgrade
+[2016-03-07 12:03] [ALPM] transaction started
+[2016-03-07 12:04] [ALPM] upgraded avahi (0.6.32-1 -> 0.6.32-2)
+[2016-03-07 12:04] [ALPM] upgraded binutils (2.26-2 -> 2.26-3)
+[2016-03-07 12:04] [ALPM] upgraded openssl (1.0.2.f-1 -> 1.0.2.g-3)
+[2016-03-07 12:04] [ALPM] upgraded libldap (2.4.43-1 -> 2.4.43-3)
+[2016-03-07 12:04] [ALPM] upgraded krb5 (1.13.2-1 -> 1.13.2-3)
+[2016-03-07 12:04] [ALPM] upgraded libssh2 (1.7.0-1 -> 1.7.0-2)
+[2016-03-07 12:04] [ALPM] upgraded curl (7.47.1-1 -> 7.47.1-2)
+[2016-03-07 12:04] [ALPM] upgraded git (2.7.2-1 -> 2.7.2-2)
+[2016-03-07 12:04] [ALPM] upgraded gnutls (3.4.9-1 -> 3.4.10-1)
+[2016-03-07 12:04] [ALPM] upgraded ldns (1.6.17-3 -> 1.6.17-4)
+[2016-03-07 12:04] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-03-07 12:04] [ALPM] upgraded mongodb (3.2.3-1 -> 3.2.3-2)
+[2016-03-07 12:04] [ALPM] upgraded nodejs (5.7.1-1 -> 5.7.1-2)
+[2016-03-07 12:04] [ALPM] upgraded sqlite (3.11.0-2 -> 3.11.1-1)
+[2016-03-07 12:04] [ALPM] upgraded python2 (2.7.11-1 -> 2.7.11-2)
+[2016-03-07 12:04] [ALPM] upgraded qt4 (4.8.7-6 -> 4.8.7-7)
+[2016-03-07 12:04] [ALPM] upgraded s-nail (14.8.6-1 -> 14.8.6-2)
+[2016-03-07 12:04] [ALPM] upgraded wget (1.16.3-1 -> 1.16.3-2)
+[2016-03-07 12:04] [ALPM] transaction completed
+[2016-03-07 12:06] [PACMAN] Running 'pacman -S xorg-xhost'
+[2016-03-07 12:06] [ALPM] transaction started
+[2016-03-07 12:06] [ALPM] reinstalled xorg-xhost (1.0.7-1)
+[2016-03-07 12:06] [ALPM] transaction completed
+[2016-03-07 12:07] [PACMAN] Running 'pacman -S xorg-x11'
+[2016-03-07 12:07] [PACMAN] Running 'pacman -S xorg'
+[2016-03-07 12:13] [PACMAN] Running 'pacman -S xorg-server'
+[2016-03-07 12:14] [PACMAN] Running 'pacman -S xorg-server'
+[2016-03-07 12:14] [ALPM] transaction started
+[2016-03-07 12:14] [ALPM] installed libepoxy (1.3.1-1)
+[2016-03-07 12:14] [ALPM] installed fontsproto (2.1.3-1)
+[2016-03-07 12:14] [ALPM] installed libxfont (1.5.1-1)
+[2016-03-07 12:14] [ALPM] installed xkeyboard-config (2.17-2)
+[2016-03-07 12:14] [ALPM] installed xorg-xkbcomp (1.3.1-1)
+[2016-03-07 12:14] [ALPM] installed xorg-setxkbmap (1.3.1-1)
+[2016-03-07 12:14] [ALPM] installed xorg-fonts-encodings (1.0.4-4)
+[2016-03-07 12:14] [ALPM] installed xorg-fonts-alias (1.0.3-1)
+[2016-03-07 12:14] [ALPM] installed xorg-bdftopcf (1.0.5-1)
+[2016-03-07 12:14] [ALPM] installed xorg-mkfontscale (1.1.2-1)
+[2016-03-07 12:14] [ALPM] installed xorg-mkfontdir (1.0.7-2)
+[2016-03-07 12:14] [ALPM] installed xorg-font-util (1.3.1-1)
+[2016-03-07 12:14] [ALPM] installed xorg-font-utils (7.6-4)
+[2016-03-07 12:14] [ALPM] installed xorg-fonts-misc (1.0.3-4)
+[2016-03-07 12:14] [ALPM-SCRIPTLET] Updating font cache... done.
+[2016-03-07 12:14] [ALPM] installed libunwind (1.1-3)
+[2016-03-07 12:14] [ALPM] installed xorg-server-common (1.18.1-3)
+[2016-03-07 12:14] [ALPM] installed mtdev (1.1.5-1)
+[2016-03-07 12:14] [ALPM] installed libevdev (1.4.6-1)
+[2016-03-07 12:14] [ALPM] installed xf86-input-evdev (2.10.1-3)
+[2016-03-07 12:14] [ALPM] installed xorg-server (1.18.1-3)
+[2016-03-07 12:14] [ALPM-SCRIPTLET] >>> xorg-server has now the ability to run without root rights with
+[2016-03-07 12:14] [ALPM-SCRIPTLET]     the help of systemd-logind. xserver will fail to run if not launched
+[2016-03-07 12:14] [ALPM-SCRIPTLET]     from the same virtual terminal as was used to log in.
+[2016-03-07 12:14] [ALPM-SCRIPTLET]     Without root rights, log files will be in ~/.local/share/xorg/ directory.
+[2016-03-07 12:14] [ALPM-SCRIPTLET] 
+[2016-03-07 12:14] [ALPM-SCRIPTLET]     Old behavior can be restored through Xorg.wrap config file.
+[2016-03-07 12:14] [ALPM-SCRIPTLET]     See Xorg.wrap man page (man xorg.wrap).
+[2016-03-07 12:14] [ALPM] transaction completed
+[2016-03-07 12:18] [PACMAN] Running 'pacman -R xorg-server'
+[2016-03-07 12:18] [PACMAN] Running 'pacman -R xorg-apps'
+[2016-03-07 12:18] [PACMAN] Running 'pacman -S xorg-xinit'
+[2016-03-07 12:18] [ALPM] transaction started
+[2016-03-07 12:18] [ALPM] installed xorg-xauth (1.0.9-1)
+[2016-03-07 12:18] [ALPM] installed xorg-xinit (1.3.4-3)
+[2016-03-07 12:18] [ALPM] transaction completed
+[2016-03-08 16:59] [PACMAN] Running 'pacman -Syu'
+[2016-03-08 16:59] [PACMAN] synchronizing package lists
+[2016-03-08 16:59] [PACMAN] starting full system upgrade
+[2016-03-08 16:59] [ALPM] transaction started
+[2016-03-08 16:59] [ALPM] upgraded texinfo (6.0-1 -> 6.1-1)
+[2016-03-08 16:59] [ALPM] upgraded device-mapper (2.02.141-1 -> 2.02.144-1)
+[2016-03-08 16:59] [ALPM] upgraded cryptsetup (1.7.0-2 -> 1.7.1-1)
+[2016-03-08 16:59] [ALPM] upgraded lvm2 (2.02.141-1 -> 2.02.144-1)
+[2016-03-08 16:59] [ALPM] upgraded orc (0.4.24-1 -> 0.4.25-1)
+[2016-03-08 16:59] [ALPM] upgraded xterm (322-1 -> 323-1)
+[2016-03-08 16:59] [ALPM] transaction completed
+[2016-03-09 15:48] [PACMAN] Running 'pacman -Syu'
+[2016-03-09 15:48] [PACMAN] synchronizing package lists
+[2016-03-09 15:48] [PACMAN] starting full system upgrade
+[2016-03-09 15:49] [ALPM] transaction started
+[2016-03-09 15:49] [ALPM] upgraded glpk (4.57-2 -> 4.58-1)
+[2016-03-09 15:49] [ALPM] upgraded http-parser (2.6.1-1 -> 2.6.2-1)
+[2016-03-09 15:49] [ALPM] upgraded nodejs (5.7.1-2 -> 5.7.1-3)
+[2016-03-09 15:49] [ALPM] upgraded octave (4.0.0-7 -> 4.0.0-8)
+[2016-03-09 15:49] [ALPM] transaction completed
+[2016-03-20 05:35] [PACMAN] Running 'pacman -Syu'
+[2016-03-20 05:35] [PACMAN] synchronizing package lists
+[2016-03-20 05:36] [PACMAN] starting full system upgrade
+[2016-03-20 05:39] [ALPM] transaction started
+[2016-03-20 05:39] [ALPM] upgraded tzdata (2016a-1 -> 2016b-1)
+[2016-03-20 05:39] [ALPM] upgraded iana-etc (20151016-1 -> 20160314-1)
+[2016-03-20 05:39] [ALPM] upgraded c-ares (1.10.0-2 -> 1.11.0-1)
+[2016-03-20 05:39] [ALPM] upgraded perl (5.22.1-1 -> 5.22.1-2)
+[2016-03-20 05:39] [ALPM] upgraded pcre (8.38-2 -> 8.38-3)
+[2016-03-20 05:39] [ALPM] upgraded aria2 (1.20.0-1 -> 1.21.0-1)
+[2016-03-20 05:39] [ALPM] upgraded libdbus (1.10.6-1 -> 1.10.8-1)
+[2016-03-20 05:39] [ALPM] upgraded dbus (1.10.6-1 -> 1.10.8-1)
+[2016-03-20 05:39] [ALPM] upgraded hwids (20150717-1 -> 20160306-1)
+[2016-03-20 05:39] [ALPM] upgraded libldap (2.4.43-3 -> 2.4.44-1)
+[2016-03-20 05:39] [ALPM] upgraded arpack (3.2.0-2 -> 3.3.0-1)
+[2016-03-20 05:39] [ALPM] upgraded device-mapper (2.02.144-1 -> 2.02.145-1)
+[2016-03-20 05:39] [ALPM] upgraded git (2.7.2-2 -> 2.7.4-1)
+[2016-03-20 05:39] [ALPM] upgraded grep (2.23-1 -> 2.24-1)
+[2016-03-20 05:39] [ALPM] upgraded talloc (2.1.5-1 -> 2.1.6-1)
+[2016-03-20 05:39] [ALPM] upgraded tevent (0.9.26-1 -> 0.9.28-1)
+[2016-03-20 05:39] [ALPM] upgraded ldb (1.1.24-1 -> 1.1.26-1)
+[2016-03-20 05:39] [ALPM] upgraded libwbclient (4.3.5-1 -> 4.3.6-1)
+[2016-03-20 05:39] [ALPM] upgraded mpfr (3.1.3.p5-1 -> 3.1.4-1)
+[2016-03-20 05:40] [ALPM] upgraded linux (4.4.3-1 -> 4.4.5-1)
+[2016-03-20 05:40] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-03-20 05:40] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Starting build: 4.4.5-1-ARCH
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Starting build: 4.4.5-1-ARCH
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-03-20 05:40] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-03-20 05:40] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-03-20 05:40] [ALPM] upgraded thin-provisioning-tools (0.6.0-2 -> 0.6.1-2)
+[2016-03-20 05:40] [ALPM] upgraded lvm2 (2.02.144-1 -> 2.02.145-1)
+[2016-03-20 05:40] [ALPM] upgraded man-pages (4.04-1 -> 4.05-1)
+[2016-03-20 05:40] [ALPM] upgraded nodejs (5.7.1-3 -> 5.9.0-1)
+[2016-03-20 05:40] [ALPM] upgraded npm (3.8.0-1 -> 3.8.2-1)
+[2016-03-20 05:40] [ALPM] upgraded openssh (7.2p1-1 -> 7.2p2-1)
+[2016-03-20 05:40] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-03-20 05:40] [ALPM] upgraded pacman-mirrorlist (20160227-1 -> 20160314-1)
+[2016-03-20 05:40] [ALPM] upgraded pkg-config (0.29-1 -> 0.29.1-1)
+[2016-03-20 05:40] [ALPM] upgraded smbclient (4.3.5-1 -> 4.3.6-1)
+[2016-03-20 05:40] [ALPM] upgraded samba (4.3.5-1 -> 4.3.6-1)
+[2016-03-20 05:40] [ALPM] upgraded videoproto (2.3.2-1 -> 2.3.3-1)
+[2016-03-20 05:40] [ALPM] upgraded wget (1.16.3-2 -> 1.17.1-1)
+[2016-03-20 05:40] [ALPM] upgraded xterm (323-1 -> 324-1)
+[2016-03-20 05:40] [ALPM] transaction completed
+[2016-04-16 06:56] [PACMAN] Running 'pacman -Syu'
+[2016-04-16 06:56] [PACMAN] synchronizing package lists
+[2016-04-16 06:57] [PACMAN] starting full system upgrade
+[2016-04-16 06:57] [ALPM] transaction started
+[2016-04-16 06:57] [ALPM] upgraded tzdata (2016b-1 -> 2016c-1)
+[2016-04-16 06:57] [ALPM] upgraded expat (2.1.0-4 -> 2.1.1-1)
+[2016-04-16 06:57] [ALPM] upgraded device-mapper (2.02.145-1 -> 2.02.146-1)
+[2016-04-16 06:57] [ALPM] upgraded graphite (1:1.3.6-1 -> 1:1.3.7-1)
+[2016-04-16 06:57] [ALPM] upgraded fontconfig (2.11.1-2 -> 2.11.94-1)
+[2016-04-16 06:57] [ALPM-SCRIPTLET] updating font cache... done.
+[2016-04-16 06:58] [ALPM] upgraded ghostscript (9.18-6 -> 9.19-1)
+[2016-04-16 06:58] [ALPM] upgraded groff (1.22.3-5 -> 1.22.3-6)
+[2016-04-16 06:58] [ALPM] upgraded iproute2 (4.1.1-1 -> 4.4.0-1)
+[2016-04-16 06:58] [ALPM] upgraded libdrm (2.4.67-1 -> 2.4.67-2)
+[2016-04-16 06:58] [ALPM] upgraded libva (1.6.2-1 -> 1.7.0-1)
+[2016-04-16 06:58] [ALPM] upgraded libwbclient (4.3.6-1 -> 4.4.0-1)
+[2016-04-16 06:58] [ALPM] upgraded lvm2 (2.02.145-1 -> 2.02.146-1)
+[2016-04-16 06:58] [ALPM] upgraded mkinitcpio-busybox (1.21.1-2 -> 1.24.1-1)
+[2016-04-16 06:58] [ALPM] upgraded nodejs (5.9.0-1 -> 5.9.1-1)
+[2016-04-16 06:58] [ALPM] upgraded npm (3.8.2-1 -> 3.8.3-1)
+[2016-04-16 06:58] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-04-16 06:58] [ALPM] upgraded pacman-mirrorlist (20160314-1 -> 20160320-1)
+[2016-04-16 06:58] [ALPM] upgraded python2 (2.7.11-2 -> 2.7.11-3)
+[2016-04-16 06:58] [ALPM] upgraded s-nail (14.8.6-2 -> 14.8.8-1)
+[2016-04-16 06:58] [ALPM] upgraded smbclient (4.3.6-1 -> 4.4.0-1)
+[2016-04-16 06:58] [ALPM] upgraded samba (4.3.6-1 -> 4.4.0-1)
+[2016-04-16 06:58] [ALPM] upgraded xorg-server-common (1.18.1-3 -> 1.18.2-4)
+[2016-04-16 06:58] [ALPM] upgraded xorg-server (1.18.1-3 -> 1.18.2-4)
+[2016-04-16 06:58] [ALPM] transaction completed
+[2016-04-16 07:04] [PACMAN] Running 'pacman -S python-pip'
+[2016-04-16 07:04] [PACMAN] Running 'pacman -S python-dev'
+[2016-04-16 07:11] [PACMAN] Running 'pacman -S fortran'
+[2016-04-16 07:11] [PACMAN] Running 'pacman -S gfortran'
+[2016-04-16 07:12] [PACMAN] Running 'pacman -S gcc-fortran'
+[2016-04-16 07:12] [ALPM] transaction started
+[2016-04-16 07:12] [ALPM] installed gcc-fortran (5.3.0-5)
+[2016-04-16 07:12] [ALPM] transaction completed
+[2016-04-16 09:33] [PACMAN] Running 'pacman -Syu'
+[2016-04-16 09:33] [PACMAN] synchronizing package lists
+[2016-04-16 09:33] [PACMAN] starting full system upgrade
+[2016-04-17 12:45] [PACMAN] Running 'pacman -Syu'
+[2016-04-17 12:45] [PACMAN] synchronizing package lists
+[2016-04-17 12:45] [PACMAN] starting full system upgrade
+[2016-04-17 13:28] [PACMAN] Running 'pacman -S apt-get'
+[2016-04-17 13:32] [PACMAN] Running 'pacman -S ruby'
+[2016-04-17 13:32] [ALPM] transaction started
+[2016-04-17 13:32] [ALPM] installed libyaml (0.1.6-1)
+[2016-04-17 13:32] [ALPM] installed ruby (2.3.0-2)
+[2016-04-17 13:32] [ALPM-SCRIPTLET] The default location of gem installs is $HOME/.gem/ruby
+[2016-04-17 13:32] [ALPM-SCRIPTLET] Add the following line to your PATH if you plan to install using gem
+[2016-04-17 13:32] [ALPM-SCRIPTLET] $(ruby -rubygems -e "puts Gem.user_dir")/bin
+[2016-04-17 13:32] [ALPM-SCRIPTLET] If you want to install to the system wide location, you must either:
+[2016-04-17 13:32] [ALPM-SCRIPTLET] edit /etc/gemrc or run gem with the --no-user-install flag.
+[2016-04-17 13:32] [ALPM] transaction completed
+[2016-04-23 16:38] [PACMAN] Running 'pacman -Syu'
+[2016-04-23 16:38] [PACMAN] synchronizing package lists
+[2016-04-23 16:38] [PACMAN] starting full system upgrade
+[2016-04-23 16:44] [ALPM] transaction started
+[2016-04-23 16:44] [ALPM] upgraded tzdata (2016c-1 -> 2016d-1)
+[2016-04-23 16:44] [ALPM] upgraded alsa-lib (1.1.0-1 -> 1.1.1-1)
+[2016-04-23 16:44] [ALPM] upgraded archlinux-keyring (20160215-1 -> 20160402-1)
+[2016-04-23 16:44] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2016-04-23 16:44] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: PGP
+[2016-04-23 16:44] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   6  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2016-04-23 16:44] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   6  signed:  66  trust: 0-, 0q, 0n, 6m, 0f, 0u
+[2016-04-23 16:44] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  66  signed:   7  trust: 66-, 0q, 0n, 0m, 0f, 0u
+[2016-04-23 16:44] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-10-19
+[2016-04-23 16:44] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Locally signing key 44D4A033AC140143927397D47EFD567D4C7EA887...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Locally signing key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+[2016-04-23 16:44] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2016-04-23 16:44] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+[2016-04-23 16:44] [ALPM-SCRIPTLET]   -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+[2016-04-23 16:44] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2016-04-23 16:44] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-10-19
+[2016-04-23 16:44] [ALPM] upgraded libtasn1 (4.7-1 -> 4.8-1)
+[2016-04-23 16:44] [ALPM] upgraded gnutls (3.4.10-1 -> 3.4.11-1)
+[2016-04-23 16:44] [ALPM] upgraded libxml2 (2.9.3-1 -> 2.9.3+14+gd5bd2a9-1)
+[2016-04-23 16:44] [ALPM] upgraded sqlite (3.11.1-1 -> 3.12.2-1)
+[2016-04-23 16:44] [ALPM] upgraded ca-certificates-mozilla (3.22.1-1 -> 3.23-3)
+[2016-04-23 16:44] [ALPM] upgraded aria2 (1.21.0-1 -> 1.22.0-1)
+[2016-04-23 16:44] [ALPM] upgraded bash-completion (2.1-5 -> 2.3-3)
+[2016-04-23 16:44] [ALPM] upgraded icu (56.1-2 -> 57.1-1)
+[2016-04-23 16:45] [ALPM] upgraded boost-libs (1.60.0-2 -> 1.60.0-4)
+[2016-04-23 16:45] [ALPM] upgraded libwbclient (4.4.0-1 -> 4.4.2-1)
+[2016-04-23 16:45] [ALPM] upgraded libutil-linux (2.27.1-1 -> 2.28-1)
+[2016-04-23 16:45] [ALPM] upgraded cracklib (2.9.4-1 -> 2.9.6-1)
+[2016-04-23 16:45] [ALPM] upgraded cifs-utils (6.4-1 -> 6.5-1)
+[2016-04-23 16:45] [ALPM] upgraded curl (7.47.1-2 -> 7.48.0-1)
+[2016-04-23 16:45] [ALPM] upgraded libelf (0.165-1 -> 0.166-1)
+[2016-04-23 16:45] [ALPM] installed libmnl (1.0.3-2)
+[2016-04-23 16:45] [ALPM] installed libnftnl (1.0.5-1)
+[2016-04-23 16:45] [ALPM] upgraded iptables (1.4.21-3 -> 1.6.0-1)
+[2016-04-23 16:45] [ALPM] upgraded libgcrypt (1.6.5-1 -> 1.7.0-1)
+[2016-04-23 16:45] [ALPM] upgraded util-linux (2.27.1-1 -> 2.28-1)
+[2016-04-23 16:45] [ALPM] upgraded device-mapper (2.02.146-1 -> 2.02.149-1)
+[2016-04-23 16:45] [ALPM] upgraded dhcpcd (6.10.1-1 -> 6.10.2-1)
+[2016-04-23 16:45] [ALPM] upgraded elfutils (0.165-1 -> 0.166-1)
+[2016-04-23 16:45] [ALPM] upgraded glib2 (2.46.2-4 -> 2.48.0-1)
+[2016-04-23 16:45] [ALPM] upgraded graphite (1:1.3.7-1 -> 1:1.3.8-1)
+[2016-04-23 16:45] [ALPM] upgraded harfbuzz (1.2.3-1 -> 1.2.6-1)
+[2016-04-23 16:45] [ALPM] upgraded fontconfig (2.11.94-1 -> 2.11.95-1)
+[2016-04-23 16:45] [ALPM-SCRIPTLET] updating font cache... done.
+[2016-04-23 16:45] [ALPM] installed libraw1394 (2.1.2-1)
+[2016-04-23 16:45] [ALPM] installed libavc1394 (0.5.4-2)
+[2016-04-23 16:45] [ALPM] installed libiec61883 (1.2.0-4)
+[2016-04-23 16:45] [ALPM] upgraded inputproto (2.3.1-1 -> 2.3.2-1)
+[2016-04-23 16:45] [ALPM] upgraded mesa (11.1.2-1 -> 11.2.1-1)
+[2016-04-23 16:45] [ALPM] upgraded mesa-libgl (11.1.2-1 -> 11.2.1-1)
+[2016-04-23 16:45] [ALPM] upgraded ffmpeg (1:3.0-1 -> 1:3.0.1-1)
+[2016-04-23 16:45] [ALPM] upgraded git (2.7.4-1 -> 2.8.0-1)
+[2016-04-23 16:45] [ALPM] upgraded glpk (4.58-1 -> 4.60-1)
+[2016-04-23 16:45] [ALPM] upgraded http-parser (2.6.2-1 -> 2.7.0-1)
+[2016-04-23 16:45] [ALPM] upgraded iproute2 (4.4.0-1 -> 4.5.0-2)
+[2016-04-23 16:45] [ALPM] upgraded iputils (20150815.1c59920-3 -> 20160308.0db72a4-1)
+[2016-04-23 16:45] [ALPM] upgraded libuv (1.8.0-1 -> 1.9.0-1)
+[2016-04-23 16:45] [ALPM] upgraded linux-firmware (20160113.40e9ae8-1 -> 20160315.deb1d83-1)
+[2016-04-23 16:45] [ALPM] upgraded linux (4.4.5-1 -> 4.5.1-1)
+[2016-04-23 16:45] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-04-23 16:46] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Starting build: 4.5.1-1-ARCH
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Starting build: 4.5.1-1-ARCH
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-04-23 16:46] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-04-23 16:46] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-04-23 16:46] [ALPM] upgraded logrotate (3.9.1-1 -> 3.9.2-1)
+[2016-04-23 16:46] [ALPM] upgraded lvm2 (2.02.146-1 -> 2.02.149-1)
+[2016-04-23 16:46] [ALPM] upgraded nodejs (5.9.1-1 -> 5.11.0-1)
+[2016-04-23 16:46] [ALPM] upgraded npm (3.8.3-1 -> 3.8.7-1)
+[2016-04-23 16:46] [ALPM] upgraded qhull (2012.1-3 -> 2015.2-1)
+[2016-04-23 16:46] [ALPM] upgraded xdg-utils (1.1.1-1 -> 1.1.1-2)
+[2016-04-23 16:46] [ALPM] upgraded qt4 (4.8.7-7 -> 4.8.7-8)
+[2016-04-23 16:46] [ALPM] upgraded octave (4.0.0-8 -> 4.0.1-3)
+[2016-04-23 16:46] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-04-23 16:46] [ALPM] upgraded pacman-mirrorlist (20160320-1 -> 20160422-1)
+[2016-04-23 16:46] [ALPM] upgraded smbclient (4.4.0-1 -> 4.4.2-1)
+[2016-04-23 16:46] [ALPM] upgraded samba (4.4.0-1 -> 4.4.2-1)
+[2016-04-23 16:46] [ALPM] upgraded sudo (1.8.15-1 -> 1.8.16-1)
+[2016-04-23 16:46] [ALPM] upgraded xorg-server-common (1.18.2-4 -> 1.18.3-1)
+[2016-04-23 16:46] [ALPM] upgraded xorg-server (1.18.2-4 -> 1.18.3-1)
+[2016-04-23 16:46] [ALPM] installed xorg-xrdb (1.1.0-2)
+[2016-04-23 16:46] [ALPM] installed xorg-xmodmap (1.0.9-1)
+[2016-04-23 16:46] [ALPM] upgraded xorg-xinit (1.3.4-3 -> 1.3.4-4)
+[2016-04-23 16:46] [ALPM] transaction completed
+[2016-04-23 16:56] [PACMAN] Running 'pacman -Syu'
+[2016-04-23 16:56] [PACMAN] synchronizing package lists
+[2016-04-23 16:56] [PACMAN] starting full system upgrade
+[2016-04-27 13:04] [PACMAN] Running 'pacman -Syu'
+[2016-04-27 13:04] [PACMAN] synchronizing package lists
+[2016-04-27 13:04] [PACMAN] starting full system upgrade
+[2016-04-27 13:04] [ALPM] transaction started
+[2016-04-27 13:04] [ALPM] upgraded file (5.25-1 -> 5.26-1)
+[2016-04-27 13:04] [ALPM] upgraded grep (2.24-1 -> 2.25-1)
+[2016-04-27 13:04] [ALPM] upgraded gzip (1.6-1 -> 1.7-1)
+[2016-04-27 13:04] [ALPM] upgraded libbsd (0.8.2-2 -> 0.8.3-1)
+[2016-04-27 13:04] [ALPM] upgraded nodejs (5.11.0-1 -> 6.0.0-1)
+[2016-04-27 13:04] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-04-27 13:04] [ALPM] upgraded pacman-mirrorlist (20160422-1 -> 20160424-1)
+[2016-04-27 13:04] [ALPM] transaction completed
+[2016-04-28 13:46] [PACMAN] Running 'pacman -Syu'
+[2016-04-28 13:46] [PACMAN] synchronizing package lists
+[2016-04-28 13:47] [PACMAN] starting full system upgrade
+[2016-04-28 13:47] [ALPM] transaction started
+[2016-04-28 13:47] [ALPM] upgraded glib2 (2.48.0-1 -> 2.48.0-2)
+[2016-04-28 13:47] [ALPM] upgraded desktop-file-utils (0.22-1 -> 0.22-2)
+[2016-04-28 13:47] [ALPM] upgraded texinfo (6.1-1 -> 6.1-3)
+[2016-04-28 13:47] [ALPM] upgraded fltk (1.3.3-5 -> 1.3.3-6)
+[2016-04-28 13:47] [ALPM] upgraded libcups (2.1.3-1 -> 2.1.3-2)
+[2016-04-28 13:47] [ALPM] upgraded qt4 (4.8.7-8 -> 4.8.7-9)
+[2016-04-28 13:47] [ALPM] transaction completed
+[2016-04-28 13:47] [ALPM] running 'texinfo-install.hook'...
+[2016-04-28 13:48] [ALPM] running 'update-desktop-database.hook'...
+[2016-05-02 01:32] [PACMAN] Running 'pacman -Syu'
+[2016-05-02 01:32] [PACMAN] synchronizing package lists
+[2016-05-02 01:32] [PACMAN] starting full system upgrade
+[2016-05-02 01:33] [ALPM] transaction started
+[2016-05-02 01:33] [ALPM] upgraded bash-completion (2.3-3 -> 2.3-4)
+[2016-05-02 01:33] [ALPM] upgraded gzip (1.7-1 -> 1.8-1)
+[2016-05-02 01:33] [ALPM] upgraded libtasn1 (4.8-1 -> 4.8-2)
+[2016-05-02 01:33] [ALPM] upgraded nettle (3.2-1 -> 3.2-2)
+[2016-05-02 01:33] [ALPM] upgraded gnutls (3.4.11-1 -> 3.4.11-2)
+[2016-05-02 01:33] [ALPM] upgraded libgpg-error (1.21-1 -> 1.21-2)
+[2016-05-02 01:33] [ALPM] upgraded libgcrypt (1.7.0-1 -> 1.7.0-2)
+[2016-05-02 01:33] [ALPM] upgraded libdrm (2.4.67-2 -> 2.4.68-1)
+[2016-05-02 01:33] [ALPM] upgraded ffmpeg (1:3.0.1-1 -> 1:3.0.2-1)
+[2016-05-02 01:33] [ALPM] upgraded file (5.26-1 -> 5.26-2)
+[2016-05-02 01:33] [ALPM] upgraded git (2.8.0-1 -> 2.8.2-1)
+[2016-05-02 01:33] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-05-02 01:33] [ALPM] upgraded mongodb (3.2.3-2 -> 3.2.5-1)
+[2016-05-02 01:33] [ALPM] upgraded nano (2.5.3-1 -> 2.5.3-2)
+[2016-05-02 01:33] [ALPM] upgraded npm (3.8.7-1 -> 3.8.8-1)
+[2016-05-02 01:33] [ALPM] upgraded ruby (2.3.0-2 -> 2.3.1-1)
+[2016-05-02 01:33] [ALPM] upgraded xf86-input-evdev (2.10.1-3 -> 2.10.2-1)
+[2016-05-02 01:33] [ALPM] transaction completed
+[2016-05-02 01:33] [ALPM] running 'texinfo-install.hook'...
+[2016-05-02 12:13] [PACMAN] Running 'pacman -Syu'
+[2016-05-02 12:13] [PACMAN] synchronizing package lists
+[2016-05-02 12:13] [PACMAN] starting full system upgrade
+[2016-05-02 12:13] [ALPM] transaction started
+[2016-05-02 12:13] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-05-02 12:13] [ALPM] upgraded mongodb (3.2.5-1 -> 3.2.6-1)
+[2016-05-02 12:14] [ALPM] transaction completed
+[2016-05-02 12:14] [PACMAN] Running 'pacman -S python-matplotlib'
+[2016-05-02 12:17] [PACMAN] Running 'pacman -S python-matplotlib'
+[2016-05-02 12:18] [ALPM] transaction started
+[2016-05-02 12:18] [ALPM] installed python (3.5.1-2)
+[2016-05-02 12:18] [ALPM] installed python-pytz (2016.4-1)
+[2016-05-02 12:18] [ALPM] installed cblas (3.6.0-4)
+[2016-05-02 12:18] [ALPM] installed python-numpy (1.11.0-1)
+[2016-05-02 12:18] [ALPM] installed sip (4.18-1)
+[2016-05-02 12:18] [ALPM] installed python-sip (4.18-1)
+[2016-05-02 12:18] [ALPM] installed xcb-util-keysyms (0.4.0-1)
+[2016-05-02 12:18] [ALPM] installed xcb-util-wm (0.4.1-1)
+[2016-05-02 12:18] [ALPM] installed xcb-util (0.4.0-1)
+[2016-05-02 12:18] [ALPM] installed xcb-util-image (0.4.0-1)
+[2016-05-02 12:18] [ALPM] installed qtchooser (53-2)
+[2016-05-02 12:18] [ALPM] installed tslib (1.1-1)
+[2016-05-02 12:18] [ALPM] installed libgudev (230-1)
+[2016-05-02 12:18] [ALPM] installed libwacom (0.18-1)
+[2016-05-02 12:18] [ALPM] installed libinput (1.2.4-1)
+[2016-05-02 12:18] [ALPM] installed libxkbcommon (0.6.1-1)
+[2016-05-02 12:18] [ALPM] installed libxkbcommon-x11 (0.6.1-1)
+[2016-05-02 12:18] [ALPM] installed qt5-base (5.6.0-4)
+[2016-05-02 12:18] [ALPM] installed pyqt5-common (5.5.1-2)
+[2016-05-02 12:18] [ALPM] installed python-pyqt5 (5.5.1-2)
+[2016-05-02 12:18] [ALPM] installed python-six (1.10.0-1)
+[2016-05-02 12:18] [ALPM] installed python-dateutil (2.5.3-1)
+[2016-05-02 12:18] [ALPM] installed python-pyparsing (2.1.1-1)
+[2016-05-02 12:18] [ALPM] installed python-cycler (0.10.0-1)
+[2016-05-02 12:18] [ALPM] installed python-matplotlib (1.5.1-2)
+[2016-05-02 12:18] [ALPM] transaction completed
+[2016-05-09 15:22] [PACMAN] Running 'pacman -S php'
+[2016-05-09 15:22] [ALPM] transaction started
+[2016-05-09 15:22] [ALPM] installed libzip (1.1.2-1)
+[2016-05-09 15:22] [ALPM] installed php (7.0.6-3)
+[2016-05-09 15:22] [ALPM] transaction completed
+[2016-05-09 15:22] [PACMAN] Running 'pacman -S php-curl'
+[2016-05-09 15:22] [PACMAN] Running 'pacman -S curl'
+[2016-05-09 15:22] [ALPM] transaction started
+[2016-05-09 15:22] [ALPM] reinstalled curl (7.48.0-1)
+[2016-05-09 15:22] [ALPM] transaction completed
+[2016-05-09 15:23] [PACMAN] Running 'pacman -S php7-curl'
+[2016-05-09 15:24] [PACMAN] Running 'pacman -S openssl'
+[2016-05-09 15:24] [ALPM] transaction started
+[2016-05-09 15:24] [ALPM] reinstalled openssl (1.0.2.g-3)
+[2016-05-09 15:24] [ALPM] transaction completed
+[2016-05-09 15:25] [PACMAN] Running 'pacman -S composer'
+[2016-05-29 08:07] [PACMAN] Running 'pacman -Syu'
+[2016-05-29 08:07] [PACMAN] synchronizing package lists
+[2016-05-29 08:07] [PACMAN] starting full system upgrade
+[2016-05-29 08:12] [ALPM] running 'texinfo-remove.hook'...
+[2016-05-29 08:12] [ALPM] transaction started
+[2016-05-29 08:12] [ALPM] upgraded linux-api-headers (4.4.1-1 -> 4.5.5-1)
+[2016-05-29 08:12] [ALPM] upgraded iana-etc (20160314-1 -> 20160513-1)
+[2016-05-29 08:12] [ALPM] upgraded glibc (2.23-1 -> 2.23-4)
+[2016-05-29 08:12] [ALPM-SCRIPTLET] Generating locales...
+[2016-05-29 08:12] [ALPM-SCRIPTLET] Generation complete.
+[2016-05-29 08:12] [ALPM] upgraded gcc-libs (5.3.0-5 -> 6.1.1-1)
+[2016-05-29 08:12] [ALPM] upgraded libxml2 (2.9.3+14+gd5bd2a9-1 -> 2.9.4+0+gbdec218-2)
+[2016-05-29 08:12] [ALPM] upgraded sqlite (3.12.2-1 -> 3.13.0-1)
+[2016-05-29 08:12] [ALPM] upgraded gmp (6.1.0-3 -> 6.1.0-4)
+[2016-05-29 08:12] [ALPM] upgraded perl (5.22.1-2 -> 5.22.2-1)
+[2016-05-29 08:12] [ALPM] upgraded openssl (1.0.2.g-3 -> 1.0.2.h-1)
+[2016-05-29 08:12] [ALPM] upgraded coreutils (8.25-1 -> 8.25-2)
+[2016-05-29 08:12] [ALPM] upgraded gzip (1.8-1 -> 1.8-2)
+[2016-05-29 08:12] [ALPM] upgraded ca-certificates-utils (20150402-1 -> 20160507-1)
+[2016-05-29 08:12] [ALPM] upgraded ca-certificates-mozilla (3.23-3 -> 3.23-4)
+[2016-05-29 08:12] [ALPM] upgraded ca-certificates-cacert (20140824-2 -> 20140824-3)
+[2016-05-29 08:12] [ALPM] upgraded ca-certificates (20150402-1 -> 20160507-1)
+[2016-05-29 08:12] [ALPM] upgraded aria2 (1.22.0-1 -> 1.23.0-1)
+[2016-05-29 08:12] [ALPM] upgraded m4 (1.4.17-1 -> 1.4.17-2)
+[2016-05-29 08:12] [ALPM] upgraded diffutils (3.3-2 -> 3.3-3)
+[2016-05-29 08:12] [ALPM] upgraded mpfr (3.1.4-1 -> 3.1.4.p1-1)
+[2016-05-29 08:12] [ALPM] upgraded autoconf (2.69-2 -> 2.69-3)
+[2016-05-29 08:12] [ALPM] upgraded binutils (2.26-3 -> 2.26-4)
+[2016-05-29 08:12] [ALPM] upgraded bison (3.0.4-1 -> 3.0.4-2)
+[2016-05-29 08:12] [ALPM] upgraded blas (3.6.0-4 -> 3.6.0-5)
+[2016-05-29 08:12] [ALPM] upgraded boost-libs (1.60.0-4 -> 1.60.0-5)
+[2016-05-29 08:12] [ALPM] upgraded cblas (3.6.0-4 -> 3.6.0-5)
+[2016-05-29 08:12] [ALPM] upgraded libseccomp (2.2.3-1 -> 2.3.1-1)
+[2016-05-29 08:12] [ALPM] upgraded libgpg-error (1.21-2 -> 1.22-1)
+[2016-05-29 08:12] [ALPM] upgraded expat (2.1.1-1 -> 2.1.1-2)
+[2016-05-29 08:12] [ALPM] upgraded krb5 (1.13.2-3 -> 1.13.4-1)
+[2016-05-29 08:12] [ALPM] upgraded device-mapper (2.02.149-1 -> 2.02.153-1)
+[2016-05-29 08:12] [ALPM] upgraded dhcpcd (6.10.2-1 -> 6.10.3-1)
+[2016-05-29 08:12] [ALPM] upgraded dosfstools (3.0.28-1 -> 4.0-3)
+[2016-05-29 08:13] [ALPM] upgraded glib2 (2.48.0-2 -> 2.48.1-1)
+[2016-05-29 08:13] [ALPM] upgraded harfbuzz (1.2.6-1 -> 1.2.7-1)
+[2016-05-29 08:13] [ALPM] upgraded libbluray (0.9.2-1 -> 0.9.2-2)
+[2016-05-29 08:13] [ALPM] upgraded hdf5 (1.8.15_patch1-1 -> 1.10.0-1)
+[2016-05-29 08:13] [ALPM] installed netcdf (4.4.1rc1-1)
+[2016-05-29 08:13] [ALPM] upgraded xproto (7.0.28-1 -> 7.0.29-1)
+[2016-05-29 08:13] [ALPM] upgraded llvm-libs (3.7.1-1 -> 3.8.0-1)
+[2016-05-29 08:13] [ALPM] upgraded mesa (11.2.1-1 -> 11.2.2-1)
+[2016-05-29 08:13] [ALPM] upgraded mesa-libgl (11.2.1-1 -> 11.2.2-1)
+[2016-05-29 08:13] [ALPM] upgraded giflib (5.1.2-1 -> 5.1.4-1)
+[2016-05-29 08:13] [ALPM] upgraded ffmpeg (1:3.0.2-1 -> 1:3.0.2-2)
+[2016-05-29 08:13] [ALPM] upgraded fftw (3.3.4-1 -> 3.3.4-2)
+[2016-05-29 08:13] [ALPM] upgraded file (5.26-2 -> 5.27-1)
+[2016-05-29 08:13] [ALPM] upgraded flex (2.6.0-2 -> 2.6.0-3)
+[2016-05-29 08:13] [ALPM] upgraded libmpc (1.0.3-1 -> 1.0.3-2)
+[2016-05-29 08:13] [ALPM] upgraded gcc (5.3.0-5 -> 6.1.1-1)
+[2016-05-29 08:13] [ALPM] upgraded gcc-fortran (5.3.0-5 -> 6.1.1-1)
+[2016-05-29 08:13] [ALPM] upgraded git (2.8.2-1 -> 2.8.3-1)
+[2016-05-29 08:13] [ALPM] upgraded libksba (1.3.3-1 -> 1.3.4-1)
+[2016-05-29 08:13] [ALPM] upgraded libassuan (2.4.2-1 -> 2.4.2-2)
+[2016-05-29 08:13] [ALPM] upgraded pinentry (0.9.7-1 -> 0.9.7-2)
+[2016-05-29 08:13] [ALPM] upgraded gnupg (2.1.11-1 -> 2.1.12-2)
+[2016-05-29 08:13] [ALPM] upgraded grep (2.25-1 -> 2.25-2)
+[2016-05-29 08:13] [ALPM] installed numactl (2.0.11-1)
+[2016-05-29 08:13] [ALPM] upgraded tar (1.28-1 -> 1.29-1)
+[2016-05-29 08:13] [ALPM] upgraded libtool (2.4.6-4 -> 2.4.6-5)
+[2016-05-29 08:13] [ALPM] upgraded hwloc (1.11.2-2 -> 1.11.3-2)
+[2016-05-29 08:13] [ALPM] upgraded intel-tbb (4.4_20160128-1 -> 4.4_20160413-1)
+[2016-05-29 08:13] [ALPM] upgraded jasper (1.900.1-14 -> 1.900.1-15)
+[2016-05-29 08:13] [ALPM] upgraded lapack (3.6.0-4 -> 3.6.0-5)
+[2016-05-29 08:13] [ALPM] upgraded libevdev (1.4.6-1 -> 1.5.1-1)
+[2016-05-29 08:13] [ALPM] upgraded libinput (1.2.4-1 -> 1.3.0-2)
+[2016-05-29 08:13] [ALPM] upgraded libuv (1.9.0-1 -> 1.9.1-1)
+[2016-05-29 08:13] [ALPM] upgraded libwbclient (4.4.2-1 -> 4.4.3-1)
+[2016-05-29 08:13] [ALPM] upgraded linux (4.5.1-1 -> 4.5.4-1)
+[2016-05-29 08:13] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-05-29 08:13] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-05-29 08:13] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-05-29 08:13] [ALPM-SCRIPTLET] ==> Starting build: 4.5.4-1-ARCH
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-05-29 08:13] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-05-29 08:13] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-05-29 08:13] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-05-29 08:13] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-05-29 08:13] [ALPM-SCRIPTLET] ==> Starting build: 4.5.4-1-ARCH
+[2016-05-29 08:13] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-05-29 08:14] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-05-29 08:14] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-05-29 08:14] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-05-29 08:14] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-05-29 08:14] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-05-29 08:14] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-05-29 08:14] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-05-29 08:14] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-05-29 08:14] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-05-29 08:14] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-05-29 08:14] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-05-29 08:14] [ALPM] upgraded lvm2 (2.02.149-1 -> 2.02.153-1)
+[2016-05-29 08:14] [ALPM] upgraded make (4.1-3 -> 4.1-4)
+[2016-05-29 08:14] [ALPM] upgraded man-db (2.7.5-1 -> 2.7.5-2)
+[2016-05-29 08:14] [ALPM] upgraded man-pages (4.05-1 -> 4.06-1)
+[2016-05-29 08:14] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-05-29 08:14] [ALPM] upgraded mongodb (3.2.6-1 -> 3.2.6-2)
+[2016-05-29 08:14] [ALPM] upgraded nodejs (6.0.0-1 -> 6.2.0-1)
+[2016-05-29 08:14] [ALPM] upgraded npm (3.8.8-1 -> 3.9.3-1)
+[2016-05-29 08:14] [ALPM] upgraded octave (4.0.1-3 -> 4.0.2-1)
+[2016-05-29 08:14] [ALPM] upgraded openssh (7.2p2-1 -> 7.2p2-2)
+[2016-05-29 08:14] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-05-29 08:14] [ALPM] upgraded pacman-mirrorlist (20160424-1 -> 20160524-1)
+[2016-05-29 08:14] [ALPM] upgraded pacman (5.0.1-2 -> 5.0.1-4)
+[2016-05-29 08:14] [ALPM] upgraded php (7.0.6-3 -> 7.0.7-1)
+[2016-05-29 08:14] [ALPM] upgraded popt (1.16-7 -> 1.16-8)
+[2016-05-29 08:14] [ALPM] upgraded qt5-base (5.6.0-4 -> 5.6.0-6)
+[2016-05-29 08:14] [ALPM] upgraded pyqt5-common (5.5.1-2 -> 5.6-1)
+[2016-05-29 08:14] [ALPM] upgraded python-pyparsing (2.1.1-1 -> 2.1.4-1)
+[2016-05-29 08:14] [ALPM] upgraded python-pyqt5 (5.5.1-2 -> 5.6-1)
+[2016-05-29 08:14] [ALPM] upgraded talloc (2.1.6-1 -> 2.1.7-1)
+[2016-05-29 08:14] [ALPM] upgraded smbclient (4.4.2-1 -> 4.4.3-1)
+[2016-05-29 08:14] [ALPM] upgraded samba (4.4.2-1 -> 4.4.3-1)
+[2016-05-29 08:14] [ALPM] upgraded sed (4.2.2-3 -> 4.2.2-4)
+[2016-05-29 08:14] [ALPM] upgraded wget (1.17.1-1 -> 1.17.1-2)
+[2016-05-29 08:14] [ALPM] upgraded which (2.21-1 -> 2.21-2)
+[2016-05-29 08:14] [ALPM] upgraded xfsprogs (4.3.0-1 -> 4.5.0-1)
+[2016-05-29 08:14] [ALPM] upgraded xterm (324-1 -> 324-2)
+[2016-05-29 08:14] [ALPM] transaction completed
+[2016-05-29 08:14] [ALPM] running 'man-db-purge.hook'...
+[2016-05-29 08:15] [ALPM] running 'man-db.hook'...
+[2016-05-29 08:15] [ALPM] running 'texinfo-install.hook'...
+[2016-05-29 08:15] [ALPM] running 'update-ca-trust.hook'...
+[2016-05-29 08:15] [ALPM] running 'update-desktop-database.hook'...
+[2016-06-02 13:34] [PACMAN] Running 'pacman -Syu'
+[2016-06-02 13:34] [PACMAN] synchronizing package lists
+[2016-06-02 13:34] [PACMAN] starting full system upgrade
+[2016-06-02 13:34] [ALPM] transaction started
+[2016-06-02 13:34] [ALPM] upgraded device-mapper (2.02.153-1 -> 2.02.154-3)
+[2016-06-02 13:34] [ALPM] upgraded dhcpcd (6.10.3-1 -> 6.11.0-2)
+[2016-06-02 13:34] [ALPM] upgraded libpng (1.6.21-1 -> 1.6.22-1)
+[2016-06-02 13:34] [ALPM] upgraded xcb-proto (1.11-2 -> 1.12-2)
+[2016-06-02 13:34] [ALPM] upgraded libxcb (1.11.1-1 -> 1.12-1)
+[2016-06-02 13:34] [ALPM] upgraded lvm2 (2.02.153-1 -> 2.02.154-3)
+[2016-06-02 13:34] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-06-02 13:34] [ALPM] upgraded pacman-mirrorlist (20160524-1 -> 20160601-1)
+[2016-06-02 13:34] [ALPM] upgraded qt5-base (5.6.0-6 -> 5.6.0-7)
+[2016-06-02 13:34] [ALPM] transaction completed
+[2016-06-02 13:34] [ALPM] running 'man-db-purge.hook'...
+[2016-06-02 13:35] [ALPM] running 'man-db.hook'...
+[2016-06-05 05:13] [PACMAN] Running 'pacman -Syu'
+[2016-06-05 05:13] [PACMAN] synchronizing package lists
+[2016-06-05 05:13] [PACMAN] starting full system upgrade
+[2016-06-05 05:15] [ALPM] transaction started
+[2016-06-05 05:15] [ALPM] upgraded curl (7.48.0-1 -> 7.49.1-1)
+[2016-06-05 05:15] [ALPM] upgraded gnutls (3.4.11-2 -> 3.4.12-1)
+[2016-06-05 05:15] [ALPM] upgraded libsystemd (229-3 -> 230-3)
+[2016-06-05 05:15] [ALPM] upgraded libxfixes (5.0.1-1 -> 5.0.2-1)
+[2016-06-05 05:15] [ALPM] upgraded nodejs (6.2.0-1 -> 6.2.1-1)
+[2016-06-05 05:15] [ALPM] upgraded npm (3.9.3-1 -> 3.9.5-1)
+[2016-06-05 05:15] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-06-05 05:15] [ALPM] upgraded pacman-mirrorlist (20160601-1 -> 20160603-1)
+[2016-06-05 05:15] [ALPM] upgraded systemd (229-3 -> 230-3)
+[2016-06-05 05:15] [ALPM-SCRIPTLET] :: systemd-bootchart is no longer included with systemd
+[2016-06-05 05:15] [ALPM] upgraded systemd-sysvcompat (229-3 -> 230-3)
+[2016-06-05 05:15] [ALPM] upgraded xf86-input-evdev (2.10.2-1 -> 2.10.3-1)
+[2016-06-05 05:15] [ALPM] transaction completed
+[2016-06-05 05:15] [ALPM] running 'man-db-purge.hook'...
+[2016-06-05 05:16] [ALPM] running 'man-db.hook'...
+[2016-06-05 05:16] [ALPM] running 'texinfo-install.hook'...
+[2016-06-05 05:16] [ALPM] running 'udev-hwdb.hook'...
+[2016-07-09 13:20] [PACMAN] Running 'pacman -Syu'
+[2016-07-09 13:20] [PACMAN] synchronizing package lists
+[2016-07-09 13:20] [PACMAN] starting full system upgrade
+[2016-07-09 13:25] [ALPM] transaction started
+[2016-07-09 13:25] [ALPM] upgraded tzdata (2016d-1 -> 2016e-1)
+[2016-07-09 13:26] [ALPM] upgraded glibc (2.23-4 -> 2.23-5)
+[2016-07-09 13:26] [ALPM-SCRIPTLET] Generating locales...
+[2016-07-09 13:26] [ALPM-SCRIPTLET] Generation complete.
+[2016-07-09 13:26] [ALPM] upgraded gcc-libs (6.1.1-1 -> 6.1.1-2)
+[2016-07-09 13:26] [ALPM] upgraded readline (6.3.008-3 -> 6.3.008-4)
+[2016-07-09 13:26] [ALPM] upgraded bash (4.3.042-4 -> 4.3.046-1)
+[2016-07-09 13:26] [ALPM] upgraded gdbm (1.11-1 -> 1.12-2)
+[2016-07-09 13:26] [ALPM] upgraded perl (5.22.2-1 -> 5.24.0-1)
+[2016-07-09 13:26] [ALPM] upgraded pcre (8.38-3 -> 8.39-1)
+[2016-07-09 13:26] [ALPM] upgraded texinfo (6.1-3 -> 6.1-4)
+[2016-07-09 13:26] [ALPM] upgraded gmp (6.1.0-4 -> 6.1.1-1)
+[2016-07-09 13:26] [ALPM] upgraded libffi (3.2.1-1 -> 3.2.1-2)
+[2016-07-09 13:26] [ALPM] upgraded gnutls (3.4.12-1 -> 3.4.13-1)
+[2016-07-09 13:26] [ALPM] upgraded ca-certificates-mozilla (3.23-4 -> 3.25-1)
+[2016-07-09 13:26] [ALPM] upgraded aria2 (1.23.0-1 -> 1.24.0-1)
+[2016-07-09 13:26] [ALPM] upgraded binutils (2.26-4 -> 2.26.1-1)
+[2016-07-09 13:26] [ALPM] upgraded blas (3.6.0-5 -> 3.6.1-1)
+[2016-07-09 13:26] [ALPM] upgraded cblas (3.6.0-5 -> 3.6.1-1)
+[2016-07-09 13:26] [ALPM] upgraded libgpg-error (1.22-1 -> 1.23-1)
+[2016-07-09 13:26] [ALPM] upgraded libgcrypt (1.7.0-2 -> 1.7.1-1)
+[2016-07-09 13:26] [ALPM] upgraded libsystemd (230-3 -> 230-5)
+[2016-07-09 13:26] [ALPM] upgraded expat (2.1.1-2 -> 2.2.0-1)
+[2016-07-09 13:26] [ALPM] upgraded libmnl (1.0.3-2 -> 1.0.4-1)
+[2016-07-09 13:26] [ALPM] upgraded libnftnl (1.0.5-1 -> 1.0.6-1)
+[2016-07-09 13:26] [ALPM] upgraded e2fsprogs (1.42.13-1 -> 1.43.1-1)
+[2016-07-09 13:26] [ALPM] upgraded libldap (2.4.44-1 -> 2.4.44-2)
+[2016-07-09 13:26] [ALPM] upgraded systemd (230-3 -> 230-5)
+[2016-07-09 13:26] [ALPM] upgraded device-mapper (2.02.154-3 -> 2.02.158-1)
+[2016-07-09 13:26] [ALPM] upgraded cryptsetup (1.7.1-1 -> 1.7.2-1)
+[2016-07-09 13:26] [ALPM] upgraded dhcpcd (6.11.0-2 -> 6.11.1-1)
+[2016-07-09 13:26] [ALPM] upgraded file (5.27-1 -> 5.28-1)
+[2016-07-09 13:26] [ALPM] upgraded libpng (1.6.22-1 -> 1.6.23-1)
+[2016-07-09 13:26] [ALPM] upgraded freetype2 (2.6.3-1 -> 2.6.4-2)
+[2016-07-09 13:26] [ALPM-SCRIPTLET]   Subpixel hinting mode can be chosen by setting the right value in
+[2016-07-09 13:26] [ALPM-SCRIPTLET]   your environment, for example /etc/environment or ~/.pam_environment .
+[2016-07-09 13:26] [ALPM-SCRIPTLET] 
+[2016-07-09 13:26] [ALPM-SCRIPTLET]   Available settings:
+[2016-07-09 13:26] [ALPM-SCRIPTLET]       FT2_SUBPIXEL_HINTING=0  # Classic mode
+[2016-07-09 13:26] [ALPM-SCRIPTLET]       FT2_SUBPIXEL_HINTING=1  # Infinality mode
+[2016-07-09 13:26] [ALPM-SCRIPTLET]       FT2_SUBPIXEL_HINTING=2  # Default mode
+[2016-07-09 13:26] [ALPM] upgraded fontconfig (2.11.95-1 -> 2.12.0-1)
+[2016-07-09 13:26] [ALPM-SCRIPTLET] updating font cache... done.
+[2016-07-09 13:26] [ALPM] upgraded gcc (6.1.1-1 -> 6.1.1-2)
+[2016-07-09 13:26] [ALPM] upgraded gcc-fortran (6.1.1-1 -> 6.1.1-2)
+[2016-07-09 13:26] [ALPM] upgraded git (2.8.3-1 -> 2.9.0-1)
+[2016-07-09 13:26] [ALPM] upgraded gnupg (2.1.12-2 -> 2.1.13-1)
+[2016-07-09 13:26] [ALPM-SCRIPTLET] ==> Please kill running gpg-agent and dirmngr processes before using this release.
+[2016-07-09 13:26] [ALPM] upgraded libjpeg-turbo (1.4.2-2 -> 1.5.0-1)
+[2016-07-09 13:27] [ALPM] upgraded graphicsmagick (1.3.23-2 -> 1.3.24-1)
+[2016-07-09 13:27] [ALPM] upgraded libunistring (0.9.6-1 -> 0.9.6-2)
+[2016-07-09 13:27] [ALPM] upgraded libatomic_ops (7.4.2-1 -> 7.4.4-1)
+[2016-07-09 13:27] [ALPM] upgraded guile (2.0.11-3 -> 2.0.11-4)
+[2016-07-09 13:27] [ALPM] upgraded intel-tbb (4.4_20160413-1 -> 4.4_20160526-2)
+[2016-07-09 13:27] [ALPM] upgraded json-c (0.12-2 -> 0.12.1-1)
+[2016-07-09 13:27] [ALPM] upgraded lapack (3.6.0-5 -> 3.6.1-1)
+[2016-07-09 13:27] [ALPM] upgraded libarchive (3.1.2-8 -> 3.2.1-2)
+[2016-07-09 13:27] [ALPM] upgraded libcups (2.1.3-2 -> 2.1.4-1)
+[2016-07-09 13:27] [ALPM] upgraded libedit (20150325_3.1-2 -> 20160618_3.1-1)
+[2016-07-09 13:27] [ALPM] upgraded libevdev (1.5.1-1 -> 1.5.2-1)
+[2016-07-09 13:27] [ALPM] upgraded libinput (1.3.0-2 -> 1.3.3-1)
+[2016-07-09 13:27] [ALPM] upgraded libsndfile (1.0.26-1 -> 1.0.27-1)
+[2016-07-09 13:27] [ALPM] upgraded libpulse (8.0-3 -> 9.0-1)
+[2016-07-09 13:27] [ALPM] upgraded wayland (1.10.0-1 -> 1.11.0-1)
+[2016-07-09 13:27] [ALPM] upgraded libva (1.7.0-1 -> 1.7.1-1)
+[2016-07-09 13:27] [ALPM] upgraded libwbclient (4.4.3-1 -> 4.4.4-1)
+[2016-07-09 13:27] [ALPM] upgraded linux-firmware (20160315.deb1d83-1 -> 20160516.80d463b-1)
+[2016-07-09 13:27] [ALPM] upgraded mkinitcpio-busybox (1.24.1-1 -> 1.24.2-1)
+[2016-07-09 13:27] [ALPM] upgraded mkinitcpio (19-1 -> 20-1)
+[2016-07-09 13:27] [ALPM] upgraded linux (4.5.4-1 -> 4.6.3-1)
+[2016-07-09 13:27] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-07-09 13:27] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Starting build: 4.6.3-1-ARCH
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Starting build: 4.6.3-1-ARCH
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-07-09 13:27] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-07-09 13:27] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-07-09 13:27] [ALPM] upgraded lvm2 (2.02.154-3 -> 2.02.158-1)
+[2016-07-09 13:27] [ALPM] upgraded make (4.1-4 -> 4.2.1-1)
+[2016-07-09 13:28] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-07-09 13:28] [ALPM] upgraded mongodb (3.2.6-2 -> 3.2.7-1)
+[2016-07-09 13:28] [ALPM] upgraded nano (2.5.3-2 -> 2.6.1-1)
+[2016-07-09 13:28] [ALPM] upgraded openresolv (3.7.2-1 -> 3.8.1-1)
+[2016-07-09 13:28] [ALPM] upgraded netctl (1.11-1 -> 1.12-2)
+[2016-07-09 13:28] [ALPM] upgraded nodejs (6.2.1-1 -> 6.3.0-1)
+[2016-07-09 13:28] [ALPM] upgraded semver (5.1.0-1 -> 5.2.0-1)
+[2016-07-09 13:28] [ALPM] upgraded npm (3.9.5-1 -> 3.10.5-1)
+[2016-07-09 13:28] [ALPM] upgraded openmpi (1.10.2-1 -> 1.10.3-1)
+[2016-07-09 13:28] [ALPM] upgraded orc (0.4.25-1 -> 0.4.25-2)
+[2016-07-09 13:28] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-07-09 13:28] [ALPM] upgraded pacman-mirrorlist (20160603-1 -> 20160703-1)
+[2016-07-09 13:28] [ALPM] upgraded pciutils (3.4.1-1 -> 3.5.1-1)
+[2016-07-09 13:28] [ALPM] upgraded php (7.0.7-1 -> 7.0.8-1)
+[2016-07-09 13:28] [ALPM] upgraded python (3.5.1-2 -> 3.5.2-1)
+[2016-07-09 13:28] [ALPM] upgraded python-numpy (1.11.0-1 -> 1.11.1-1)
+[2016-07-09 13:28] [ALPM] upgraded python-pyparsing (2.1.4-1 -> 2.1.5-1)
+[2016-07-09 13:28] [ALPM] upgraded python-six (1.10.0-1 -> 1.10.0-2)
+[2016-07-09 13:28] [ALPM] upgraded python2 (2.7.11-3 -> 2.7.12-1)
+[2016-07-09 13:28] [ALPM] upgraded qscintilla-qt4 (2.9.1-3 -> 2.9.2-1)
+[2016-07-09 13:28] [ALPM] installed libproxy (0.4.12-2)
+[2016-07-09 13:28] [ALPM] upgraded xkeyboard-config (2.17-2 -> 2.18-1)
+[2016-07-09 13:28] [ALPM] upgraded qt5-base (5.6.0-7 -> 5.7.0-1)
+[2016-07-09 13:28] [ALPM] upgraded s-nail (14.8.8-1 -> 14.8.9-1)
+[2016-07-09 13:28] [ALPM] upgraded smbclient (4.4.3-1 -> 4.4.4-1)
+[2016-07-09 13:28] [ALPM] upgraded samba (4.4.3-1 -> 4.4.4-1)
+[2016-07-09 13:28] [ALPM] upgraded systemd-sysvcompat (230-3 -> 230-5)
+[2016-07-09 13:28] [ALPM] upgraded v4l-utils (1.10.0-1 -> 1.10.1-1)
+[2016-07-09 13:28] [ALPM] upgraded wget (1.17.1-2 -> 1.18-1)
+[2016-07-09 13:28] [ALPM] upgraded xorg-server-common (1.18.3-1 -> 1.18.3-2)
+[2016-07-09 13:28] [ALPM] upgraded xorg-server (1.18.3-1 -> 1.18.3-2)
+[2016-07-09 13:28] [ALPM] upgraded xterm (324-2 -> 325-1)
+[2016-07-09 13:28] [ALPM] transaction completed
+[2016-07-09 13:28] [ALPM] running 'man-db-purge.hook'...
+[2016-07-09 13:29] [ALPM] running 'man-db.hook'...
+[2016-07-09 13:29] [ALPM] running 'texinfo-install.hook'...
+[2016-07-09 13:29] [ALPM] running 'udev-hwdb.hook'...
+[2016-07-09 13:29] [ALPM] running 'update-ca-trust.hook'...
+[2016-07-09 13:29] [ALPM] running 'update-desktop-database.hook'...
+[2016-08-14 05:40] [PACMAN] Running 'pacman -Syu'
+[2016-08-14 05:40] [PACMAN] synchronizing package lists
+[2016-08-14 05:40] [PACMAN] starting full system upgrade
+[2016-08-14 05:45] [PACMAN] Running 'pacman -S virtualbox-guest-utils'
+[2016-08-14 05:46] [ALPM] transaction started
+[2016-08-14 05:46] [ALPM] upgraded linux-api-headers (4.5.5-1 -> 4.7-1)
+[2016-08-14 05:46] [ALPM] upgraded tzdata (2016e-1 -> 2016f-1)
+[2016-08-14 05:46] [ALPM] upgraded glibc (2.23-5 -> 2.24-2)
+[2016-08-14 05:46] [ALPM-SCRIPTLET] Generating locales...
+[2016-08-14 05:46] [ALPM-SCRIPTLET] Generation complete.
+[2016-08-14 05:46] [ALPM] upgraded alsa-lib (1.1.1-1 -> 1.1.2-1)
+[2016-08-14 05:46] [ALPM] upgraded gcc-libs (6.1.1-2 -> 6.1.1-5)
+[2016-08-14 05:46] [ALPM] upgraded libtasn1 (4.8-2 -> 4.9-2)
+[2016-08-14 05:46] [ALPM] upgraded gnutls (3.4.13-1 -> 3.4.14-1)
+[2016-08-14 05:46] [ALPM] upgraded sqlite (3.13.0-1 -> 3.14.0-1)
+[2016-08-14 05:46] [ALPM] upgraded findutils (4.6.0-1 -> 4.6.0-2)
+[2016-08-14 05:46] [ALPM] upgraded aria2 (1.24.0-1 -> 1.25.0-1)
+[2016-08-14 05:46] [ALPM] upgraded arpack (3.3.0-1 -> 3.4.0-1)
+[2016-08-14 05:46] [ALPM] upgraded bash-completion (2.3-4 -> 2.3-5)
+[2016-08-14 05:46] [ALPM] upgraded binutils (2.26.1-1 -> 2.27-1)
+[2016-08-14 05:46] [ALPM] upgraded libpng (1.6.23-1 -> 1.6.24-1)
+[2016-08-14 05:46] [ALPM] upgraded harfbuzz (1.2.7-1 -> 1.3.0-1)
+[2016-08-14 05:46] [ALPM] upgraded freetype2 (2.6.4-2 -> 2.6.5-2)
+[2016-08-14 05:46] [ALPM-SCRIPTLET]   Subpixel hinting mode can be chosen by setting the right value in
+[2016-08-14 05:46] [ALPM-SCRIPTLET]   your environment, for example /etc/environment or ~/.pam_environment .
+[2016-08-14 05:46] [ALPM-SCRIPTLET] 
+[2016-08-14 05:46] [ALPM-SCRIPTLET]   Available settings:
+[2016-08-14 05:46] [ALPM-SCRIPTLET]       FT2_SUBPIXEL_HINTING=0  # Classic mode (default in 2.6)
+[2016-08-14 05:46] [ALPM-SCRIPTLET]       FT2_SUBPIXEL_HINTING=1  # Infinality mode
+[2016-08-14 05:46] [ALPM-SCRIPTLET]       FT2_SUBPIXEL_HINTING=2  # Minimal mode (default in 2.7)
+[2016-08-14 05:46] [ALPM] upgraded fontconfig (2.12.0-1 -> 2.12.1-3)
+[2016-08-14 05:46] [ALPM-SCRIPTLET] updating font cache... done.
+[2016-08-14 05:46] [ALPM] upgraded libdrm (2.4.68-1 -> 2.4.70-1)
+[2016-08-14 05:46] [ALPM] upgraded kmod (22-1 -> 23-1)
+[2016-08-14 05:46] [ALPM] upgraded hwids (20160306-1 -> 20160421-1)
+[2016-08-14 05:46] [ALPM] upgraded libgpg-error (1.23-1 -> 1.24-1)
+[2016-08-14 05:46] [ALPM] upgraded libgcrypt (1.7.1-1 -> 1.7.2-1)
+[2016-08-14 05:46] [ALPM] upgraded libsystemd (230-5 -> 231-1)
+[2016-08-14 05:46] [ALPM] upgraded libidn (1.32-1 -> 1.33-1)
+[2016-08-14 05:46] [ALPM] upgraded e2fsprogs (1.43.1-1 -> 1.43.1-2)
+[2016-08-14 05:46] [ALPM] upgraded libsasl (2.1.26-7 -> 2.1.26-8)
+[2016-08-14 05:46] [ALPM] upgraded pam (1.2.1-3 -> 1.3.0-1)
+[2016-08-14 05:46] [ALPM] upgraded systemd (230-5 -> 231-1)
+[2016-08-14 05:47] [ALPM] upgraded llvm-libs (3.8.0-1 -> 3.8.1-1)
+[2016-08-14 05:47] [ALPM] upgraded mesa (11.2.2-1 -> 12.0.1-7)
+[2016-08-14 05:47] [ALPM] upgraded mesa-libgl (11.2.2-1 -> 12.0.1-7)
+[2016-08-14 05:47] [ALPM] upgraded cairo (1.14.6-1 -> 1.14.6-2)
+[2016-08-14 05:47] [ALPM] upgraded curl (7.49.1-1 -> 7.50.1-1)
+[2016-08-14 05:47] [ALPM] upgraded desktop-file-utils (0.22-2 -> 0.23-1)
+[2016-08-14 05:47] [ALPM] upgraded device-mapper (2.02.158-1 -> 2.02.163-1)
+[2016-08-14 05:47] [ALPM] upgraded dhcpcd (6.11.1-1 -> 6.11.2-1)
+[2016-08-14 05:47] [ALPM] upgraded fakeroot (1.20.2-1 -> 1.21-2)
+[2016-08-14 05:47] [ALPM] upgraded libwebp (0.5.0-1 -> 0.5.1-1)
+[2016-08-14 05:47] [ALPM] upgraded opus (1.1.2-1 -> 1.1.3-2)
+[2016-08-14 05:47] [ALPM] upgraded libvpx (1.5.0-4 -> 1.6.0-2)
+[2016-08-14 05:47] [ALPM] upgraded libx264 (2:148.20160103-1 -> 2:148.20160613-2)
+[2016-08-14 05:47] [ALPM] upgraded x265 (1.9-1 -> 2.0-1)
+[2016-08-14 05:47] [ALPM] upgraded libasyncns (0.8-5 -> 0.8+3+g68cd5af-1)
+[2016-08-14 05:47] [ALPM] upgraded ffmpeg (1:3.0.2-2 -> 1:3.1.2-1)
+[2016-08-14 05:47] [ALPM] upgraded fftw (3.3.4-2 -> 3.3.5-1)
+[2016-08-14 05:47] [ALPM] upgraded flex (2.6.0-3 -> 2.6.1-1)
+[2016-08-14 05:47] [ALPM] upgraded gawk (4.1.3-1 -> 4.1.3-2)
+[2016-08-14 05:47] [ALPM] upgraded gcc (6.1.1-2 -> 6.1.1-5)
+[2016-08-14 05:47] [ALPM] upgraded gcc-fortran (6.1.1-2 -> 6.1.1-5)
+[2016-08-14 05:47] [ALPM] upgraded gettext (0.19.7-1 -> 0.19.8.1-2)
+[2016-08-14 05:47] [ALPM] upgraded libcups (2.1.4-1 -> 2.1.4-2)
+[2016-08-14 05:47] [ALPM] upgraded lcms2 (2.7-1 -> 2.8-1)
+[2016-08-14 05:47] [ALPM] upgraded ghostscript (9.19-1 -> 9.19-2)
+[2016-08-14 05:47] [ALPM] upgraded git (2.9.0-1 -> 2.9.2-1)
+[2016-08-14 05:47] [ALPM] upgraded libksba (1.3.4-1 -> 1.3.4-2)
+[2016-08-14 05:47] [ALPM] upgraded libassuan (2.4.2-2 -> 2.4.3-1)
+[2016-08-14 05:47] [ALPM] upgraded gnupg (2.1.13-1 -> 2.1.14-1)
+[2016-08-14 05:47] [ALPM] upgraded gpgme (1.6.0-2 -> 1.6.0-3)
+[2016-08-14 05:47] [ALPM] upgraded groff (1.22.3-6 -> 1.22.3-7)
+[2016-08-14 05:47] [ALPM] upgraded grub (1:2.02.beta2-6 -> 1:2.02.beta3-3)
+[2016-08-14 05:47] [ALPM] upgraded guile (2.0.11-4 -> 2.0.12-1)
+[2016-08-14 05:47] [ALPM] upgraded http-parser (2.7.0-1 -> 2.7.1-1)
+[2016-08-14 05:47] [ALPM] upgraded inetutils (1.9.4-2 -> 1.9.4-4)
+[2016-08-14 05:47] [ALPM] upgraded iproute2 (4.5.0-2 -> 4.7.0-1)
+[2016-08-14 05:47] [ALPM] upgraded libcap-ng (0.7.7-1 -> 0.7.8-1)
+[2016-08-14 05:47] [ALPM] upgraded libwacom (0.18-1 -> 0.21-1)
+[2016-08-14 05:47] [ALPM] upgraded libinput (1.3.3-1 -> 1.4.1-1)
+[2016-08-14 05:47] [ALPM] upgraded libwbclient (4.4.4-1 -> 4.4.5-1)
+[2016-08-14 05:48] [ALPM] upgraded linux-firmware (20160516.80d463b-1 -> 20160730.6bc2c60-1)
+[2016-08-14 05:48] [ALPM] upgraded linux (4.6.3-1 -> 4.7-1)
+[2016-08-14 05:48] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-08-14 05:48] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Starting build: 4.7.0-1-ARCH
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Starting build: 4.7.0-1-ARCH
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-08-14 05:48] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-08-14 05:48] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-08-14 05:48] [ALPM] upgraded thin-provisioning-tools (0.6.1-2 -> 0.6.3-1)
+[2016-08-14 05:48] [ALPM] upgraded lvm2 (2.02.158-1 -> 2.02.163-1)
+[2016-08-14 05:48] [ALPM] upgraded man-db (2.7.5-2 -> 2.7.5-3)
+[2016-08-14 05:48] [ALPM] upgraded man-pages (4.06-1 -> 4.07-1)
+[2016-08-14 05:48] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-08-14 05:48] [ALPM] upgraded mongodb (3.2.7-1 -> 3.2.8-2)
+[2016-08-14 05:48] [ALPM] upgraded nano (2.6.1-1 -> 2.6.2-1)
+[2016-08-14 05:48] [ALPM] upgraded net-tools (1.60.20130531git-1 -> 1.60.20160710git-1)
+[2016-08-14 05:48] [ALPM] upgraded nodejs (6.3.0-1 -> 6.3.1-1)
+[2016-08-14 05:48] [ALPM] upgraded semver (5.2.0-1 -> 5.3.0-1)
+[2016-08-14 05:48] [ALPM] upgraded npm (3.10.5-1 -> 3.10.6-1)
+[2016-08-14 05:48] [ALPM] upgraded xdg-utils (1.1.1-2 -> 1.1.1-4)
+[2016-08-14 05:49] [ALPM] upgraded octave (4.0.2-1 -> 4.0.3-1)
+[2016-08-14 05:49] [ALPM] warning: /etc/ssh/sshd_config installed as /etc/ssh/sshd_config.pacnew
+[2016-08-14 05:49] [ALPM] upgraded openssh (7.2p2-2 -> 7.3p1-1)
+[2016-08-14 05:49] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-08-14 05:49] [ALPM] upgraded pacman-mirrorlist (20160703-1 -> 20160802-1)
+[2016-08-14 05:49] [ALPM] upgraded php (7.0.8-1 -> 7.0.9-1)
+[2016-08-14 05:49] [ALPM] upgraded pkg-config (0.29.1-1 -> 0.29.1-2)
+[2016-08-14 05:49] [ALPM] upgraded procps-ng (3.3.11-2 -> 3.3.12-1)
+[2016-08-14 05:49] [ALPM] upgraded python-pytz (2016.4-1 -> 2016.6.1-1)
+[2016-08-14 05:49] [ALPM] upgraded python-pyparsing (2.1.5-1 -> 2.1.7-1)
+[2016-08-14 05:49] [ALPM] upgraded qt5-base (5.7.0-1 -> 5.7.0-2)
+[2016-08-14 05:49] [ALPM] upgraded python-matplotlib (1.5.1-2 -> 1.5.2-1)
+[2016-08-14 05:49] [ALPM] upgraded reiserfsprogs (3.6.24-1 -> 3.6.25-1)
+[2016-08-14 05:49] [ALPM] upgraded talloc (2.1.7-1 -> 2.1.8-1)
+[2016-08-14 05:49] [ALPM] upgraded tdb (1.3.8-1 -> 1.3.9-1)
+[2016-08-14 05:49] [ALPM] upgraded smbclient (4.4.4-1 -> 4.4.5-1)
+[2016-08-14 05:49] [ALPM] upgraded samba (4.4.4-1 -> 4.4.5-1)
+[2016-08-14 05:49] [ALPM] upgraded sudo (1.8.16-1 -> 1.8.17.p1-1)
+[2016-08-14 05:49] [ALPM] upgraded systemd-sysvcompat (230-5 -> 231-1)
+[2016-08-14 05:49] [ALPM] upgraded xorg-server-common (1.18.3-2 -> 1.18.4-1)
+[2016-08-14 05:49] [ALPM] upgraded xorg-server (1.18.3-2 -> 1.18.4-1)
+[2016-08-14 05:49] [ALPM] transaction completed
+[2016-08-14 05:49] [ALPM] running 'man-db.hook'...
+[2016-08-14 05:50] [ALPM] running 'texinfo-install.hook'...
+[2016-08-14 05:50] [ALPM] running 'udev-hwdb.hook'...
+[2016-08-14 05:50] [ALPM] running 'update-desktop-database.hook'...
+[2016-08-14 06:11] [PACMAN] Running 'pacman -S virtualbox-guest-utils'
+[2016-08-14 06:11] [PACMAN] Running 'pacman -S virtualbox-guest-utils'
+[2016-08-14 06:12] [ALPM] transaction started
+[2016-08-14 06:12] [ALPM] installed compositeproto (0.4.2-3)
+[2016-08-14 06:12] [ALPM] installed libxcomposite (0.4.4-2)
+[2016-08-14 06:12] [ALPM] installed xorg-xrandr (1.5.0-1)
+[2016-08-14 06:12] [ALPM] installed virtualbox-guest-modules-arch (5.1.2-2)
+[2016-08-14 06:12] [ALPM-SCRIPTLET] ==> Virtualbox kernel modules will be loaded at boot time by systemd-modules-load.
+[2016-08-14 06:12] [ALPM-SCRIPTLET] ==> In order to use them right now, you may want to load them manually.
+[2016-08-14 06:12] [ALPM-SCRIPTLET] ==> Read modules-load.d man page to disable module boot loading.'
+[2016-08-14 06:12] [ALPM] installed virtualbox-guest-utils (5.1.2-2)
+[2016-08-14 06:12] [ALPM] transaction completed
+[2016-08-14 06:12] [ALPM] running 'man-db.hook'...
+[2016-08-14 06:57] [PACMAN] Running 'pacman -Syu'
+[2016-08-14 06:57] [PACMAN] synchronizing package lists
+[2016-08-14 06:57] [PACMAN] starting full system upgrade
+[2016-08-14 07:26] [PACMAN] Running 'pacman -R virtualbox-guest-utils'
+[2016-08-14 07:26] [ALPM] transaction started
+[2016-08-14 07:26] [ALPM] removed virtualbox-guest-utils (5.1.2-2)
+[2016-08-14 07:26] [ALPM] transaction completed
+[2016-08-14 07:27] [PACMAN] Running 'pacman -R virtualbox-guest-modules-arch'
+[2016-08-14 07:27] [ALPM] transaction started
+[2016-08-14 07:27] [ALPM] removed virtualbox-guest-modules-arch (5.1.2-2)
+[2016-08-14 07:27] [ALPM] transaction completed
+[2016-08-14 07:28] [PACMAN] Running 'pacman -S virtualbox-guest-utils'
+[2016-08-14 07:28] [ALPM] transaction started
+[2016-08-14 07:28] [ALPM] installed dkms (2.2.0.3+git151023-12)
+[2016-08-14 07:28] [ALPM] installed virtualbox-guest-dkms (5.1.2-2)
+[2016-08-14 07:28] [ALPM] installed virtualbox-guest-utils (5.1.2-2)
+[2016-08-14 07:28] [ALPM] transaction completed
+[2016-08-14 07:28] [ALPM] running '70-dkms-install.hook'...
+[2016-08-14 07:28] [ALPM-SCRIPTLET] ==> No kernel 4.7.0-1-ARCH headers. You must install them to use DKMS!
+[2016-08-14 07:28] [ALPM] running 'man-db.hook'...
+[2016-08-14 07:29] [PACMAN] Running 'pacman -S linux-headers'
+[2016-08-14 07:29] [ALPM] transaction started
+[2016-08-14 07:29] [ALPM] installed linux-headers (4.7-1)
+[2016-08-14 07:29] [ALPM] transaction completed
+[2016-08-14 07:29] [ALPM] running '70-dkms-install.hook'...
+[2016-08-14 07:29] [ALPM-SCRIPTLET] ==> dkms install -m vboxguest -v 5.1.2_OSE -k 4.7.0-1-ARCH
+[2016-08-14 07:41] [PACMAN] Running 'pacman -R ttm'
+[2016-08-14 07:42] [PACMAN] Running 'pacman -R vboxguest'
+[2016-08-14 07:42] [PACMAN] Running 'pacman -R virtualbox-guest-dkms'
+[2016-08-14 07:42] [PACMAN] Running 'pacman -R virtualbox-guest-utils'
+[2016-08-14 07:42] [ALPM] transaction started
+[2016-08-14 07:42] [ALPM] removed virtualbox-guest-utils (5.1.2-2)
+[2016-08-14 07:42] [ALPM] transaction completed
+[2016-08-14 07:42] [PACMAN] Running 'pacman -R virtualbox-guest-dkms'
+[2016-08-14 07:42] [ALPM] running '70-dkms-remove.hook'...
+[2016-08-14 07:42] [ALPM-SCRIPTLET] ==> dkms remove -m vboxguest -v 5.1.2_OSE -k 4.7.0-1-ARCH
+[2016-08-14 07:43] [ALPM] transaction started
+[2016-08-14 07:43] [ALPM] removed virtualbox-guest-dkms (5.1.2-2)
+[2016-08-14 07:43] [ALPM] transaction completed
+[2016-08-14 07:44] [PACMAN] Running 'pacman -R virtualbox-guest-modules-arch'
+[2016-08-14 07:55] [PACMAN] Running 'pacman -S virtualbox-guest-utils-nox'
+[2016-08-14 07:55] [ALPM] transaction started
+[2016-08-14 07:55] [ALPM] installed virtualbox-guest-modules-arch (5.1.2-2)
+[2016-08-14 07:55] [ALPM-SCRIPTLET] ==> Virtualbox kernel modules will be loaded at boot time by systemd-modules-load.
+[2016-08-14 07:55] [ALPM-SCRIPTLET] ==> In order to use them right now, you may want to load them manually.
+[2016-08-14 07:55] [ALPM-SCRIPTLET] ==> Read modules-load.d man page to disable module boot loading.'
+[2016-08-14 07:55] [ALPM] installed virtualbox-guest-utils-nox (5.1.2-2)
+[2016-08-14 07:55] [ALPM] transaction completed
+[2016-08-14 09:17] [PACMAN] Running 'pacman -R virtualbox-guest-utils-nox'
+[2016-08-14 09:17] [ALPM] transaction started
+[2016-08-14 09:17] [ALPM] removed virtualbox-guest-utils-nox (5.1.2-2)
+[2016-08-14 09:17] [ALPM] transaction completed
+[2016-08-14 09:18] [PACMAN] Running 'pacman -R virtualbox-guest-modules-arch'
+[2016-08-14 09:18] [ALPM] transaction started
+[2016-08-14 09:18] [ALPM] removed virtualbox-guest-modules-arch (5.1.2-2)
+[2016-08-14 09:18] [ALPM] transaction completed
+[2016-08-14 10:12] [PACMAN] Running 'pacman -S cjson'
+[2016-08-14 14:10] [PACMAN] Running 'pacman -S patsubst'
+[2016-08-20 13:43] [PACMAN] Running 'pacman -Syu'
+[2016-08-20 13:43] [PACMAN] synchronizing package lists
+[2016-08-20 13:44] [PACMAN] starting full system upgrade
+[2016-08-20 13:45] [ALPM] running '70-dkms-remove.hook'...
+[2016-08-20 13:45] [ALPM-SCRIPTLET] ==> dkms remove -m * -v * -k 4.7.0-1-ARCH
+[2016-08-20 13:45] [ALPM-SCRIPTLET] Error! There are no instances of module: *
+[2016-08-20 13:45] [ALPM-SCRIPTLET] * located in the DKMS tree.
+[2016-08-20 13:45] [ALPM] transaction started
+[2016-08-20 13:45] [ALPM] upgraded archlinux-keyring (20160402-1 -> 20160812-1)
+[2016-08-20 13:45] [ALPM-SCRIPTLET] ==> Appending keys from archlinux.gpg...
+[2016-08-20 13:45] [ALPM-SCRIPTLET] ==> Locally signing trusted keys in keyring...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Locally signing key 0E8B644079F599DFC1DDC3973348882F6AC6A4C2...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Locally signing key 684148BB25B49E986A4944C55184252D824B18E8...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Locally signing key 91FFE0700E80619CEB73235CA88E23E377514E00...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Locally signing key 44D4A033AC140143927397D47EFD567D4C7EA887...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Locally signing key 27FFC4769E19F096D41D9265A04F9397CDFD6BB0...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Locally signing key AB19265E5D7D20687D303246BA1DFB64FFF979E7...
+[2016-08-20 13:45] [ALPM-SCRIPTLET] ==> Importing owner trust values...
+[2016-08-20 13:45] [ALPM-SCRIPTLET] ==> Disabling revoked keys in keyring...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key F5A361A3A13554B85E57DDDAAF7EF7873CFD4BB6...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key 7FA647CD89891DEDC060287BB9113D1ED21E1A55...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key D4DE5ABDE2A7287644EAC7E36D1A9E70E19DAA50...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key BC1FBE4D2826A0B51E47ED62E2539214C6C11350...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key 9515D8A8EAB88E49BB65EDBCE6B456CAF15447D5...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key 4A8B17E20B88ACA61860009B5CED81B7C2E5C0D2...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key 63F395DE2D6398BBE458F281F2DBB4931985A992...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key 0B20CA1931F5DA3A70D0F8D2EA6836E1AB441196...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key 8F76BEEA0289F9E1D3E229C05F946DED983D4366...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key 66BD74A036D522F51DD70A3C7F2A16726521E06D...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key 81D7F8241DB38BC759C80FCE3A726C6170E80477...
+[2016-08-20 13:45] [ALPM-SCRIPTLET]   -> Disabling key E7210A59715F6940CF9A4E36A001876699AD6E84...
+[2016-08-20 13:45] [ALPM-SCRIPTLET] ==> Updating trust database...
+[2016-08-20 13:45] [ALPM-SCRIPTLET] gpg: next trustdb check due at 2016-10-19
+[2016-08-20 13:45] [ALPM] upgraded ca-certificates-mozilla (3.25-1 -> 3.26-1)
+[2016-08-20 13:45] [ALPM] upgraded libgcrypt (1.7.2-1 -> 1.7.3-1)
+[2016-08-20 13:45] [ALPM] upgraded libutil-linux (2.28-1 -> 2.28.1-1)
+[2016-08-20 13:45] [ALPM] upgraded util-linux (2.28-1 -> 2.28.1-1)
+[2016-08-20 13:45] [ALPM] upgraded expat (2.2.0-1 -> 2.2.0-2)
+[2016-08-20 13:45] [ALPM] upgraded device-mapper (2.02.163-1 -> 2.02.164-1)
+[2016-08-20 13:45] [ALPM] upgraded dhcpcd (6.11.2-1 -> 6.11.3-1)
+[2016-08-20 13:45] [ALPM] upgraded diffutils (3.3-3 -> 3.4-1)
+[2016-08-20 13:45] [ALPM] upgraded git (2.9.2-1 -> 2.9.3-1)
+[2016-08-20 13:45] [ALPM] upgraded gnupg (2.1.14-1 -> 2.1.15-1)
+[2016-08-20 13:45] [ALPM] upgraded libwacom (0.21-1 -> 0.22-1)
+[2016-08-20 13:45] [ALPM] upgraded libzip (1.1.2-1 -> 1.1.3-1)
+[2016-08-20 13:46] [ALPM] upgraded linux (4.7-1 -> 4.7.1-1)
+[2016-08-20 13:46] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-08-20 13:46] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Starting build: 4.7.1-1-ARCH
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Starting build: 4.7.1-1-ARCH
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-08-20 13:46] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-08-20 13:46] [ALPM] upgraded linux-headers (4.7-1 -> 4.7.1-1)
+[2016-08-20 13:46] [ALPM] upgraded lvm2 (2.02.163-1 -> 2.02.164-1)
+[2016-08-20 13:46] [ALPM] upgraded nodejs (6.3.1-1 -> 6.4.0-1)
+[2016-08-20 13:46] [ALPM] upgraded python-pyparsing (2.1.7-1 -> 2.1.8-1)
+[2016-08-20 13:46] [ALPM] upgraded xfsprogs (4.5.0-1 -> 4.7.0-1)
+[2016-08-20 13:46] [ALPM] transaction completed
+[2016-08-20 13:46] [ALPM] running '70-dkms-install.hook'...
+[2016-08-20 13:46] [ALPM-SCRIPTLET] ==> dkms install -m * -v * -k 4.7.1-1-ARCH
+[2016-08-20 13:46] [ALPM-SCRIPTLET] Error! Could not find module source directory.
+[2016-08-20 13:46] [ALPM-SCRIPTLET] Directory: /usr/src/*-* does not exist.
+[2016-08-20 13:46] [ALPM] running 'man-db.hook'...
+[2016-08-20 13:46] [ALPM] running 'texinfo-install.hook'...
+[2016-08-20 13:46] [ALPM] running 'update-ca-trust.hook'...
+[2016-08-20 13:47] [PACMAN] Running 'pacman -R virtualbox-host-dkms'
+[2016-08-21 05:20] [PACMAN] Running 'pacman -Syu'
+[2016-08-21 05:20] [PACMAN] synchronizing package lists
+[2016-08-21 05:21] [PACMAN] starting full system upgrade
+[2016-08-21 05:21] [ALPM] transaction started
+[2016-08-21 05:21] [ALPM] upgraded aria2 (1.25.0-1 -> 1.26.0-1)
+[2016-08-21 05:21] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-08-21 05:21] [ALPM] upgraded mongodb (3.2.8-2 -> 3.2.9-1)
+[2016-08-21 05:21] [ALPM] upgraded pyqt5-common (5.6-1 -> 5.7-2)
+[2016-08-21 05:21] [ALPM] upgraded python-pyqt5 (5.6-1 -> 5.7-2)
+[2016-08-21 05:21] [ALPM] upgraded python-matplotlib (1.5.2-1 -> 1.5.2-2)
+[2016-08-21 05:21] [ALPM] transaction completed
+[2016-08-21 05:21] [ALPM] running 'man-db.hook'...
+[2016-08-23 15:08] [PACMAN] Running 'pacman -Syu'
+[2016-08-23 15:08] [PACMAN] synchronizing package lists
+[2016-08-23 15:08] [PACMAN] starting full system upgrade
+[2016-08-23 15:23] [ALPM] transaction started
+[2016-08-23 15:23] [ALPM] upgraded libevdev (1.5.2-1 -> 1.5.3-1)
+[2016-08-23 15:23] [ALPM] upgraded lz4 (131-1 -> 131-2)
+[2016-08-23 15:23] [ALPM] upgraded nano (2.6.2-1 -> 2.6.3-1)
+[2016-08-23 15:23] [ALPM] upgraded php (7.0.9-1 -> 7.0.10-1)
+[2016-08-23 15:23] [ALPM] upgraded s-nail (14.8.9-1 -> 14.8.10-1)
+[2016-08-23 15:23] [ALPM] upgraded sqlite (3.14.0-1 -> 3.14.1-1)
+[2016-08-23 15:23] [ALPM] transaction completed
+[2016-08-23 15:23] [ALPM] running 'man-db.hook'...
+[2016-08-23 15:23] [ALPM] running 'texinfo-install.hook'...
+[2016-08-24 14:00] [PACMAN] Running 'pacman -Syu'
+[2016-08-24 14:00] [PACMAN] synchronizing package lists
+[2016-08-24 14:00] [PACMAN] starting full system upgrade
+[2016-08-24 14:00] [ALPM] transaction started
+[2016-08-24 14:00] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-08-24 14:00] [ALPM] upgraded pacman-mirrorlist (20160802-1 -> 20160823-1)
+[2016-08-24 14:00] [ALPM] transaction completed
+[2016-08-24 14:00] [PACMAN] Running 'pacman -Syu'
+[2016-08-24 14:00] [PACMAN] synchronizing package lists
+[2016-08-24 14:00] [PACMAN] starting full system upgrade
+[2016-08-25 13:50] [PACMAN] Running 'pacman -Syu'
+[2016-08-25 13:50] [PACMAN] synchronizing package lists
+[2016-08-25 13:50] [PACMAN] starting full system upgrade
+[2016-08-25 13:51] [ALPM] transaction started
+[2016-08-25 13:51] [ALPM] upgraded ghostscript (9.19-2 -> 9.19-3)
+[2016-08-25 13:51] [ALPM] transaction completed
+[2016-08-25 13:51] [ALPM] running 'man-db.hook'...
+[2016-10-07 05:55] [PACMAN] Running 'pacman -Syu'
+[2016-10-07 05:55] [PACMAN] synchronizing package lists
+[2016-10-07 05:55] [PACMAN] starting full system upgrade
+[2016-10-07 05:57] [PACMAN] Running 'pacman -S pyqt'
+[2016-10-07 06:01] [ALPM] running '70-dkms-remove.hook'...
+[2016-10-07 06:01] [ALPM-SCRIPTLET] ==> dkms remove -m * -v * -k 4.7.1-1-ARCH
+[2016-10-07 06:01] [ALPM-SCRIPTLET] Error! There are no instances of module: *
+[2016-10-07 06:01] [ALPM-SCRIPTLET] * located in the DKMS tree.
+[2016-10-07 06:01] [ALPM] transaction started
+[2016-10-07 06:01] [ALPM] removed qtchooser (53-2)
+[2016-10-07 06:01] [ALPM] removed libdbus (1.10.8-1)
+[2016-10-07 06:01] [ALPM] upgraded tzdata (2016f-1 -> 2016g-1)
+[2016-10-07 06:01] [ALPM] upgraded iana-etc (20160513-1 -> 20160927-1)
+[2016-10-07 06:01] [ALPM] upgraded gcc-libs (6.1.1-5 -> 6.2.1-1)
+[2016-10-07 06:01] [ALPM] upgraded nettle (3.2-2 -> 3.3-1)
+[2016-10-07 06:01] [ALPM] upgraded gnutls (3.4.14-1 -> 3.4.15-1)
+[2016-10-07 06:01] [ALPM] upgraded libxml2 (2.9.4+0+gbdec218-2 -> 2.9.4+4+g3169602-1)
+[2016-10-07 06:01] [ALPM] upgraded sqlite (3.14.1-1 -> 3.14.2-1)
+[2016-10-07 06:01] [ALPM] upgraded c-ares (1.11.0-1 -> 1.12.0-1)
+[2016-10-07 06:01] [ALPM] upgraded perl (5.24.0-1 -> 5.24.0-2)
+[2016-10-07 06:01] [ALPM] upgraded openssl (1.0.2.h-1 -> 1.0.2.j-1)
+[2016-10-07 06:01] [ALPM] upgraded aria2 (1.26.0-1 -> 1.27.1-1)
+[2016-10-07 06:01] [ALPM] upgraded mpfr (3.1.4.p1-1 -> 3.1.5-1)
+[2016-10-07 06:01] [ALPM] upgraded gawk (4.1.3-2 -> 4.1.4-1)
+[2016-10-07 06:01] [ALPM] upgraded diffutils (3.4-1 -> 3.5-1)
+[2016-10-07 06:01] [ALPM] upgraded autoconf (2.69-3 -> 2.69-4)
+[2016-10-07 06:01] [ALPM] upgraded automake (1.15-1 -> 1.15-2)
+[2016-10-07 06:01] [ALPM] upgraded bash-completion (2.3-5 -> 2.4-1)
+[2016-10-07 06:01] [ALPM] upgraded blas (3.6.1-1 -> 3.6.1-2)
+[2016-10-07 06:01] [ALPM] upgraded boost-libs (1.60.0-5 -> 1.61.0-2)
+[2016-10-07 06:01] [ALPM] upgraded cblas (3.6.1-1 -> 3.6.1-2)
+[2016-10-07 06:01] [ALPM] upgraded libutil-linux (2.28.1-1 -> 2.28.2-1)
+[2016-10-07 06:01] [ALPM] upgraded e2fsprogs (1.43.1-2 -> 1.43.3-1)
+[2016-10-07 06:01] [ALPM] upgraded curl (7.50.1-1 -> 7.50.3-1)
+[2016-10-07 06:01] [ALPM] upgraded libsystemd (231-1 -> 231-3)
+[2016-10-07 06:01] [ALPM] upgraded dbus (1.10.8-1 -> 1.10.10-3)
+[2016-10-07 06:01] [ALPM] upgraded hwids (20160421-1 -> 20160801-1)
+[2016-10-07 06:01] [ALPM] upgraded libelf (0.166-1 -> 0.167-1)
+[2016-10-07 06:02] [ALPM] upgraded util-linux (2.28.1-1 -> 2.28.2-1)
+[2016-10-07 06:02] [ALPM] upgraded systemd (231-1 -> 231-3)
+[2016-10-07 06:02] [ALPM] upgraded device-mapper (2.02.164-1 -> 2.02.166-1)
+[2016-10-07 06:02] [ALPM] upgraded elfutils (0.166-1 -> 0.167-1)
+[2016-10-07 06:02] [ALPM] installed libsamplerate (0.1.8-3)
+[2016-10-07 06:02] [ALPM] installed zita-alsa-pcmi (0.2.0-3)
+[2016-10-07 06:02] [ALPM] installed zita-resampler (1.3.0-5)
+[2016-10-07 06:02] [ALPM] installed jack (0.124.1-6)
+[2016-10-07 06:02] [ALPM] upgraded libpng (1.6.24-1 -> 1.6.25-1)
+[2016-10-07 06:02] [ALPM] upgraded glib2 (2.48.1-1 -> 2.48.2-1)
+[2016-10-07 06:02] [ALPM] upgraded harfbuzz (1.3.0-1 -> 1.3.1-1)
+[2016-10-07 06:02] [ALPM] upgraded freetype2 (2.6.5-2 -> 2.7-2)
+[2016-10-07 06:02] [ALPM-SCRIPTLET]   The Arch-specific FT2_SUBPIXEL_HINTING has been removed.
+[2016-10-07 06:02] [ALPM-SCRIPTLET]   Subpixel hinting is now configured in /etc/profile.d/freetype2.sh .
+[2016-10-07 06:02] [ALPM] upgraded libass (0.13.2-1 -> 0.13.3-1)
+[2016-10-07 06:02] [ALPM] upgraded libdrm (2.4.70-1 -> 2.4.71-1)
+[2016-10-07 06:02] [ALPM] upgraded wayland (1.11.0-1 -> 1.12.0-1)
+[2016-10-07 06:02] [ALPM] upgraded xproto (7.0.29-1 -> 7.0.31-1)
+[2016-10-07 06:02] [ALPM] upgraded libx11 (1.6.3-1 -> 1.6.4-1)
+[2016-10-07 06:02] [ALPM] upgraded libxfixes (5.0.2-1 -> 5.0.3-1)
+[2016-10-07 06:02] [ALPM] upgraded mesa (12.0.1-7 -> 12.0.3-2)
+[2016-10-07 06:02] [ALPM] upgraded mesa-libgl (12.0.1-7 -> 12.0.3-2)
+[2016-10-07 06:02] [ALPM] upgraded libva (1.7.1-1 -> 1.7.2-1)
+[2016-10-07 06:02] [ALPM] upgraded libx264 (2:148.20160613-2 -> 2:148.20160920-1)
+[2016-10-07 06:02] [ALPM] upgraded x265 (2.0-1 -> 2.1-1)
+[2016-10-07 06:02] [ALPM] upgraded libxi (1.7.6-1 -> 1.7.7-1)
+[2016-10-07 06:02] [ALPM] upgraded libxtst (1.2.2-1 -> 1.2.3-1)
+[2016-10-07 06:02] [ALPM] upgraded libjpeg-turbo (1.5.0-1 -> 1.5.1-1)
+[2016-10-07 06:02] [ALPM] upgraded hdf5 (1.10.0-1 -> 1.10.0_patch1-1)
+[2016-10-07 06:02] [ALPM] upgraded orc (0.4.25-2 -> 0.4.26-1)
+[2016-10-07 06:02] [ALPM] upgraded libxrender (0.9.9-1 -> 0.9.10-1)
+[2016-10-07 06:02] [ALPM] upgraded ffmpeg (1:3.1.2-1 -> 1:3.1.4-2)
+[2016-10-07 06:02] [ALPM] upgraded gc (7.4.2-4 -> 7.6.0-1)
+[2016-10-07 06:02] [ALPM] upgraded gcc (6.1.1-5 -> 6.2.1-1)
+[2016-10-07 06:02] [ALPM] upgraded gcc-fortran (6.1.1-5 -> 6.2.1-1)
+[2016-10-07 06:02] [ALPM] upgraded libcups (2.1.4-2 -> 2.2.1-1)
+[2016-10-07 06:02] [ALPM] installed jbig2dec (0.13-1)
+[2016-10-07 06:02] [ALPM] installed ijs (0.35-1)
+[2016-10-07 06:02] [ALPM] upgraded ghostscript (9.19-3 -> 9.20-2)
+[2016-10-07 06:02] [ALPM] upgraded git (2.9.3-1 -> 2.10.0-1)
+[2016-10-07 06:02] [ALPM] upgraded libtool (2.4.6-5 -> 2.4.6-6)
+[2016-10-07 06:02] [ALPM] upgraded graphicsmagick (1.3.24-1 -> 1.3.25-1)
+[2016-10-07 06:02] [ALPM] upgraded hwloc (1.11.3-2 -> 1.11.4-1)
+[2016-10-07 06:02] [ALPM] upgraded intel-tbb (4.4_20160526-2 -> 2017_20160916-1)
+[2016-10-07 06:02] [ALPM] upgraded lapack (3.6.1-1 -> 3.6.1-2)
+[2016-10-07 06:02] [ALPM] upgraded tevent (0.9.28-1 -> 1:0.9.29-2)
+[2016-10-07 06:02] [ALPM] upgraded tdb (1.3.9-1 -> 1.3.11-1)
+[2016-10-07 06:02] [ALPM] upgraded ldb (1.1.26-1 -> 1.1.27-1)
+[2016-10-07 06:02] [ALPM] upgraded libevdev (1.5.3-1 -> 1.5.4-1)
+[2016-10-07 06:02] [ALPM] upgraded libinput (1.4.1-1 -> 1.5.0-1)
+[2016-10-07 06:02] [ALPM] upgraded libwbclient (4.4.5-1 -> 4.5.0-2)
+[2016-10-07 06:02] [ALPM] upgraded libxfont (1.5.1-1 -> 1.5.2-1)
+[2016-10-07 06:02] [ALPM] upgraded libxrandr (1.5.0-1 -> 1.5.1-1)
+[2016-10-07 06:02] [ALPM] upgraded libxv (1.0.10-1 -> 1.0.11-1)
+[2016-10-07 06:02] [ALPM] upgraded libyaml (0.1.6-1 -> 0.1.7-1)
+[2016-10-07 06:03] [ALPM] upgraded linux-firmware (20160730.6bc2c60-1 -> 20160915.c4c07a8-1)
+[2016-10-07 06:03] [ALPM] upgraded mkinitcpio (20-1 -> 21-1)
+[2016-10-07 06:03] [ALPM] upgraded linux (4.7.1-1 -> 4.7.6-1)
+[2016-10-07 06:03] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2016-10-07 06:03] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio. Please wait...
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Starting build: 4.7.6-1-ARCH
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux.img
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Starting build: 4.7.6-1-ARCH
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2016-10-07 06:03] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2016-10-07 06:03] [ALPM-SCRIPTLET] ==> Image generation successful
+[2016-10-07 06:03] [ALPM] upgraded linux-headers (4.7.1-1 -> 4.7.6-1)
+[2016-10-07 06:03] [ALPM] upgraded logrotate (3.9.2-1 -> 3.10.0-1)
+[2016-10-07 06:03] [ALPM] upgraded lvm2 (2.02.164-1 -> 2.02.166-1)
+[2016-10-07 06:04] [ALPM] upgraded man-db (2.7.5-3 -> 2.7.5-4)
+[2016-10-07 06:04] [ALPM] warning: directory permissions differ on /var/lib/mongodb/
+filesystem: 777  package: 700
+[2016-10-07 06:04] [ALPM] upgraded mongodb (3.2.9-1 -> 3.2.9-2)
+[2016-10-07 06:04] [ALPM] upgraded nano (2.6.3-1 -> 2.7.0-1)
+[2016-10-07 06:04] [ALPM] upgraded nodejs (6.4.0-1 -> 6.7.0-1)
+[2016-10-07 06:04] [ALPM] upgraded npm (3.10.6-1 -> 3.10.8-1)
+[2016-10-07 06:04] [ALPM] upgraded openmpi (1.10.3-1 -> 1.10.4-1)
+[2016-10-07 06:04] [ALPM] upgraded openssh (7.3p1-1 -> 7.3p1-2)
+[2016-10-07 06:04] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2016-10-07 06:04] [ALPM] upgraded pacman-mirrorlist (20160823-1 -> 20161005-1)
+[2016-10-07 06:04] [ALPM] upgraded php (7.0.10-1 -> 7.0.11-1)
+[2016-10-07 06:04] [ALPM] installed libsecret (0.18.5-1)
+[2016-10-07 06:04] [ALPM] upgraded pinentry (0.9.7-2 -> 0.9.7-3)
+[2016-10-07 06:04] [ALPM] upgraded python-numpy (1.11.1-1 -> 1.11.2-1)
+[2016-10-07 06:04] [ALPM] upgraded python-pyparsing (2.1.8-1 -> 2.1.9-1)
+[2016-10-07 06:04] [ALPM] upgraded sip (4.18-1 -> 4.18.1-1)
+[2016-10-07 06:04] [ALPM] upgraded python-sip (4.18-1 -> 4.18.1-1)
+[2016-10-07 06:04] [ALPM] upgraded qt4 (4.8.7-9 -> 4.8.7-10)
+[2016-10-07 06:04] [ALPM] upgraded qscintilla-qt4 (2.9.2-1 -> 2.9.3-1)
+[2016-10-07 06:04] [ALPM] upgraded xkeyboard-config (2.18-1 -> 2.19-1)
+[2016-10-07 06:04] [ALPM] upgraded qt5-base (5.7.0-2 -> 5.7.0-3)
+[2016-10-07 06:04] [ALPM] installed perl-parse-yapp (1.05-6)
+[2016-10-07 06:04] [ALPM] upgraded smbclient (4.4.5-1 -> 4.5.0-2)
+[2016-10-07 06:04] [ALPM] upgraded samba (4.4.5-1 -> 4.5.0-2)
+[2016-10-07 06:04] [ALPM] upgraded sudo (1.8.17.p1-1 -> 1.8.18-1)
+[2016-10-07 06:04] [ALPM] upgraded suitesparse (4.4.5-1 -> 4.5.3-1)
+[2016-10-07 06:04] [ALPM] upgraded systemd-sysvcompat (231-1 -> 231-3)
+[2016-10-07 06:04] [ALPM] upgraded xf86-input-evdev (2.10.3-1 -> 2.10.4-1)
+[2016-10-07 06:04] [ALPM] upgraded xterm (325-1 -> 326-1)
+[2016-10-07 06:04] [ALPM] transaction completed
+[2016-10-07 06:04] [ALPM] running '70-dkms-install.hook'...
+[2016-10-07 06:04] [ALPM-SCRIPTLET] ==> dkms install -m * -v * -k 4.7.6-1-ARCH
+[2016-10-07 06:04] [ALPM-SCRIPTLET] Error! Could not find module source directory.
+[2016-10-07 06:04] [ALPM-SCRIPTLET] Directory: /usr/src/*-* does not exist.
+[2016-10-07 06:04] [ALPM] running 'texinfo-install.hook'...
+[2016-10-07 06:04] [ALPM] running 'udev-hwdb.hook'...
+[2016-10-07 06:04] [ALPM] running 'update-desktop-database.hook'...
+[2016-10-07 06:27] [PACMAN] Running 'pacman -S pyqt4'
+[2016-10-07 06:31] [PACMAN] Running 'pacman -S pyqt'
+[2016-10-07 06:32] [ALPM] transaction started
+[2016-10-07 06:32] [ALPM] installed gstreamer (1.8.3-1)
+[2016-10-07 06:32] [ALPM] installed gst-plugins-base-libs (1.8.3-1)
+[2016-10-07 06:32] [ALPM] installed qtwebkit (2.3.4-4)
+[2016-10-07 06:32] [ALPM] installed python-dbus-common (1.2.4-1)
+[2016-10-07 06:32] [ALPM] installed python-dbus (1.2.4-1)
+[2016-10-07 06:32] [ALPM] installed pyqt4-common (4.11.4-4)
+[2016-10-07 06:32] [ALPM] installed python-pyqt4 (4.11.4-4)
+[2016-10-07 06:32] [ALPM] transaction completed
+[2016-10-07 07:03] [PACMAN] Running 'pacman -S fonts'
+[2016-10-07 07:03] [PACMAN] Running 'pacman -S font'
+[2016-10-07 07:03] [PACMAN] Running 'pacman -S adobe-source-code-pro-fonts'
+[2016-10-07 07:03] [ALPM] transaction started
+[2016-10-07 07:03] [ALPM] installed adobe-source-code-pro-fonts (2.030ro+1.050it-1)
+[2016-10-07 07:03] [ALPM] transaction completed
+[2016-10-07 09:34] [PACMAN] Running 'pacman -S paramiko'
+[2016-10-07 09:39] [PACMAN] Running 'pacman -S pip3'
+[2016-10-07 09:41] [PACMAN] Running 'pacman -S pip3'
+[2016-10-07 09:41] [PACMAN] Running 'pacman -S python3-pip'
+[2016-10-07 09:41] [PACMAN] Running 'pacman -S python-pip'
+[2016-10-07 09:44] [PACMAN] Running 'pacman -S python-pip'
+[2016-10-07 09:44] [ALPM] transaction started
+[2016-10-07 09:44] [ALPM] installed python-packaging (16.7-1)
+[2016-10-07 09:44] [ALPM] installed python-appdirs (1.4.0-4)
+[2016-10-07 09:44] [ALPM] installed python-setuptools (1:28.1.0-1)
+[2016-10-07 09:44] [ALPM] installed python-pip (8.1.2-1)
+[2016-10-07 09:44] [ALPM] transaction completed
